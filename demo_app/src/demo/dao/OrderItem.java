@@ -65,7 +65,9 @@ public class OrderItem implements Comparable<OrderItem> {
 
 	@Override
 	public int compareTo(OrderItem orderItem) {
-		// TODO Auto-generated method stub
+		if(orderItem == null){
+			return -1;
+		}
 		return this.orderItemID.compareTo(orderItem.orderItemID);
 	}
 

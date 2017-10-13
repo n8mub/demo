@@ -82,7 +82,9 @@ public class User implements Comparable<User> {
 
 	@Override
 	public int compareTo(User user) {
-		// TODO Auto-generated method stub
+		if(user == null){
+			return -1;
+		}
 		return this.userID.compareTo(user.userID);
 	}
 

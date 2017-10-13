@@ -121,6 +121,9 @@ public class Customer implements Comparable<Customer> {
 
 	@Override
 	public int compareTo(Customer customer) {
+		if(customer == null){
+			return -1;
+		}
 		// TODO Auto-generated method stub
 		return this.customerID.compareTo(customer.customerID);
 	}

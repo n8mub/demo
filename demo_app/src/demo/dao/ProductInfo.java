@@ -102,7 +102,9 @@ public class ProductInfo implements Comparable<ProductInfo> {
 
 	@Override
 	public int compareTo(ProductInfo productInfo) {
-		// TODO Auto-generated method stub
+		if(productInfo == null){
+			return -1;
+		}
 		return this.productID.compareTo(productInfo.productID);
 	}
 

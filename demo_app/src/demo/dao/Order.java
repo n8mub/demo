@@ -74,7 +74,9 @@ public class Order implements Comparable<Order> {
 
 	@Override
 	public int compareTo(Order order) {
-		// TODO Auto-generated method stub
+		if(order == null){
+			return -1;
+		}
 		return this.orderID.compareTo(order.orderID);
 	}
 
