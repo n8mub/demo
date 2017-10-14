@@ -4,9 +4,11 @@ import java.io.Serializable;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -19,10 +21,12 @@ public class OrderItem implements Serializable, Comparable<OrderItem> {
 	private Integer orderItemID;
 	@Column(name="ORDER_ID")
 	private Integer orderID;
+	@ManyToOne(fetch=FetchType.LAZY)
 	@JoinColumn(name="ORDER_ID",table="DEMO_ORDERS")
 	private Order order;
 	@Column(name="PRODUCT_ID")
 	private Integer productID;
+	@ManyToOne(fetch=FetchType.LAZY)
 	@JoinColumn(name="PRODUCT_ID",table="DEMO_PRODUCT_INFO")
 	private ProductInfo productInfo;
 	@Column(name="UNIT_PRICE",precision=8,scale=2)

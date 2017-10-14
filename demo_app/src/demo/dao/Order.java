@@ -8,9 +8,12 @@ import java.util.TreeSet;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
@@ -23,6 +26,7 @@ public class Order implements Serializable, Comparable<Order> {
 	private Integer orderID;
 	@Column(name="CUSTOMER_ID")
 	private Integer customerID;
+	@ManyToOne(fetch=FetchType.LAZY)
 	@JoinColumn(name="CUSTOMER_ID",table="DEMO_CUSTOMERS")
 	private Customer customer;
 	@Column(name="ORDER_TOTAL",precision=8,scale=2)
@@ -84,6 +88,8 @@ public class Order implements Serializable, Comparable<Order> {
 		return customer;
 	}
 	
+	@OneToMany(fetch=FetchType.LAZY,targetEntity=OrderItem.class)
+	@JoinColumn(name="ORDER_ID",table="DEMO_ORDER_ITEMS")
 	private SortedSet<OrderItem> orderItemsList;
 	
 	public SortedSet<OrderItem> getOderItemList() {
