@@ -1,10 +1,14 @@
 package demo.dao;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-public class Customer implements Comparable<Customer> {
+
+public class Customer implements Serializable, Comparable<Customer> {
+	
+	private static final long serialVersionUID = 8037418254406586366L;
 	private Integer customerID;
 	private String firstName;
 	private String lastName;

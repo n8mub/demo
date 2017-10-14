@@ -1,11 +1,14 @@
 package demo.dao;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-public class Order implements Comparable<Order> {
+public class Order implements Serializable, Comparable<Order> {
+	
+	private static final long serialVersionUID = -1233569200441763983L;
 	private Integer orderID;
 	private Integer customerID;
 	private BigDecimal orderTotal;

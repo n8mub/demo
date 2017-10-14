@@ -1,10 +1,13 @@
 package demo.dao;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.sql.Blob;
 import java.sql.Timestamp;
 
-public class ProductInfo implements Comparable<ProductInfo> {
+public class ProductInfo implements Serializable, Comparable<ProductInfo> {
+	
+	private static final long serialVersionUID = 7752332622244406036L;
 	private Integer productID;
 	private String productName;
 	private String productDescription;

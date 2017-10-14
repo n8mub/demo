@@ -1,8 +1,11 @@
 package demo.dao;
 
+import java.io.Serializable;
 import java.sql.Timestamp;
 
-public class User implements Comparable<User> {
+public class User implements Serializable, Comparable<User> {
+	
+	private static final long serialVersionUID = -8546411695500055278L;
 	private Integer userID;
 	private String userName;
 	private String password;

@@ -1,6 +1,10 @@
 package demo.dao;
 
-public class OrderItem implements Comparable<OrderItem> {
+import java.io.Serializable;
+
+public class OrderItem implements Serializable, Comparable<OrderItem> {
+	
+	private static final long serialVersionUID = 7842518525709927090L;
 	private Integer orderItemID;
 	private Integer orderID;
 	private Integer productID;
