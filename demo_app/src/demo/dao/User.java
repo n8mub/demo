@@ -3,9 +3,14 @@ package demo.dao;
 import java.io.Serializable;
 import java.sql.Timestamp;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="DEMO_USERS")
 public class User implements Serializable, Comparable<User> {
 	
-	private static final long serialVersionUID = -8546411695500055278L;
+	private static final long serialVersionUID = 1L;
 	private Integer userID;
 	private String userName;
 	private String password;

@@ -2,9 +2,14 @@ package demo.dao;
 
 import java.io.Serializable;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="DEMO_ORDER_ITEMS")
 public class OrderItem implements Serializable, Comparable<OrderItem> {
 	
-	private static final long serialVersionUID = 7842518525709927090L;
+	private static final long serialVersionUID = 1L;
 	private Integer orderItemID;
 	private Integer orderID;
 	private Integer productID;

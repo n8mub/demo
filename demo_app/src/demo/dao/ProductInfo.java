@@ -5,9 +5,14 @@ import java.math.BigDecimal;
 import java.sql.Blob;
 import java.sql.Timestamp;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="DEMO_PRODUCT_INFO")
 public class ProductInfo implements Serializable, Comparable<ProductInfo> {
 	
-	private static final long serialVersionUID = 7752332622244406036L;
+	private static final long serialVersionUID = 1L;
 	private Integer productID;
 	private String productName;
 	private String productDescription;
