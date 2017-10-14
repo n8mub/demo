@@ -3,7 +3,10 @@ package demo.dao;
 import java.io.Serializable;
 import java.sql.Timestamp;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
@@ -11,13 +14,22 @@ import javax.persistence.Table;
 public class User implements Serializable, Comparable<User> {
 	
 	private static final long serialVersionUID = 1L;
+	@Id @GeneratedValue
+	@Column(name="USER_ID")
 	private Integer userID;
+	@Column(name="USER_NAME",length=100)
 	private String userName;
+	@Column(name="PASSWORD",length=4000)
 	private String password;
+	@Column(name="CREATED_ON")
 	private Timestamp createdOnDt;
+	@Column(name="QUOTA")
 	private Integer quota;
+	@Column(name="PRODUCTS")
 	private Boolean productsFL;
+	@Column(name="EXPIRES_ON")
 	private Timestamp expiresOnDt;
+	@Column(name="ADMIN_USER")
 	private Boolean adminUserFL;
 
 	public User() {

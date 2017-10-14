@@ -6,7 +6,11 @@ import java.sql.Timestamp;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
 import javax.persistence.Table;
 
 @Entity
@@ -14,10 +18,18 @@ import javax.persistence.Table;
 public class Order implements Serializable, Comparable<Order> {
 	
 	private static final long serialVersionUID = 1L;
+	@Id @GeneratedValue
+	@Column(name="ORDER_ID")
 	private Integer orderID;
+	@Column(name="CUSTOMER_ID")
 	private Integer customerID;
+	@JoinColumn(name="CUSTOMER_ID",table="DEMO_CUSTOMERS")
+	private Customer customer;
+	@Column(name="ORDER_TOTAL",precision=8,scale=2)
 	private BigDecimal orderTotal;
+	@Column(name="ORDER_TIMESTAMP")
 	private Timestamp orderTimestamp;
+	@Column(name="USER_ID")
 	private Integer userID;
 
 	public Order() {
@@ -65,7 +77,9 @@ public class Order implements Serializable, Comparable<Order> {
 	}
 	
 	public Customer getParentCustomer() {
-		Customer customer = new Customer();
+		if(customer == null){
+			customer = new Customer();
+		}
 		// TODO Auto-generated method stub
 		return customer;
 	}

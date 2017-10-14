@@ -5,7 +5,10 @@ import java.math.BigDecimal;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
@@ -13,16 +16,30 @@ import javax.persistence.Table;
 public class Customer implements Serializable, Comparable<Customer> {
 	
 	private static final long serialVersionUID = 1L;
+	@Id @GeneratedValue
+	@Column(name="CUSTOMER_ID")
 	private Integer customerID;
+	@Column(name="CUST_FIRST_NAME",length=20)
 	private String firstName;
+	@Column(name="CUST_LAST_NAME",length=20)
 	private String lastName;
+	@Column(name="CUST_STREET_ADDRESS1",length=60)
 	private String streetAddress1;
+	@Column(name="CUST_STREET_ADDRESS2",length=60)
 	private String streetAddress2;
+	@Column(name="CUST_CITY",length=30)
 	private String city;
+	@Column(name="CUST_STATE",length=2)
+	private String state;
+	@Column(name="CUST_POSTAL_CODE",length=10)
 	private String postalCode;
+	@Column(name="PHONE_NUMBER1",length=25)
 	private String phoneNumber1;
+	@Column(name="PHONE_NUMBER2",length=25)
 	private String phoneNumber2;
+	@Column(name="CREDIT_LIMIT",precision=9,scale=2)
 	private BigDecimal creditLimit;
+	@Column(name="CUST_EMAIL",length=30)
 	private String email;
 
 	public Customer() {
@@ -75,6 +92,14 @@ public class Customer implements Serializable, Comparable<Customer> {
 
 	public void setCity(String city) {
 		this.city = city;
+	}
+
+	public String getState() {
+		return state;
+	}
+
+	public void setState(String state) {
+		this.state = state;
 	}
 
 	public String getPostalCode() {

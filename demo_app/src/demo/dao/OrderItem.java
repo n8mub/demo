@@ -2,7 +2,11 @@ package demo.dao;
 
 import java.io.Serializable;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
 import javax.persistence.Table;
 
 @Entity
@@ -10,10 +14,20 @@ import javax.persistence.Table;
 public class OrderItem implements Serializable, Comparable<OrderItem> {
 	
 	private static final long serialVersionUID = 1L;
+	@Id @GeneratedValue
+	@Column(name="ORDER_ITEM_ID")
 	private Integer orderItemID;
+	@Column(name="ORDER_ID")
 	private Integer orderID;
+	@JoinColumn(name="ORDER_ID",table="DEMO_ORDERS")
+	private Order order;
+	@Column(name="PRODUCT_ID")
 	private Integer productID;
+	@JoinColumn(name="PRODUCT_ID",table="DEMO_PRODUCT_INFO")
+	private ProductInfo productInfo;
+	@Column(name="UNIT_PRICE",precision=8,scale=2)
 	private Double unitPrice;
+	@Column(name="QUANTITY",precision=8)
 	private Integer quantity;
 
 	public OrderItem() {
@@ -61,13 +75,17 @@ public class OrderItem implements Serializable, Comparable<OrderItem> {
 	}
 	
 	public Order getParentOrder() {
-		Order order = new Order();
+		if(order == null){
+			order = new Order();
+		}
 		// TODO Auto-generated method stub
 		return order;
 	}
 	
 	public ProductInfo getParentProductInfo() {
-		ProductInfo productInfo = new ProductInfo();
+		if(productInfo == null){
+			productInfo = new ProductInfo();
+		}
 		// TODO Auto-generated method stub
 		return productInfo;
 	}

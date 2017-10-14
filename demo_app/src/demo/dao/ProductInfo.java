@@ -5,7 +5,10 @@ import java.math.BigDecimal;
 import java.sql.Blob;
 import java.sql.Timestamp;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
@@ -13,15 +16,26 @@ import javax.persistence.Table;
 public class ProductInfo implements Serializable, Comparable<ProductInfo> {
 	
 	private static final long serialVersionUID = 1L;
+	@Id @GeneratedValue
+	@Column(name="PRODUCT_ID")
 	private Integer productID;
+	@Column(name="PRODUCT_NAME",length=50)
 	private String productName;
+	@Column(name="PRODUCT_DESCRIPTION",length=2000)
 	private String productDescription;
+	@Column(name="CATEGORY",length=30)
 	private String category;
+	@Column(name="PRODUCT_AVAIL")
 	private Boolean productAvail;
+	@Column(name="LIST_PRICE",precision=8,scale=2)
 	private BigDecimal listPrice;
+	@Column(name="PRODUCT_IMAGE")
 	private Blob productImage;
+	@Column(name="MIMETYPE",length=255)
 	private String mimetype;
+	@Column(name="FILENAME",length=400)
 	private String filename;
+	@Column(name="IMAGE_LAST_UPDATE")
 	private Timestamp lastUpdDt;
 
 	public ProductInfo() {
