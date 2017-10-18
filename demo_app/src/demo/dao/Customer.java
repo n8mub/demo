@@ -2,6 +2,7 @@ package demo.dao;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
+import java.util.List;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
@@ -13,6 +14,10 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+
+import org.hibernate.Criteria;
+import org.hibernate.Session;
+import org.hibernate.criterion.Restrictions;
 
 @Entity
 @Table(name="DEMO_CUSTOMERS")
@@ -149,11 +154,16 @@ public class Customer implements Serializable, Comparable<Customer> {
 	@JoinColumn(name="CUSTOMER_ID")
 	private SortedSet<Order> ordersList;
 	
+	@SuppressWarnings("unchecked")
 	public SortedSet<Order> getOrdersList() {
 		if(ordersList == null){
 			ordersList = new TreeSet<Order>();
+			Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+			Criteria criteria = session.createCriteria(Order.class);
+			criteria.add(Restrictions.eq("order.customerID", this.customerID));
+			ordersList.addAll((List<Order>) criteria.list());
+			session.close();
 		}
-		// TODO Auto-generated method stub
 		return ordersList;
 	}
 
@@ -165,5 +175,36 @@ public class Customer implements Serializable, Comparable<Customer> {
 		// TODO Auto-generated method stub
 		return this.customerID.compareTo(customer.customerID);
 	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		if(obj instanceof Customer){
+			Customer customer = (Customer) obj;
+			return this.customerID.equals(customer.customerID);
+		} else {
+			return false;
+		}
+	}
+
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append(Customer.class.getName()).append(System.lineSeparator());
+		builder.append("[customerID = ").append(customerID).append(",").append(System.lineSeparator());
+		builder.append("firstName = ").append(firstName).append(",").append(System.lineSeparator());
+		builder.append("lastName = ").append(lastName).append(",").append(System.lineSeparator());
+		builder.append("streetAddress1 = ").append(streetAddress1).append(",").append(System.lineSeparator());
+		builder.append("streetAddress2 = ").append(streetAddress2).append(",").append(System.lineSeparator());
+		builder.append("city = ").append(city).append(",").append(System.lineSeparator());
+		builder.append("state = ").append(state).append(",").append(System.lineSeparator());
+		builder.append("postalCode = ").append(postalCode).append(",").append(System.lineSeparator());
+		builder.append("phoneNumber1 = ").append(phoneNumber1).append(",").append(System.lineSeparator());
+		builder.append("phoneNumber2 = ").append(phoneNumber2).append(",").append(System.lineSeparator());
+		builder.append("creditLimit = ").append(creditLimit).append(",").append(System.lineSeparator());
+		builder.append("email = ").append(email).append("]");
+		return builder.toString();
+	}
+	
+	
 
 }
