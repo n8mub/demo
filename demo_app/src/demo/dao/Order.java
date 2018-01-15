@@ -107,5 +107,17 @@ public class Order implements Serializable, Comparable<Order> {
 		}
 		return this.orderID.compareTo(order.orderID);
 	}
+	
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append(this.getClass().getName()).append(System.lineSeparator());
+		builder.append("[orderID = ").append(orderID).append(",").append(System.lineSeparator());
+		builder.append("[customerID = ").append(customerID).append(",").append(System.lineSeparator());
+		builder.append("orderTotal = ").append(orderTotal).append(",").append(System.lineSeparator());
+		builder.append("orderTimestamp = ").append(orderTimestamp).append(",").append(System.lineSeparator());
+		builder.append("userID = ").append(userID).append("]");
+		return builder.toString();
+	}
 
 }

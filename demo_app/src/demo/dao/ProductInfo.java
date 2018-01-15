@@ -129,5 +129,21 @@ public class ProductInfo implements Serializable, Comparable<ProductInfo> {
 		}
 		return this.productID.compareTo(productInfo.productID);
 	}
+	
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append(this.getClass().getName()).append(System.lineSeparator());
+		builder.append("[productID = ").append(productID).append(",").append(System.lineSeparator());
+		builder.append("productName = ").append(productName).append(",").append(System.lineSeparator());
+		builder.append("productDescription = ").append(productDescription).append(",").append(System.lineSeparator());
+		builder.append("category = ").append(category).append(",").append(System.lineSeparator());
+		builder.append("productAvail = ").append(productAvail).append(",").append(System.lineSeparator());
+		builder.append("listPrice = ").append(listPrice).append(",").append(System.lineSeparator());
+		builder.append("mimetype = ").append(mimetype).append(",").append(System.lineSeparator());
+		builder.append("filename = ").append(filename).append(",").append(System.lineSeparator());
+		builder.append("lastUpdDt = ").append(lastUpdDt).append("]");
+		return builder.toString();
+	}
 
 }

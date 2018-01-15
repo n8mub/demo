@@ -107,5 +107,20 @@ public class User implements Serializable, Comparable<User> {
 		}
 		return this.userID.compareTo(user.userID);
 	}
+	
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append(this.getClass().getName()).append(System.lineSeparator());
+		builder.append("[userID = ").append(userID).append(",").append(System.lineSeparator());
+		builder.append("userName = ").append(userName).append(",").append(System.lineSeparator());
+		builder.append("password = ").append(password).append(",").append(System.lineSeparator());
+		builder.append("createdOnDt = ").append(createdOnDt).append(",").append(System.lineSeparator());
+		builder.append("quota = ").append(quota).append(",").append(System.lineSeparator());
+		builder.append("productsFL = ").append(productsFL).append(",").append(System.lineSeparator());
+		builder.append("expiresOnDt = ").append(expiresOnDt).append(",").append(System.lineSeparator());
+		builder.append("adminUserFL = ").append(adminUserFL).append("]");
+		return builder.toString();
+	}
 
 }
