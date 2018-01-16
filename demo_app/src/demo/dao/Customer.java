@@ -23,6 +23,19 @@ import org.hibernate.criterion.Restrictions;
 @Table(name="DEMO_CUSTOMERS")
 public class Customer implements Serializable, Comparable<Customer> {
 	
+	public static final String CUSTOMER_ID = "CUSTOMER_ID";
+	public static final String CUST_FIRST_NAME = "CUST_FIRST_NAME";
+	public static final String CUST_LAST_NAME = "CUST_LAST_NAME";
+	public static final String CUST_STREET_ADDRESS1 = "CUST_STREET_ADDRESS1";
+	public static final String CUST_STREET_ADDRESS2 = "CUST_STREET_ADDRESS2";
+	public static final String CUST_CITY = "CUST_CITY";
+	public static final String CUST_STATE = "CUST_STATE";
+	public static final String CUST_POSTAL_CODE = "CUST_POSTAL_CODE";
+	public static final String PHONE_NUMBER1 = "PHONE_NUMBER1";
+	public static final String PHONE_NUMBER2 = "PHONE_NUMBER2";
+	public static final String CREDIT_LIMIT = "CREDIT_LIMIT";
+	public static final String CUST_EMAIL = "CUST_EMAIL";
+	
 	private static final long serialVersionUID = 1L;
 	@Id @GeneratedValue
 	@Column(name="CUSTOMER_ID")

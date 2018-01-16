@@ -13,6 +13,15 @@ import javax.persistence.Table;
 @Table(name="DEMO_USERS")
 public class User implements Serializable, Comparable<User> {
 	
+	public static final String USER_ID = "USER_ID";
+	public static final String USER_NAME = "USER_NAME";
+	public static final String PASSWORD = "PASSWORD";
+	public static final String CREATED_ON = "CREATED_ON";
+	public static final String QUOTA = "QUOTA";
+	public static final String PRODUCTS = "PRODUCTS";
+	public static final String EXPIRES_ON = "EXPIRES_ON";
+	public static final String ADMIN_USER = "ADMIN_USER";
+	
 	private static final long serialVersionUID = 1L;
 	@Id @GeneratedValue
 	@Column(name="USER_ID")

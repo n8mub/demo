@@ -20,6 +20,12 @@ import javax.persistence.Table;
 @Table(name="DEMO_ORDERS")
 public class Order implements Serializable, Comparable<Order> {
 	
+	public static final String ORDER_ID = "ORDER_ID";
+	public static final String CUSTOMER_ID = "CUSTOMER_ID";
+	public static final String ORDER_TOTAL = "ORDER_TOTAL";
+	public static final String ORDER_TIMESTAMP = "ORDER_TIMESTAMP";
+	public static final String USER_ID = "USER_ID";
+	
 	private static final long serialVersionUID = 1L;
 	@Id @GeneratedValue
 	@Column(name="ORDER_ID")

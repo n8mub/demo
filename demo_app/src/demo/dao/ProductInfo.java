@@ -15,6 +15,17 @@ import javax.persistence.Table;
 @Table(name="DEMO_PRODUCT_INFO")
 public class ProductInfo implements Serializable, Comparable<ProductInfo> {
 	
+	public static final String PRODUCT_ID = "PRODUCT_ID";
+	public static final String PRODUCT_NAME = "PRODUCT_NAME";
+	public static final String PRODUCT_DESCRIPTION = "PRODUCT_DESCRIPTION";
+	public static final String CATEGORY = "CATEGORY";
+	public static final String PRODUCT_AVAIL = "PRODUCT_AVAIL";
+	public static final String LIST_PRICE = "LIST_PRICE";
+	public static final String PRODUCT_IMAGE = "PRODUCT_IMAGE";
+	public static final String MIMETYPE = "MIMETYPE";
+	public static final String FILENAME = "FILENAME";
+	public static final String IMAGE_LAST_UPDATE = "IMAGE_LAST_UPDATE";
+	
 	private static final long serialVersionUID = 1L;
 	@Id @GeneratedValue
 	@Column(name="PRODUCT_ID")
