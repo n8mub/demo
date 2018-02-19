@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Person</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="lib/axios/dist/axios.standalone.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/rollups/hmac-sha256.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/rollups/sha256.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/components/hmac.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/components/enc-base64.js"></script>
+    <script type="text/javascript" src="lib/url-template/url-template.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/sigV4Client.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/apiGatewayClient.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/simpleHttpClient.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/utils.js"></script>
+    <script type="text/javascript" src="apigClient.js"></script>
+    <script type="text/javascript">
+	    function validatenumber(evt) {
+	    	  var theEvent = evt || window.event;
+	    	  var key = theEvent.keyCode || theEvent.which;
+	    	  key = String.fromCharCode( key );
+	    	  var regex = /[0-9]|\./;
+	    	  if( !regex.test(key) ) {
+	    	    theEvent.returnValue = false;
+	    	    if(theEvent.preventDefault) theEvent.preventDefault();
+	    	  }
+	    	}
+	    var apigClient = apigClientFactory.newClient();
+	    
+	    function countPersonTable() {
+	    			var count = 0;
+	    			var params = {
+					//This is where any header, path, or querystring request params go. The key is the parameter named as defined in the API
+				};
+				var body = {
+					//This is where you define the body of the request
+					"operation": "count",
+					"dynamoDBTableName": "Person",
+					"objectMap": { }
+				};
+				var additionalParams = {
+					//If there are any unmodeled query parameters or headers that need to be sent with the request you can add them here
+					headers: {},
+					queryParams: {}
+				};
+				
+				apigClient.getpersonCountGet(params, body, additionalParams)
+					.then(function(result) {
+						console.log("getPersonCountGet")
+						console.log(result.data);
+					}).catch(function(result) {
+						console.log("error");
+					});
+				return count;
+	    }
+	    $(document).ready(function () {
+				
+				$("#getPersonButton").on("click",function(event) {
+					var params = {
+						//This is where any header, path, or querystring request params go. The key is the parameter named as defined in the API
+					};
+					var body = {
+						//This is where you define the body of the request
+						"operation": "retrieve",
+						"dynamoDBTableName": "Person",
+						"objectMap": { 
+							"id": parseInt($("#getPersonid").val())
+						}
+					};
+					var additionalParams = {
+						//If there are any unmodeled query parameters or headers that need to be sent with the request you can add them here
+						headers: {},
+						queryParams: {}
+					};
+					
+					apigClient.getpersonPost(params, body, additionalParams)
+						.then(function(result) {
+							console.log("getPersonPost");
+							console.log(result.data);
+							var resultStr = '<h3>' + result.data.message + '</h3>' 
+								+ '<p> Person ID: <b>' + result.data.payload.id + '</b><br>' 
+								+ 'First Name: <b>' + result.data.payload.firstName + '</b><br>' 
+								+ 'Last Name: <b>' + result.data.payload.lastName + '</b><br>' 
+								+ 'Age: <b>' + result.data.payload.age + '</b><br>' 
+								+ 'Address: <b>' + result.data.payload.address + '</b><br> </p>';
+							console.log(resultStr);
+							$("#response").html(resultStr);
+						}).catch(function(result) {
+							console.log("error");
+						});
+				});
+				$("#putPersonButton").on("click",function(event) {
+					var count = countPersonTable();
+					$("#putPersonid").val(count + 1);
+					var params = {
+						//This is where any header, path, or querystring request params go. The key is the parameter named as defined in the API
+					};
+					var body = {
+						//This is where you define the body of the request
+						"operation": "add",
+						"dynamoDBTableName": "Person",
+						"objectMap": {
+							"id": parseInt($("#putPersonid").val()),
+							"firstName": $("#putPersonFirstName").val(),
+							"lastName": $("#putPersonLastName").val(),
+							"age": parseInt($("#putPersonAge").val()),
+							"address": $("#putPersonAddress").val()
+						}
+					};
+					var additionalParams = {
+						//If there are any unmodeled query parameters or headers that need to be sent with the request you can add them here
+						headers: {},
+						queryParams: {}
+					};
+					
+					apigClient.putpersonPost(params, body, additionalParams)
+						.then(function(result) {
+							console.log("putPersonPost")
+							console.log(result.data);
+							
+						}).catch(function(result) {
+							console.log("error");
+						});
+				});
+			}
+	    	);
+    </script>
+</head>
+<body>
+<form method="post" action="">
+	<table>
+		<tbody>
+			<tr>
+				<td>
+					<div id="get">
+						<table>
+							<tbody>
+								<tr>
+									<td>	<span><b>Person id:</b></span></td>
+									<td><input id="getPersonid" name="getPersonid" type="number" onkeypress="validatenumber(event)"></td>
+								</tr>
+								<tr><td colspan="2"><button id="getPersonButton" name="getPersonButton" type="button">get</button></td></tr>
+							</tbody>
+						</table>
+					</div>
+				</td>
+				<td>
+					<div id="put">
+						<table>
+							<tbody>
+								<tr>
+									<td colspan="2"><input id="putPersonid" name="putPersonid" type="hidden"></td>
+								</tr>
+								<tr>
+									<td><span><b>First Name:</b></span></td>
+									<td><input id="putPersonFirstName" name="putPersonFirstName" type="text"></td>
+								</tr>
+								<tr>
+									<td><span><b>Last Name:</b></span></td>
+									<td><input id="putPersonLastName" name="putPersonLastName" type="text"></td>
+								</tr>
+								<tr>
+									<td><span><b>Age:</b></span></td>
+									<td><input id="putPersonAge" name="putPersonAge" type="number" onkeypress="validatenumber(event)"></td>
+								</tr>
+								<tr>
+									<td><span><b>Address:</b></span></td>
+									<td><input id="putPersonAddress" name="putPersonAddress" type="text"></td>
+								</tr>
+								<tr>
+									<td colspan="2"><button id="putPersonButton" name="putPersonButton">put</button></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</form>
+<div id="response"></div>
+</body>
+</html>
