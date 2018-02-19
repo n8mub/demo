@@ -119,13 +119,13 @@ apigClientFactory.newClient = function (config) {
     };
     
     
-    apigClient.getpersonCountGet = function (params, body, additionalParams) {
+    apigClient.getpersonCountPost = function (params, body, additionalParams) {
         if(additionalParams === undefined) { additionalParams = {}; }
         
         apiGateway.core.utils.assertParametersDefined(params, ['body'], ['body']);
         
-        var getpersonCountGetRequest = {
-            verb: 'get'.toUpperCase(),
+        var getpersonCountPostRequest = {
+            verb: 'post'.toUpperCase(),
             path: pathComponent + uritemplate('/getperson/count').expand(apiGateway.core.utils.parseParametersToObject(params, [])),
             headers: apiGateway.core.utils.parseParametersToObject(params, []),
             queryParams: apiGateway.core.utils.parseParametersToObject(params, []),
@@ -133,7 +133,7 @@ apigClientFactory.newClient = function (config) {
         };
         
         
-        return apiGatewayClient.makeRequest(getpersonCountGetRequest, authType, additionalParams, config.apiKey);
+        return apiGatewayClient.makeRequest(getpersonCountPostRequest, authType, additionalParams, config.apiKey);
     };
     
     
