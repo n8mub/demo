@@ -30,8 +30,8 @@
 	    var apigClient = apigClientFactory.newClient();
 	    
 	    function countPersonTable() {
-	    			var count = 0;
-	    			var params = {
+	    		var count = 0;
+	    		var params = {
 					//This is where any header, path, or querystring request params go. The key is the parameter named as defined in the API
 				};
 				var body = {
@@ -46,14 +46,14 @@
 					queryParams: {}
 				};
 				
-				apigClient.getpersonCountGet(params, body, additionalParams)
+				apigClient.getpersonCountPost(params, body, additionalParams)
 					.then(function(result) {
-						console.log("getPersonCountGet")
+						console.log("getpersonCountPost")
 						console.log(result.data);
+						$("#putPersonid").val(result.data.count + 1);
 					}).catch(function(result) {
 						console.log("error");
 					});
-				return count;
 	    }
 	    $(document).ready(function () {
 				
@@ -92,8 +92,7 @@
 						});
 				});
 				$("#putPersonButton").on("click",function(event) {
-					var count = countPersonTable();
-					$("#putPersonid").val(count + 1);
+					countPersonTable();
 					var params = {
 						//This is where any header, path, or querystring request params go. The key is the parameter named as defined in the API
 					};
@@ -117,9 +116,16 @@
 					
 					apigClient.putpersonPost(params, body, additionalParams)
 						.then(function(result) {
-							console.log("putPersonPost")
+							console.log("putPersonPost");
 							console.log(result.data);
-							
+							var resultStr = '<h3>' + result.data.message + '</h3>' 
+								+ '<p> Person ID: <b>' + result.data.payload.id + '</b><br>' 
+								+ 'First Name: <b>' + result.data.payload.firstName + '</b><br>' 
+								+ 'Last Name: <b>' + result.data.payload.lastName + '</b><br>' 
+								+ 'Age: <b>' + result.data.payload.age + '</b><br>' 
+								+ 'Address: <b>' + result.data.payload.address + '</b><br> </p>';
+							console.log(resultStr);
+							$("#response").html(resultStr);
 						}).catch(function(result) {
 							console.log("error");
 						});
