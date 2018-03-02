@@ -65,7 +65,7 @@ public class VisibilityTimeout {
     }
     
     public void visibilityTimeout() {
-    	String queue_name = "testQueue" + new Date().getTime();
+    		String queue_name = "testQueue" + new Date().getTime();
         AmazonSQS sqs = AmazonSQSClientBuilder.defaultClient();
 
         // first, create a queue (unless it exists already)

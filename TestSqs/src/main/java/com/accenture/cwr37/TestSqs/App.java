@@ -25,7 +25,7 @@ public class App {
 			System.out.println(url);
 			SendMessageRequest send_msg_request = new SendMessageRequest()
 					.withQueueUrl(url)
-					.withMessageBody("hello from Java")
+					.withMessageBody("Hello from Java")
 					.withDelaySeconds(0);
 			sqs.sendMessage(send_msg_request);
 			for(Message message :sqs.receiveMessage(url).getMessages()) {
