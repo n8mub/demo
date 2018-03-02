@@ -1,9 +1,7 @@
-/Users/accenturelabs/devopsuser2/TestLambda/src/main/java/com/accenture/cwr37/dynamodb/DynamoDBPayload.java
-/Users/accenturelabs/devopsuser2/TestLambda/src/main/java/com/accenture/cwr37/TestLambda/LambdaMethodHandler.java
-/Users/accenturelabs/devopsuser2/TestLambda/src/main/java/com/accenture/cwr37/dynamodb/DynamoDBRequest.java
-/Users/accenturelabs/devopsuser2/TestLambda/src/main/java/com/accenture/cwr37/dynamodb/DynamoDBResponse.java
-/Users/accenturelabs/devopsuser2/TestLambda/src/main/java/com/accenture/cwr37/TestLambda/App.java
-/Users/accenturelabs/devopsuser2/TestLambda/src/main/java/com/accenture/cwr37/TestLambda/LambdaRequestStreamHandler.java
-/Users/accenturelabs/devopsuser2/TestLambda/src/main/java/com/accenture/cwr37/dynamodb/SaveDynamoDBHandler.java
-/Users/accenturelabs/devopsuser2/TestLambda/src/main/java/com/accenture/cwr37/TestLambda/LambdaRequestHandler.java
-/Users/accenturelabs/devopsuser2/TestLambda/src/main/java/com/accenture/cwr37/dynamodb/Person.java
+C:\workspace\oxygen\TestLambda\src\main\java\com\accenture\cwr37\dynamodb\SavePersonHandler.java
+C:\workspace\oxygen\TestLambda\src\main\java\com\accenture\cwr37\dynamodb\PersonRequest.java
+C:\workspace\oxygen\TestLambda\src\main\java\com\accenture\cwr37\TestLambda\LambdaMethodHandler.java
+C:\workspace\oxygen\TestLambda\src\main\java\com\accenture\cwr37\TestLambda\LambdaRequestStreamHandler.java
+C:\workspace\oxygen\TestLambda\src\main\java\com\accenture\cwr37\TestLambda\App.java
+C:\workspace\oxygen\TestLambda\src\main\java\com\accenture\cwr37\dynamodb\PersonResponse.java
+C:\workspace\oxygen\TestLambda\src\main\java\com\accenture\cwr37\TestLambda\LambdaRequestHandler.java
