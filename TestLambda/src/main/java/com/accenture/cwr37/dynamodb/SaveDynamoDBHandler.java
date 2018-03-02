@@ -106,7 +106,8 @@ public class SaveDynamoDBHandler implements RequestHandler<DynamoDBRequest, Dyna
     		return scanResult.getCount();
     }
  
-    private void initDynamoDbClient() {
+    @SuppressWarnings("deprecation")
+	private void initDynamoDbClient() {
         dynamoDBClient = new AmazonDynamoDBClient();
         dynamoDBClient.setRegion(Region.getRegion(REGION));
         this.dynamoDb = new DynamoDB(dynamoDBClient);
