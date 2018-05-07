@@ -29,5 +29,19 @@ public class App {
 				e.printStackTrace(System.err);
 			}
 		}
+		List<String> formatedtext = new LinkedList<String>();
+		for(String text : filetexts) {
+			String formated = format(text);
+			formatedtext.add(formated);
+		}
+	}
+	
+	private static String format(String text) {
+		StringBuilder formatedtext = new StringBuilder();
+		String[] lines = StringUtils.split(text, "\n");
+		for(String line : lines) {
+			formatedtext.append(line.trim()).append(System.lineSeparator());
+		}
+		return formatedtext.toString();
 	}
 }
