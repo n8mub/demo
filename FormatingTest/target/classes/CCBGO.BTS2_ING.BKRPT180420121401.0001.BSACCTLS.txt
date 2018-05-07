@@ -1,0 +1,38 @@
+Date: 04/20/18                     Account List Report
+Time: 12:14pm                      Application Development Services 1
+Page: 1                                  Nitropup
+
+Information Reporting Accounts
+------------------------------
+
+Account Number                                     ABA/SWIFT
+-------------------------------------------------- ---------       
+87328974289                                         072000096
+Customer Reference: 1001
+Services: Intra Day, Prev Day, Wire Advice
+Date: 04/20/18                     Account List Report
+Time: 12:14pm                      Application Development Services 1
+Page: 2                                  Nitropup
+
+Payment Accounts
+----------------
+
+Account Number                                     ABA/SWIFT
+-------------------------------------------------- ---------       
+87328974289                                         072000096
+Customer Reference: VALUED CUSTOMER
+Services: Wire
+Date: 04/20/18                     Account List Report
+Time: 12:14pm                      Application Development Services 1
+Page: 3                                  Nitropup
+
+Bank Report Accounts
+--------------------
+
+Account Number                                     ABA/SWIFT
+-------------------------------------------------- ---------       
+87328974289                                         072000096
+Customer Reference: 1001
+Services: Acct List, Acct Recon, CAR Activity, CTX Stmt, Comm Stmt,
+ Deposit Recon, LBX Combined, LBX Detail, MI Corr Avail,
+ MW Invest Pay, Sweep Stmt
