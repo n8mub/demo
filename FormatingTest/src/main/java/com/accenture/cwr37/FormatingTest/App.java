@@ -14,7 +14,7 @@ import org.apache.commons.lang3.StringUtils;
  */
 public class App {
 	public static void main(String[] args) {
-		LinkedList<File> files = (LinkedList<File>) FileUtils.listFiles(new File("src/main/resources"), new String[] {"txt"}, false);
+		LinkedList<File> files = (LinkedList<File>) FileUtils.listFiles(new File("src/main/resources"), new String[] {"txt","ftl"}, false);
 		List<String> filetexts = new LinkedList<String>();
 		for(File file : files) {
 			try {
