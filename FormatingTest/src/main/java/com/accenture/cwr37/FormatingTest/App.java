@@ -22,7 +22,9 @@ public class App {
 				String text = FileUtils.readFileToString(file, "UTF-8");
 				String newtext = StringUtils.replace(text, "\n", System.lineSeparator());
 				String newtext1 = StringUtils.replace(newtext, "\n", System.lineSeparator());
-				String newtext2 = StringUtils.replace(newtext1, "\r\r", "\r");
+				while(newtext1.contains("\r\r")) {
+					newtext1 = StringUtils.replace(newtext1, "\r\r", "\r");
+				}
 				System.out.println(lines.size());
 				filetexts.add(text);
 			} catch (IOException e) {
