@@ -38,7 +38,7 @@ public class App {
 		}
 	}
 	
-	private static String format(String text) {
+	public static String format(String text) {
 		StringBuilder formatedtext = new StringBuilder();
 		String[] lines = StringUtils.split(text, "\n");
 		for(String line : lines) {
