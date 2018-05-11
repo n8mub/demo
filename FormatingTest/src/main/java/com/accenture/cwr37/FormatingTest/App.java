@@ -20,10 +20,10 @@ public class App {
 			try {
 				List<String> lines = FileUtils.readLines(file, "UTF-8");
 				String text = FileUtils.readFileToString(file, "UTF-8");
-				String newtext = StringUtils.replace(text, "\n", System.lineSeparator());
-				String newtext1 = StringUtils.replace(newtext, "\n", System.lineSeparator());
+				String newtext = StringUtils.replace(text, StringUtils.LF, System.lineSeparator());
+				String newtext1 = StringUtils.replace(newtext, StringUtils.LF, System.lineSeparator());
 				while(newtext1.contains("\r\r")) {
-					newtext1 = StringUtils.replace(newtext1, "\r\r", "\r");
+					newtext1 = StringUtils.replace(newtext1, "\r\r", StringUtils.CR);
 				}
 				System.out.println(lines.size());
 				filetexts.add(text);
@@ -39,11 +39,16 @@ public class App {
 	}
 	
 	public static String format(String text) {
-		StringBuilder formatedtext = new StringBuilder();
-		String[] lines = StringUtils.split(text, "\n");
-		for(String line : lines) {
-			formatedtext.append(line.trim()).append(System.lineSeparator());
+		String newtext = StringUtils.replace(text, StringUtils.LF, StringUtils.CR + StringUtils.LF);
+		while(newtext.contains(StringUtils.CR + StringUtils.CR)) {
+			newtext = StringUtils.replace(newtext, StringUtils.CR + StringUtils.CR, StringUtils.CR);
 		}
-		return formatedtext.toString();
+		return newtext;
+//		StringBuilder formatedtext = new StringBuilder();
+//		String[] lines = StringUtils.split(text, StringUtils.LF);
+//		for(String line : lines) {
+//			formatedtext.append(line.trim()).append(StringUtils.CR + StringUtils.LF);
+//		}
+//		return formatedtext.toString();
 	}
 }
