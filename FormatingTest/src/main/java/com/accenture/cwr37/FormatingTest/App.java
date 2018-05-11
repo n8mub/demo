@@ -13,6 +13,8 @@ import org.apache.commons.lang3.StringUtils;
  *
  */
 public class App {
+	static String ls = StringUtils.CR + StringUtils.LF;
+	static String repeat = StringUtils.CR + StringUtils.CR;
 	public static void main(String[] args) {
 		LinkedList<File> files = (LinkedList<File>) FileUtils.listFiles(new File("src/main/resources"), new String[] {"txt","ftl"}, false);
 		List<String> filetexts = new LinkedList<String>();
@@ -22,8 +24,8 @@ public class App {
 				String text = FileUtils.readFileToString(file, "UTF-8");
 				String newtext = StringUtils.replace(text, StringUtils.LF, System.lineSeparator());
 				String newtext1 = StringUtils.replace(newtext, StringUtils.LF, System.lineSeparator());
-				while(newtext1.contains("\r\r")) {
-					newtext1 = StringUtils.replace(newtext1, "\r\r", StringUtils.CR);
+				while(newtext1.contains(repeat)) {
+					newtext1 = StringUtils.replace(newtext1, repeat, StringUtils.CR);
 				}
 				System.out.println(lines.size());
 				filetexts.add(text);
@@ -39,9 +41,9 @@ public class App {
 	}
 	
 	public static String format(String text) {
-		String newtext = StringUtils.replace(text, StringUtils.LF, StringUtils.CR + StringUtils.LF);
-		while(newtext.contains(StringUtils.CR + StringUtils.CR)) {
-			newtext = StringUtils.replace(newtext, StringUtils.CR + StringUtils.CR, StringUtils.CR);
+		String newtext = StringUtils.replace(text, StringUtils.LF, ls);
+		while(newtext.contains(repeat)) {
+			newtext = StringUtils.replace(newtext, repeat, StringUtils.CR);
 		}
 		return newtext;
 //		StringBuilder formatedtext = new StringBuilder();
