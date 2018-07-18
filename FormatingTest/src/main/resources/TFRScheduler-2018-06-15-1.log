@@ -1,0 +1,573 @@
+03:00:00,005 [cheduler-6] DEBUG scheduler.PullScheduler          []- scheduler start job
+03:00:00,027 [cheduler-6] DEBUG broker.EntitlerBrokerImpl        []- get entitlement start
+03:00:00,028 [cheduler-6] DEBUG broker.EntitlerBrokerImpl        []- Request sent with pathTraceId:-6106474759890638692
+03:00:00,003 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:00:01,027 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+03:00:06,756 [cheduler-6] DEBUG ice.EntitlementRecordServiceImpl []- start persistJsonEntitlement
+03:00:31,139 [cheduler-6] DEBUG service.FileTransferServiceImpl  []-  File generated successfully with list of OrgIDs...
+03:00:31,431 [cheduler-6] DEBUG service.FileTransferServiceImpl  []- OrgId file '/cma/tfr/scheduler/report/ABLRORGID.TXT' is successfully sent to Globalscape
+03:00:31,431 [cheduler-6] DEBUG scheduler.PullScheduler          []- scheduler job done 
+03:05:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:05:00,752 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+03:10:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:10:00,770 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+03:15:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:15:01,271 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+03:20:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:20:00,950 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+03:25:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:25:00,727 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+03:30:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:30:00,880 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+03:35:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:35:00,823 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+03:40:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:40:00,657 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+03:45:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:45:01,386 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+03:50:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:50:01,484 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+03:55:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:55:01,372 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+04:00:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:00:00,867 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+04:05:00,000 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:05:00,902 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+04:10:00,000 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:10:00,744 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+04:15:00,001 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:15:01,319 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+04:20:00,001 [heduler-10] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:20:01,732 [heduler-10] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+04:25:00,000 [heduler-10] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:25:01,104 [0-thread-2] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30263
+04:25:01,108 [0-thread-1] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30260
+04:25:01,108 [0-thread-3] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30264
+04:25:01,437 [0-thread-2] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30263
+04:25:01,490 [0-thread-3] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30264
+04:25:01,529 [0-thread-1] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30260
+04:25:01,701 [0-thread-2] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30263 will be placed into orgid directory HILT_CNG
+04:25:01,773 [0-thread-3] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30264 will be placed into orgid directory ZEIN_CNG
+04:25:01,812 [0-thread-1] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30260 will be placed into orgid directory TFR_1234
+04:25:02,189 [0-thread-3] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.ZEIN_CNG.BAI180615042100.0001.TDATXCA
+04:25:02,360 [0-thread-2] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.HILT_CNG.BAI180615042059.0002.TDATXCA
+04:25:03,849 [0-thread-1] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1234.BAI180615042057.0001.TDATXCA
+04:25:04,108 [heduler-10] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+04:30:00,001 [heduler-10] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:30:00,988 [heduler-10] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+04:35:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:35:00,783 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+04:40:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:40:00,775 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+04:45:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:45:01,456 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+04:50:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:50:00,979 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+04:55:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:55:01,200 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+05:00:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:00:00,001 [cheduler-6] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler start job
+05:00:00,677 [cheduler-6] ERROR ystatus.TIRNotifyStatusScheduler []- Notification from TIR to TFR has not been received. within the last hour as expected.
+05:00:00,677 [cheduler-6] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler job done 
+05:00:01,068 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+05:05:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:05:00,789 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+05:10:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:10:00,795 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+05:15:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:15:00,828 [0-thread-1] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30265
+05:15:00,829 [0-thread-2] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30266
+05:15:00,829 [0-thread-3] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30268
+05:15:00,830 [0-thread-4] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30270
+05:15:00,830 [0-thread-5] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30271
+05:15:00,831 [0-thread-6] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30272
+05:15:00,834 [0-thread-7] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30273
+05:15:01,112 [0-thread-1] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30265
+05:15:01,159 [0-thread-6] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30272
+05:15:01,200 [0-thread-5] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30271
+05:15:01,280 [0-thread-4] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30270
+05:15:01,319 [0-thread-3] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30268
+05:15:01,326 [0-thread-1] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30265 will be placed into orgid directory HILT_CNG
+05:15:01,327 [0-thread-6] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30272 will be placed into orgid directory HILT_CNG
+05:15:01,327 [0-thread-4] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30270 will be placed into orgid directory TFR_1234
+05:15:01,345 [0-thread-3] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30268 will be placed into orgid directory HILT_CNG
+05:15:01,363 [0-thread-2] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30266
+05:15:01,389 [0-thread-5] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30271 will be placed into orgid directory HILT_CNG
+05:15:01,404 [0-thread-7] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30273
+05:15:01,421 [0-thread-2] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30266 will be placed into orgid directory HILT_CNG
+05:15:01,901 [0-thread-5] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.HILT_CNG.BAI180615051002.0003.TDATXCA
+05:15:02,569 [0-thread-7] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30273 will be placed into orgid directory HILT_CNG
+05:15:02,731 [0-thread-6] DEBUG dao.ReportDaoImpl                []- 2 row updated with report name: CCBGO.TFR_1234.SWIFT180615051001.0005.TDATXCA
+05:15:02,961 [0-thread-4] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1234.BAI180615051002.0002.TDATXCA
+05:15:03,267 [0-thread-1] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1234.SWIFT180615051000.0003.TCHTXCA
+05:15:03,579 [0-thread-2] DEBUG dao.ReportDaoImpl                []- 2 row updated with report name: CCBGO.TFR_1234.SWIFT180615051001.0004.TDATXCA
+05:15:03,821 [0-thread-3] DEBUG dao.ReportDaoImpl                []- 2 row updated with report name: CCBGO.TFR_1234.SWIFT180615051001.0004.TDATXCA
+05:15:04,125 [0-thread-7] DEBUG dao.ReportDaoImpl                []- 2 row updated with report name: CCBGO.TFR_1234.SWIFT180615051001.0005.TDATXCA
+05:15:04,435 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+05:20:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:20:01,448 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+05:25:00,001 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:25:01,077 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+05:30:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:30:00,906 [cheduler-3] DEBUG ervice.SwiftMessageProcessorImpl []- Ack/Nck message missing for Filename: CCBGO.TFR_1234.BAI180615042057.0001.TDATXCA transmitted via SWIFT FIN.
+05:30:00,983 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+05:35:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:35:00,624 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+05:40:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:40:00,670 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+05:45:00,002 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:45:01,334 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+05:50:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:50:01,200 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+05:55:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:55:00,596 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+06:00:00,001 [cheduler-7] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler start job
+06:00:00,003 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:00:00,278 [cheduler-7] DEBUG ystatus.TIRNotifyStatusScheduler []- 3recived in last hour
+06:00:00,279 [cheduler-7] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler job done 
+06:00:00,755 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+06:05:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:05:00,795 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+06:10:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:10:00,592 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+06:15:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:15:00,993 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+06:20:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:20:00,658 [cheduler-9] DEBUG ervice.SwiftMessageProcessorImpl []- Ack/Nck message missing for Filename: CCBGO.TFR_1234.SWIFT180615051000.0003.TCHTXCA transmitted via SWIFT FIN.
+06:20:00,659 [cheduler-9] DEBUG ervice.SwiftMessageProcessorImpl []- Ack/Nck message missing for Filename: CCBGO.TFR_1234.SWIFT180615051001.0004.TDATXCA transmitted via SWIFT FIN.
+06:20:00,659 [cheduler-9] DEBUG ervice.SwiftMessageProcessorImpl []- Ack/Nck message missing for Filename: CCBGO.TFR_1234.SWIFT180615051001.0004.TDATXCA transmitted via SWIFT FIN.
+06:20:00,659 [cheduler-9] DEBUG ervice.SwiftMessageProcessorImpl []- Ack/Nck message missing for Filename: CCBGO.TFR_1234.BAI180615051002.0002.TDATXCA transmitted via SWIFT FIN.
+06:20:00,659 [cheduler-9] DEBUG ervice.SwiftMessageProcessorImpl []- Ack/Nck message missing for Filename: CCBGO.TFR_1234.SWIFT180615051001.0005.TDATXCA transmitted via SWIFT FIN.
+06:20:00,659 [cheduler-9] DEBUG ervice.SwiftMessageProcessorImpl []- Ack/Nck message missing for Filename: CCBGO.TFR_1234.SWIFT180615051001.0005.TDATXCA transmitted via SWIFT FIN.
+06:20:00,742 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+06:25:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:25:01,071 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+06:30:00,001 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:30:00,812 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+06:35:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:35:00,598 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+06:40:00,000 [heduler-10] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:40:00,627 [heduler-10] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+06:45:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:45:01,052 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+06:50:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:50:01,443 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+06:55:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:55:00,968 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+07:00:00,000 [cheduler-2] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler start job
+07:00:00,000 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:00:00,001 [cheduler-4] DEBUG scheduler.TextReportScheduler    []- TextReportScheduler start job
+07:00:00,469 [cheduler-2] ERROR ystatus.TIRNotifyStatusScheduler []- Notification from TIR to TFR has not been received. within the last hour as expected.
+07:00:00,469 [cheduler-2] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler job done 
+07:00:00,969 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+07:00:00,992 [cheduler-4] DEBUG scheduler.TextReportScheduler    []- TextReportScheduler job done 
+07:05:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:05:01,703 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+07:10:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:10:00,879 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+07:15:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:15:01,193 [4-thread-1] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30275
+07:15:01,194 [4-thread-2] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30277
+07:15:01,197 [4-thread-3] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30279
+07:15:01,439 [4-thread-1] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30275
+07:15:01,488 [4-thread-2] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30277
+07:15:01,531 [4-thread-3] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30279
+07:15:01,640 [4-thread-1] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30275 will be placed into orgid directory ZEIN_CNG
+07:15:01,640 [4-thread-2] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30277 will be placed into orgid directory ZEIN_CNG
+07:15:01,640 [4-thread-3] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30279 will be placed into orgid directory ZEIN_CNG
+07:15:02,329 [4-thread-2] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.ZEIN_CNG.BAI180615071001.0003.TDAMICA
+07:15:02,625 [4-thread-1] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.ZEIN_CNG.BAI180615071001.0002.TDAMICA
+07:15:02,828 [4-thread-3] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.ZEIN_CNG.BAI180615071001.0004.TDAMICA
+07:15:03,093 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+07:20:00,001 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:20:04,544 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+07:25:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:25:00,994 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+07:30:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:30:00,728 [7-thread-1] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30281
+07:30:00,729 [7-thread-2] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30283
+07:30:00,729 [7-thread-3] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30285
+07:30:00,729 [7-thread-4] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30287
+07:30:00,730 [7-thread-5] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30289
+07:30:00,730 [7-thread-6] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30291
+07:30:00,731 [7-thread-7] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30293
+07:30:00,929 [7-thread-1] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30281
+07:30:00,968 [7-thread-6] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30291
+07:30:01,007 [7-thread-7] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30293
+07:30:01,049 [7-thread-2] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30283
+07:30:01,085 [7-thread-3] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30285
+07:30:01,109 [7-thread-1] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30281 will be placed into orgid directory ZEIN_CNG
+07:30:01,112 [7-thread-6] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30291 will be placed into orgid directory ZEIN_CNG
+07:30:01,113 [7-thread-7] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30293 will be placed into orgid directory ZEIN_CNG
+07:30:01,113 [7-thread-2] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30283 will be placed into orgid directory ZEIN_CNG
+07:30:01,113 [7-thread-3] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30285 will be placed into orgid directory ZEIN_CNG
+07:30:01,119 [7-thread-4] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30287
+07:30:01,155 [7-thread-5] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30289
+07:30:01,166 [7-thread-4] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30287 will be placed into orgid directory ZEIN_CNG
+07:30:01,203 [7-thread-5] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30289 will be placed into orgid directory ZEIN_CNG
+07:30:01,379 [7-thread-1] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.ZEIN_CNG.BAI180615072501.0005.TDAMICA
+07:30:01,625 [7-thread-6] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.ZEIN_CNG.BAI180615072503.0010.TDAMICA
+07:30:01,731 [7-thread-3] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.ZEIN_CNG.BAI180615072502.0007.TDAMICA
+07:30:01,787 [7-thread-7] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.ZEIN_CNG.BAI180615072504.0011.TDAMICA
+07:30:01,853 [7-thread-4] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.ZEIN_CNG.BAI180615072502.0008.TDAMICA
+07:30:02,024 [7-thread-5] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.ZEIN_CNG.BAI180615072503.0009.TDAMICA
+07:30:02,188 [7-thread-2] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.ZEIN_CNG.BAI180615072502.0006.TDAMICA
+07:30:02,360 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+07:35:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:35:01,280 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+07:40:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:40:00,701 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+07:45:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:45:01,136 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+07:50:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:50:00,755 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+07:55:00,001 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:55:00,975 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+08:00:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:00:00,002 [cheduler-9] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler start job
+08:00:00,547 [cheduler-9] DEBUG ystatus.TIRNotifyStatusScheduler []- 20recived in last hour
+08:00:00,547 [cheduler-9] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler job done 
+08:00:00,879 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+08:05:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:05:01,381 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+08:10:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:10:00,656 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+08:15:00,000 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:15:01,153 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+08:20:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:20:01,390 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+08:25:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:25:00,905 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+08:30:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:30:00,736 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+08:35:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:35:00,832 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+08:40:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:40:00,675 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+08:45:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:45:01,092 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+08:50:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:50:01,451 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+08:55:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:55:00,962 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+09:00:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:00:00,001 [cheduler-1] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler start job
+09:00:00,528 [cheduler-1] ERROR ystatus.TIRNotifyStatusScheduler []- Notification from TIR to TFR has not been received. within the last hour as expected.
+09:00:00,528 [cheduler-1] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler job done 
+09:00:00,886 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+09:05:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:05:01,133 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+09:10:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:10:00,664 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+09:15:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:15:00,933 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+09:20:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:20:01,357 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+09:25:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:25:01,379 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+09:30:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:30:01,003 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+09:35:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:35:01,144 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+09:40:00,000 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:40:01,743 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+09:45:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:45:01,094 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+09:50:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:50:00,737 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+09:55:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:55:00,822 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+10:00:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:00:00,001 [cheduler-2] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler start job
+10:00:00,607 [cheduler-2] ERROR ystatus.TIRNotifyStatusScheduler []- Notification from TIR to TFR has not been received. within the last hour as expected.
+10:00:00,607 [cheduler-2] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler job done 
+10:00:01,104 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+10:05:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:05:00,632 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+10:10:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:10:00,580 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+10:15:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:15:00,822 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+10:20:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:20:01,347 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+10:25:00,002 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:25:01,062 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+10:30:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:30:00,777 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+10:35:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:35:00,746 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+10:40:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:40:00,791 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+10:45:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:45:01,666 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+10:50:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:50:00,882 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+10:55:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:55:00,939 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+11:00:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:00:00,001 [cheduler-9] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler start job
+11:00:00,737 [cheduler-9] ERROR ystatus.TIRNotifyStatusScheduler []- Notification from TIR to TFR has not been received. within the last hour as expected.
+11:00:00,738 [cheduler-9] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler job done 
+11:00:01,090 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+11:05:00,001 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:05:01,047 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+11:10:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:10:00,881 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+11:15:00,000 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:15:01,100 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+11:20:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:20:00,991 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+11:25:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:25:00,827 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+11:30:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:30:01,272 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+11:35:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:35:00,759 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+11:40:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:40:00,778 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+11:45:00,001 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:45:00,999 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+11:50:00,001 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:50:01,305 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+11:55:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:55:01,156 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+12:00:00,001 [cheduler-4] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler start job
+12:00:00,001 [heduler-10] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:00:00,215 [cheduler-4] ERROR ystatus.TIRNotifyStatusScheduler []- Notification from TIR to TFR has not been received. within the last hour as expected.
+12:00:00,216 [cheduler-4] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler job done 
+12:00:01,155 [heduler-10] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+12:05:00,001 [heduler-10] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:05:01,552 [heduler-10] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+12:10:00,000 [heduler-10] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:10:00,716 [heduler-10] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+12:15:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:15:01,491 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+12:20:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:20:01,336 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+12:25:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:25:01,059 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+12:30:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:30:01,147 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+12:35:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:35:00,822 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+12:40:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:40:01,015 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+12:45:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:45:00,783 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+12:50:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:50:01,355 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+12:55:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:55:01,072 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+13:00:00,000 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:00:00,001 [heduler-10] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler start job
+13:00:00,704 [heduler-10] ERROR ystatus.TIRNotifyStatusScheduler []- Notification from TIR to TFR has not been received. within the last hour as expected.
+13:00:00,704 [heduler-10] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler job done 
+13:00:01,008 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+13:05:00,000 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:05:00,879 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+13:10:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:10:01,194 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+13:15:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:15:01,089 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+13:20:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:20:01,291 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+13:25:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:25:01,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+13:30:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:30:00,746 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+13:35:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:35:00,677 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+13:40:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:40:00,671 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+13:45:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:45:01,448 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+13:50:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:50:01,234 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+13:55:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:55:00,996 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+14:00:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:00:00,002 [cheduler-1] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler start job
+14:00:00,537 [cheduler-1] ERROR ystatus.TIRNotifyStatusScheduler []- Notification from TIR to TFR has not been received. within the last hour as expected.
+14:00:00,538 [cheduler-1] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler job done 
+14:00:00,891 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+14:05:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:05:00,656 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+14:10:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:10:00,687 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+14:15:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:15:01,127 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+14:20:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:20:01,254 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+14:25:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:25:01,100 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+14:30:00,001 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:30:01,042 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+14:35:00,000 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:35:00,902 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+14:40:00,001 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:40:00,716 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+14:45:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:45:01,037 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+14:50:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:50:00,778 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+14:55:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:55:00,940 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+15:00:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:00:00,000 [cheduler-5] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler start job
+15:00:00,458 [cheduler-5] ERROR ystatus.TIRNotifyStatusScheduler []- Notification from TIR to TFR has not been received. within the last hour as expected.
+15:00:00,459 [cheduler-5] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler job done 
+15:00:01,055 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+15:05:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:05:01,015 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+15:10:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:10:00,870 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+15:15:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:15:01,605 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+15:20:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:20:01,337 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+15:25:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:25:01,536 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+15:30:00,001 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:30:01,008 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+15:35:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:35:00,787 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+15:40:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:40:00,789 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+15:45:00,000 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:45:01,078 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+15:50:00,000 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:50:01,217 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+15:55:00,001 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:55:01,188 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+16:00:00,000 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:00:00,001 [cheduler-4] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler start job
+16:00:00,550 [cheduler-4] ERROR ystatus.TIRNotifyStatusScheduler []- Notification from TIR to TFR has not been received. within the last hour as expected.
+16:00:00,550 [cheduler-4] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler job done 
+16:00:01,134 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+16:05:00,000 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:05:00,991 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+16:10:00,001 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:10:00,724 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+16:15:00,001 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:15:01,020 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+16:20:00,000 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:20:01,095 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+16:25:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:25:00,674 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+16:30:00,001 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:30:00,902 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+16:35:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:35:01,481 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+16:40:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:40:00,742 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+16:45:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:45:01,094 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+16:50:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:50:01,040 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+16:55:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:55:00,837 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+17:00:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:00:00,001 [cheduler-9] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler start job
+17:00:00,268 [cheduler-9] ERROR ystatus.TIRNotifyStatusScheduler []- Notification from TIR to TFR has not been received. within the last hour as expected.
+17:00:00,268 [cheduler-9] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler job done 
+17:00:00,658 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+17:05:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:05:00,659 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+17:10:00,001 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:10:00,708 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+17:15:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:15:01,126 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+17:20:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:20:00,968 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+17:25:00,001 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:25:01,230 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+17:30:00,001 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:30:00,838 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+17:35:00,000 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:35:00,661 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+17:40:00,001 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:40:00,681 [cheduler-8] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Ended
+17:45:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:50:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:55:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:00:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:00:00,001 [cheduler-3] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler start job
+18:00:00,488 [cheduler-3] ERROR ystatus.TIRNotifyStatusScheduler []- Notification from TIR to TFR has not been received. within the last hour as expected.
+18:00:00,488 [cheduler-3] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler job done 
+18:05:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:10:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:15:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:20:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:25:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:30:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:35:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:40:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:45:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:50:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:55:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:00:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:00:00,001 [cheduler-5] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler start job
+19:00:00,356 [cheduler-5] ERROR ystatus.TIRNotifyStatusScheduler []- Notification from TIR to TFR has not been received. within the last hour as expected.
+19:00:00,356 [cheduler-5] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler job done 
+19:05:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:10:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:15:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:20:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:25:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:30:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:35:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:40:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:45:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:50:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:55:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:00:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:00:00,002 [cheduler-3] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler start job
+20:00:00,446 [cheduler-3] ERROR ystatus.TIRNotifyStatusScheduler []- Notification from TIR to TFR has not been received. within the last hour as expected.
+20:00:00,446 [cheduler-3] DEBUG ystatus.TIRNotifyStatusScheduler []- TIRNotifyStatusScheduler job done 
+20:05:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:10:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:15:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:20:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:25:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:30:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:35:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:40:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:45:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:50:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:55:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:00:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:05:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:10:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:15:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:20:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:25:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:30:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:35:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:40:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:45:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:50:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:55:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:00:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:05:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:10:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:15:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:20:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:25:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:30:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:35:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:40:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:45:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:50:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:55:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:00:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:05:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:10:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:15:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:20:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:25:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:30:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:35:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:40:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:45:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:50:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:55:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started

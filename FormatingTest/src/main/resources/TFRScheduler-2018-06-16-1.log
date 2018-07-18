@@ -1,0 +1,758 @@
+03:00:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:00:00,001 [heduler-10] DEBUG scheduler.PullScheduler          []- scheduler start job
+03:00:00,008 [heduler-10] DEBUG broker.EntitlerBrokerImpl        []- get entitlement start
+03:00:00,011 [heduler-10] DEBUG broker.EntitlerBrokerImpl        []- Request sent with pathTraceId:-8836786114015754454
+03:00:07,489 [heduler-10] DEBUG ice.EntitlementRecordServiceImpl []- start persistJsonEntitlement
+03:00:34,274 [heduler-10] DEBUG service.FileTransferServiceImpl  []-  File generated successfully with list of OrgIDs...
+03:00:34,509 [heduler-10] DEBUG service.FileTransferServiceImpl  []- OrgId file '/cma/tfr/scheduler/report/ABLRORGID.TXT' is successfully sent to Globalscape
+03:00:34,509 [heduler-10] DEBUG scheduler.PullScheduler          []- scheduler job done 
+03:05:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:10:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:15:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:20:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:25:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:30:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:35:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:40:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:45:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:50:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:55:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:00:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:05:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:10:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:15:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:20:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:25:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:30:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:35:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:40:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:45:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:50:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:55:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:00:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:05:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:10:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:15:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:20:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:25:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:30:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:35:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:40:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:45:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:50:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:55:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:00:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:05:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:10:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:15:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:20:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:25:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:30:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:35:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:40:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:45:00,001 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:50:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:55:00,000 [cheduler-4] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:00:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:00:00,002 [cheduler-4] DEBUG scheduler.TextReportScheduler    []- TextReportScheduler start job
+07:00:00,827 [cheduler-4] ERROR service.CSVServiceImpl           []- Exception while CSV report parsing
+java.io.FileNotFoundException: /cma/tfr/scheduler/Informatica/TFR_REPORT.csv (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_65]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_65]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_65]
+	at java.io.FileReader.<init>(FileReader.java:72) ~[?:1.8.0_65]
+	at com.comerica.tfr.scheduler.reports.service.CSVServiceImpl.parseCSVForTextReportData(CSVServiceImpl.java:38) [TFRScheduler-1.0.40.jar:?]
+	at com.comerica.tfr.scheduler.reports.service.ReportGenerationPollerImpl.poll(ReportGenerationPollerImpl.java:96) [TFRScheduler-1.0.40.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_65]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333) [spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) [spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) [spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99) [spring-tx-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282) [spring-tx-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96) [spring-tx-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) [spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213) [spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at com.sun.proxy.$Proxy107.poll(Unknown Source) [?:?]
+	at com.comerica.tfr.scheduler.TextReportScheduler.generateTextReports(TextReportScheduler.java:28) [TFRScheduler-1.0.40.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_65]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) [spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_65]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_65]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_65]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_65]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_65]
+07:00:00,834 [cheduler-4] ERROR service.FileServiceImpl          []- Error moving file to /cma/tfr/scheduler/Informatica/error/java.nio.file.NoSuchFileException: /cma/tfr/scheduler/Informatica/TFR_REPORT.csv
+07:00:00,834 [cheduler-4] ERROR service.ReportGenerationPoller   []- Error moving file to /cma/tfr/scheduler/Informatica/error/
+07:00:00,840 [cheduler-4] ERROR scheduler.TextReportScheduler    []- Error while generating text report in TextReportScheduler.generateTextReports() com.comerica.tfr.scheduler.reports.exception.ReportGenerationException: Exception while fetching entitlement data for customer 
+07:00:00,840 [cheduler-4] DEBUG scheduler.TextReportScheduler    []- TextReportScheduler job done 
+07:05:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:10:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:15:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:15:02,232 [6-thread-1] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30295
+07:15:02,235 [6-thread-2] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30303
+07:15:02,235 [6-thread-3] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30311
+07:15:02,236 [6-thread-4] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30312
+07:15:02,237 [6-thread-5] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30317
+07:15:02,238 [6-thread-6] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30320
+07:15:02,238 [6-thread-7] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30322
+07:15:02,239 [6-thread-8] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30323
+07:15:02,244 [6-thread-9] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30329
+07:15:02,248 [-thread-10] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30330
+07:15:02,492 [6-thread-1] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30295
+07:15:02,532 [6-thread-5] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30317
+07:15:02,567 [6-thread-4] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30312
+07:15:02,608 [6-thread-3] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30311
+07:15:02,648 [6-thread-2] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30303
+07:15:02,688 [-thread-10] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30330
+07:15:02,720 [6-thread-9] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30329
+07:15:02,751 [6-thread-1] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30295 will be placed into orgid directory 11111111
+07:15:02,751 [6-thread-8] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30323
+07:15:02,756 [6-thread-4] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30312 will be placed into orgid directory WIDI_TNG
+07:15:02,756 [6-thread-2] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30303 will be placed into orgid directory Test1aax
+07:15:02,778 [6-thread-7] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30322
+07:15:02,811 [6-thread-6] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30320
+07:15:02,839 [6-thread-5] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30317 will be placed into orgid directory FORD_MNG
+07:15:02,844 [6-thread-6] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30320 will be placed into orgid directory TFR_1231
+07:15:02,844 [6-thread-3] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30311 will be placed into orgid directory WIDI_TNG
+07:15:02,844 [6-thread-9] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30329 will be placed into orgid directory HILT_CNG
+07:15:02,844 [6-thread-7] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30322 will be placed into orgid directory TFR_1232
+07:15:02,922 [6-thread-8] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30323 will be placed into orgid directory TFR_1233
+07:15:02,922 [-thread-10] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30330 will be placed into orgid directory ZEIN_CNG
+07:15:03,456 [6-thread-5] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.FORD_MNG.BAI180616071009.0001.TDAMICA
+07:15:03,480 [6-thread-5] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30332
+07:15:03,675 [6-thread-8] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1233.BAI180616071012.0001.TDAMICA
+07:15:03,696 [6-thread-8] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30340
+07:15:03,854 [-thread-10] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.ZEIN_CNG.BAI180616071014.0001.TDAMICA
+07:15:03,870 [-thread-10] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30348
+07:15:03,931 [6-thread-5] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30332
+07:15:04,062 [6-thread-7] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1232.BAI180616071011.0001.TDAMICA
+07:15:04,092 [6-thread-7] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30349
+07:15:04,092 [6-thread-8] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30340
+07:15:04,362 [6-thread-6] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1231.BAI180616071011.0001.TDAMICA
+07:15:04,380 [6-thread-6] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30354
+07:15:04,491 [6-thread-3] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.WIDI_TNG.BAI180616071007.0001.TDAMICA
+07:15:04,514 [6-thread-3] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30357
+07:15:04,668 [6-thread-9] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.HILT_CNG.BAI180616071013.0001.TDAMICA
+07:15:04,686 [6-thread-9] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30359
+07:15:04,767 [6-thread-6] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30354
+07:15:04,802 [6-thread-3] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30357
+07:15:04,839 [6-thread-7] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30349
+07:15:04,880 [-thread-10] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30348
+07:15:04,920 [6-thread-9] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30359
+07:15:04,942 [6-thread-6] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30354 will be placed into orgid directory FORD_MNG
+07:15:04,952 [6-thread-9] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30359 will be placed into orgid directory TFR_1232
+07:15:04,952 [-thread-10] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30348 will be placed into orgid directory WIDI_TNG
+07:15:04,952 [6-thread-3] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30357 will be placed into orgid directory TFR_1231
+07:15:05,510 [6-thread-6] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.FORD_MNG.BAI180616071020.0002.TDAMICA
+07:15:05,539 [6-thread-6] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30360
+07:15:05,600 [6-thread-9] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1232.BAI180616071021.0002.TDAMICA
+07:15:05,776 [6-thread-3] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1231.BAI180616071021.0002.TDAMICA
+07:15:05,800 [6-thread-3] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30366
+07:15:05,800 [6-thread-9] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30367
+07:15:05,902 [-thread-10] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.WIDI_TNG.BAI180616071019.0003.TDAMICA
+07:15:05,912 [-thread-10] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30369
+07:15:05,976 [6-thread-6] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30360
+07:15:06,014 [-thread-10] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30369
+07:15:06,050 [6-thread-9] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30367
+07:15:06,087 [6-thread-3] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30366
+07:15:06,160 [6-thread-6] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30360 will be placed into orgid directory TFR_1233
+07:15:06,160 [6-thread-9] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30367 will be placed into orgid directory ZEIN_CNG
+07:15:06,272 [6-thread-3] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30366 will be placed into orgid directory HILT_CNG
+07:15:06,514 [6-thread-9] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.ZEIN_CNG.BAI180616071023.0002.TDAMICA
+07:15:06,582 [6-thread-9] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30377
+07:15:06,754 [6-thread-1] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.11111111.BAI180616071001.0001.TDAMICA
+07:15:06,802 [6-thread-1] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30385
+07:15:06,843 [-thread-14] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30391
+07:15:06,837 [-thread-11] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30386
+07:15:06,849 [-thread-12] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30394
+07:15:06,855 [-thread-13] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30396
+07:15:06,870 [6-thread-6] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1233.BAI180616071022.0002.TDAMICA
+07:15:06,902 [6-thread-6] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30397
+07:15:07,032 [6-thread-3] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.HILT_CNG.BAI180616071023.0002.TDAMICA
+07:15:07,048 [6-thread-3] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30403
+07:15:07,119 [6-thread-9] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30377
+07:15:07,168 [6-thread-3] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30403
+07:15:07,300 [6-thread-9] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30377 will be placed into orgid directory Test1aax
+07:15:07,359 [6-thread-3] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30403 will be placed into orgid directory HILT_CNG
+07:15:07,400 [6-thread-2] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.Test1aax.BAI180616071005.0001.TDAMICA
+07:15:07,436 [6-thread-2] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30404
+07:15:07,522 [6-thread-4] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.WIDI_TNG.BAI180616071008.0002.TDAMICA
+07:15:07,651 [-thread-14] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30391
+07:15:07,690 [-thread-11] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30386
+07:15:07,736 [-thread-12] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30394
+07:15:07,772 [-thread-13] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30396
+07:15:07,807 [6-thread-6] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30397
+07:15:07,846 [6-thread-1] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30385
+07:15:07,865 [-thread-14] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30391 will be placed into orgid directory FORD_MNG
+07:15:07,872 [-thread-12] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30394 will be placed into orgid directory TFR_1231
+07:15:07,872 [6-thread-1] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30385 will be placed into orgid directory WIDI_TNG
+07:15:07,872 [-thread-13] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30396 will be placed into orgid directory TFR_1232
+07:15:07,909 [-thread-11] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30386 will be placed into orgid directory WIDI_TNG
+07:15:07,956 [6-thread-9] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.Test1aax.BAI180616071026.0003.TDAMICA
+07:15:07,998 [6-thread-6] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30397 will be placed into orgid directory TFR_1233
+07:15:08,136 [6-thread-3] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.HILT_CNG.BAI180616071033.0003.TDAMICA
+07:15:08,222 [6-thread-2] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30404
+07:15:08,290 [-thread-12] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1231.BAI180616071031.0003.TDAMICA
+07:15:08,388 [6-thread-2] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30404 will be placed into orgid directory ZEIN_CNG
+07:15:08,518 [-thread-13] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1232.BAI180616071031.0003.TDAMICA
+07:15:08,610 [6-thread-1] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.WIDI_TNG.BAI180616071028.0005.TDAMICA
+07:15:08,751 [6-thread-6] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1233.BAI180616071032.0003.TDAMICA
+07:15:08,914 [-thread-14] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.FORD_MNG.BAI180616071030.0003.TDAMICA
+07:15:09,148 [6-thread-2] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.ZEIN_CNG.BAI180616071033.0003.TDAMICA
+07:15:09,288 [-thread-11] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.WIDI_TNG.BAI180616071028.0006.TDAMICA
+07:20:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:20:00,812 [7-thread-1] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30332
+07:20:00,812 [7-thread-2] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30340
+07:20:00,813 [7-thread-3] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30349
+07:20:00,816 [7-thread-4] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30369
+07:20:01,087 [7-thread-1] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30332
+07:20:01,133 [7-thread-4] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30369
+07:20:01,181 [7-thread-3] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30349
+07:20:01,232 [7-thread-2] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30340
+07:20:01,267 [7-thread-1] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30332 will be placed into orgid directory 11111111
+07:20:01,267 [7-thread-4] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30369 will be placed into orgid directory 11111111
+07:20:01,268 [7-thread-3] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30349 will be placed into orgid directory WIDI_TNG
+07:20:01,268 [7-thread-2] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30340 will be placed into orgid directory Test1aax
+07:20:03,454 [7-thread-4] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.11111111.BAI180616071024.0003.TDAMICA
+07:20:03,567 [7-thread-2] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.Test1aax.BAI180616071017.0002.TDAMICA
+07:20:03,673 [7-thread-3] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.WIDI_TNG.BAI180616071019.0004.TDAMICA
+07:20:03,772 [7-thread-1] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.11111111.BAI180616071014.0002.TDAMICA
+07:25:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:25:01,029 [8-thread-1] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30406
+07:25:01,030 [8-thread-2] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30414
+07:25:01,030 [8-thread-3] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30422
+07:25:01,031 [8-thread-4] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30423
+07:25:01,031 [8-thread-5] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30428
+07:25:01,032 [8-thread-6] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30431
+07:25:01,032 [8-thread-7] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30433
+07:25:01,033 [8-thread-8] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30434
+07:25:01,033 [8-thread-9] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30440
+07:25:01,037 [-thread-10] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30441
+07:25:01,252 [8-thread-1] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30406
+07:25:01,292 [8-thread-9] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30440
+07:25:01,332 [8-thread-8] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30434
+07:25:01,369 [8-thread-7] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30433
+07:25:01,404 [8-thread-6] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30431
+07:25:01,449 [-thread-10] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30441
+07:25:01,476 [8-thread-2] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30414
+07:25:01,484 [8-thread-1] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30406 will be placed into orgid directory 11111111
+07:25:01,502 [8-thread-2] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30414 will be placed into orgid directory Test1aax
+07:25:01,503 [8-thread-9] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30440 will be placed into orgid directory HILT_CNG
+07:25:01,506 [8-thread-6] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30431 will be placed into orgid directory TFR_1231
+07:25:01,506 [8-thread-7] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30433 will be placed into orgid directory TFR_1232
+07:25:01,510 [8-thread-3] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30422
+07:25:01,549 [8-thread-8] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30434 will be placed into orgid directory TFR_1233
+07:25:01,550 [-thread-10] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30441 will be placed into orgid directory ZEIN_CNG
+07:25:01,560 [8-thread-3] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30422 will be placed into orgid directory WIDI_TNG
+07:25:01,569 [8-thread-5] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30428
+07:25:01,569 [8-thread-4] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30423
+07:25:01,641 [8-thread-5] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30428 will be placed into orgid directory FORD_MNG
+07:25:01,780 [8-thread-9] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.HILT_CNG.BAI180616072010.0004.TDAMICA
+07:25:01,792 [8-thread-9] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30443
+07:25:01,832 [8-thread-9] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30443
+07:25:01,902 [8-thread-5] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.FORD_MNG.BAI180616072007.0004.TDAMICA
+07:25:01,917 [8-thread-5] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30451
+07:25:01,958 [8-thread-5] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30451
+07:25:02,028 [8-thread-3] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.WIDI_TNG.BAI180616072005.0007.TDAMICA
+07:25:02,038 [8-thread-3] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30459
+07:25:02,138 [8-thread-6] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1231.BAI180616072008.0004.TDAMICA
+07:25:02,146 [8-thread-6] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30460
+07:25:02,246 [8-thread-7] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1232.BAI180616072009.0004.TDAMICA
+07:25:02,272 [8-thread-7] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30465
+07:25:02,366 [8-thread-8] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1233.BAI180616072009.0004.TDAMICA
+07:25:02,372 [8-thread-8] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30468
+07:25:02,450 [-thread-10] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.ZEIN_CNG.BAI180616072011.0004.TDAMICA
+07:25:02,472 [-thread-10] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30470
+07:25:02,512 [8-thread-6] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30460
+07:25:02,552 [8-thread-7] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30465
+07:25:02,606 [8-thread-3] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30459
+07:25:02,637 [8-thread-8] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30468
+07:25:02,676 [-thread-10] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30470
+07:25:02,732 [8-thread-3] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30459 will be placed into orgid directory WIDI_TNG
+07:25:02,733 [8-thread-8] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30468 will be placed into orgid directory TFR_1231
+07:25:02,733 [8-thread-7] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30465 will be placed into orgid directory FORD_MNG
+07:25:02,733 [-thread-10] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30470 will be placed into orgid directory TFR_1232
+07:25:03,017 [8-thread-1] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.11111111.BAI180616072001.0004.TDAMICA
+07:25:03,025 [8-thread-1] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30471
+07:25:03,038 [8-thread-4] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30423 will be placed into orgid directory WIDI_TNG
+07:25:03,039 [8-thread-4] ERROR service.SFTPServiceImpl          []- TFR cannot find folder:  to transmit filename: CCBGO.WIDI_TNG.BAI180616072006.0008.TDAMICA
+07:25:03,043 [-thread-13] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30477
+07:25:03,039 [8-thread-4] ERROR service.SFTPServiceImpl          []- Exception while sending report through FIN
+com.comerica.tfr.commons.exception.TFRException: Folder do not exists 
+	at com.comerica.tfr.report.sender.service.SFTPServiceImpl.sendReport(SFTPServiceImpl.java:87) ~[TFRReportSender-1.0.40.RELEASE.jar:?]
+	at com.comerica.tfr.report.sender.service.SFTPServiceImpl.sentToGS(SFTPServiceImpl.java:67) ~[TFRReportSender-1.0.40.RELEASE.jar:?]
+	at com.comerica.tfr.report.sender.service.ReportWorkerImpl.lambda$null$0(ReportWorkerImpl.java:55) ~[TFRReportSender-1.0.40.RELEASE.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_65]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_65]
+Caused by: com.comerica.tfr.report.sender.exception.ReportSenderException: TFR cannot find folder: 
+	at com.comerica.tfr.report.sender.service.SFTPServiceImpl.setFinRemoteLocation(SFTPServiceImpl.java:172) ~[TFRReportSender-1.0.40.RELEASE.jar:?]
+	at com.comerica.tfr.report.sender.service.SFTPServiceImpl.setRemoteLocation(SFTPServiceImpl.java:133) ~[TFRReportSender-1.0.40.RELEASE.jar:?]
+	at com.comerica.tfr.report.sender.service.SFTPServiceImpl.sendReport(SFTPServiceImpl.java:78) ~[TFRReportSender-1.0.40.RELEASE.jar:?]
+	... 5 more
+Caused by: com.jcraft.jsch.SftpException: 
+	at com.jcraft.jsch.ChannelSftp.getHome(ChannelSftp.java:2443) ~[jsch-0.1.54.jar:?]
+	at com.jcraft.jsch.ChannelSftp.getCwd(ChannelSftp.java:2452) ~[jsch-0.1.54.jar:?]
+	at com.jcraft.jsch.ChannelSftp.pwd(ChannelSftp.java:2429) ~[jsch-0.1.54.jar:?]
+	at com.comerica.tfr.report.sender.service.SFTPServiceImpl.setFinRemoteLocation(SFTPServiceImpl.java:169) ~[TFRReportSender-1.0.40.RELEASE.jar:?]
+	at com.comerica.tfr.report.sender.service.SFTPServiceImpl.setRemoteLocation(SFTPServiceImpl.java:133) ~[TFRReportSender-1.0.40.RELEASE.jar:?]
+	at com.comerica.tfr.report.sender.service.SFTPServiceImpl.sendReport(SFTPServiceImpl.java:78) ~[TFRReportSender-1.0.40.RELEASE.jar:?]
+	... 5 more
+Caused by: java.io.IOException: Pipe closed
+	at java.io.PipedInputStream.read(PipedInputStream.java:307) ~[?:1.8.0_65]
+	at com.jcraft.jsch.Channel$MyPipedInputStream.updateReadSide(Channel.java:362) ~[jsch-0.1.54.jar:?]
+	at com.jcraft.jsch.ChannelSftp.getHome(ChannelSftp.java:2435) ~[jsch-0.1.54.jar:?]
+	at com.jcraft.jsch.ChannelSftp.getCwd(ChannelSftp.java:2452) ~[jsch-0.1.54.jar:?]
+	at com.jcraft.jsch.ChannelSftp.pwd(ChannelSftp.java:2429) ~[jsch-0.1.54.jar:?]
+	at com.comerica.tfr.report.sender.service.SFTPServiceImpl.setFinRemoteLocation(SFTPServiceImpl.java:169) ~[TFRReportSender-1.0.40.RELEASE.jar:?]
+	at com.comerica.tfr.report.sender.service.SFTPServiceImpl.setRemoteLocation(SFTPServiceImpl.java:133) ~[TFRReportSender-1.0.40.RELEASE.jar:?]
+	at com.comerica.tfr.report.sender.service.SFTPServiceImpl.sendReport(SFTPServiceImpl.java:78) ~[TFRReportSender-1.0.40.RELEASE.jar:?]
+	... 5 more
+07:25:03,044 [-thread-11] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30480
+07:25:03,043 [-thread-12] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30478
+07:25:03,177 [-thread-10] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1232.BAI180616072019.0005.TDAMICA
+07:25:03,184 [-thread-10] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30488
+07:25:03,232 [-thread-12] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30478
+07:25:03,376 [8-thread-3] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.WIDI_TNG.BAI180616072016.0009.TDAMICA
+07:25:03,388 [8-thread-3] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30496
+07:25:03,405 [-thread-12] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30478 will be placed into orgid directory ZEIN_CNG
+07:25:03,428 [8-thread-1] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30471
+07:25:03,457 [8-thread-1] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30471 will be placed into orgid directory TFR_1233
+07:25:03,462 [-thread-13] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30477
+07:25:03,530 [8-thread-2] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.Test1aax.BAI180616072003.0004.TDAMICA
+07:25:03,544 [8-thread-2] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30497
+07:25:03,577 [-thread-10] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30488
+07:25:03,665 [-thread-13] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30477 will be placed into orgid directory HILT_CNG
+07:25:03,728 [8-thread-4] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.WIDI_TNG.BAI180616072006.0008.TDAMICA
+07:25:03,736 [8-thread-4] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30502
+07:25:03,752 [-thread-10] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30488 will be placed into orgid directory Test1aax
+07:25:03,778 [-thread-11] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30480
+07:25:04,020 [8-thread-7] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.FORD_MNG.BAI180616072017.0005.TDAMICA
+07:25:04,020 [8-thread-4] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30502
+07:25:04,041 [8-thread-7] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30505
+07:25:04,048 [-thread-14] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30507
+07:25:04,206 [8-thread-4] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30502 will be placed into orgid directory FORD_MNG
+07:25:04,288 [8-thread-8] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1231.BAI180616072019.0005.TDAMICA
+07:25:04,308 [8-thread-8] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30508
+07:25:04,541 [-thread-13] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.HILT_CNG.BAI180616072021.0005.TDAMICA
+07:25:04,556 [-thread-13] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30514
+07:25:04,630 [8-thread-1] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1233.BAI180616072019.0005.TDAMICA
+07:25:04,641 [8-thread-1] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30515
+07:25:04,696 [-thread-12] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.ZEIN_CNG.BAI180616072021.0005.TDAMICA
+07:25:04,712 [-thread-12] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30517
+07:25:04,752 [8-thread-2] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30497
+07:25:04,792 [8-thread-3] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30496
+07:25:04,832 [-thread-12] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30517
+07:25:04,881 [8-thread-1] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30515
+07:25:04,918 [-thread-14] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30507
+07:25:04,972 [-thread-13] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30514
+07:25:04,984 [8-thread-2] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30497 will be placed into orgid directory WIDI_TNG
+07:25:04,984 [-thread-12] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30517 will be placed into orgid directory 11111111
+07:25:05,015 [8-thread-3] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30496 will be placed into orgid directory WIDI_TNG
+07:25:05,016 [-thread-14] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30507 will be placed into orgid directory TFR_1232
+07:25:05,016 [-thread-13] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30514 will be placed into orgid directory HILT_CNG
+07:25:05,098 [8-thread-1] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30515 will be placed into orgid directory ZEIN_CNG
+07:25:05,218 [8-thread-4] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.FORD_MNG.BAI180616072029.0006.TDAMICA
+07:25:05,248 [8-thread-4] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30525
+07:25:05,329 [-thread-10] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.Test1aax.BAI180616072025.0006.TDAMICA
+07:25:05,338 [-thread-10] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30533
+07:25:05,377 [8-thread-7] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30505
+07:25:05,416 [8-thread-8] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30508
+07:25:05,456 [-thread-10] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30533
+07:25:05,518 [8-thread-3] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.WIDI_TNG.BAI180616072027.0011.TDAMICA
+07:25:05,525 [8-thread-3] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30534
+07:25:05,586 [-thread-14] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1232.BAI180616072030.0006.TDAMICA
+07:25:05,592 [-thread-14] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30539
+07:25:05,604 [8-thread-7] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30505 will be placed into orgid directory TFR_1231
+07:25:05,604 [-thread-10] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30533 will be placed into orgid directory WIDI_TNG
+07:25:05,641 [8-thread-8] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30508 will be placed into orgid directory TFR_1233
+07:25:05,648 [-thread-13] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.HILT_CNG.BAI180616072032.0006.TDAMICA
+07:25:05,653 [-thread-13] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30542
+07:25:05,724 [8-thread-1] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.ZEIN_CNG.BAI180616072032.0006.TDAMICA
+07:25:05,732 [8-thread-1] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30544
+07:25:05,769 [8-thread-4] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30525
+07:25:05,830 [-thread-10] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.WIDI_TNG.BAI180616072038.0013.TDAMICA
+07:25:05,837 [-thread-10] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30545
+07:25:05,905 [8-thread-7] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1231.BAI180616072029.0006.TDAMICA
+07:25:05,912 [8-thread-7] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30551
+07:25:05,952 [8-thread-1] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30544
+07:25:05,953 [8-thread-4] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30525 will be placed into orgid directory Test1aax
+07:25:05,985 [-thread-13] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30542
+07:25:06,061 [-thread-12] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.11111111.BAI180616072033.0007.TDAMICA
+07:25:06,064 [-thread-12] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30552
+07:25:06,121 [8-thread-1] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30544 will be placed into orgid directory TFR_1232
+07:25:06,122 [-thread-13] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30542 will be placed into orgid directory TFR_1231
+07:25:06,178 [8-thread-2] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.WIDI_TNG.BAI180616072027.0012.TDAMICA
+07:25:06,180 [8-thread-2] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30554
+07:25:06,181 [-thread-14] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30539
+07:25:06,218 [8-thread-3] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30534
+07:25:06,221 [-thread-15] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30562
+07:25:06,243 [-thread-16] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30570
+07:25:06,265 [8-thread-2] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30554
+07:25:06,305 [-thread-12] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30552
+07:25:06,340 [8-thread-7] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30551
+07:25:06,381 [-thread-10] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30545
+07:25:06,466 [8-thread-2] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30554 will be placed into orgid directory 11111111
+07:25:06,469 [8-thread-8] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1233.BAI180616072030.0006.TDAMICA
+07:25:06,472 [8-thread-8] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30571
+07:25:06,521 [-thread-10] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30545 will be placed into orgid directory TFR_1233
+07:25:06,521 [-thread-12] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30552 will be placed into orgid directory ZEIN_CNG
+07:25:06,544 [8-thread-7] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30551 will be placed into orgid directory HILT_CNG
+07:25:06,565 [8-thread-4] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.Test1aax.BAI180616072036.0007.TDAMICA
+07:25:06,569 [8-thread-4] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30576
+07:25:06,796 [-thread-16] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30570
+07:25:06,858 [8-thread-2] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.11111111.BAI180616072044.0008.TDAMICA
+07:25:06,868 [8-thread-2] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30579
+07:25:06,932 [8-thread-1] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1232.BAI180616072041.0007.TDAMICA
+07:25:06,942 [8-thread-1] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30581
+07:25:06,964 [-thread-16] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30570 will be placed into orgid directory WIDI_TNG
+07:25:07,010 [-thread-13] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1231.BAI180616072041.0007.TDAMICA
+07:25:07,018 [-thread-13] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30582
+07:25:07,056 [-thread-15] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30562
+07:25:07,098 [-thread-13] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30582
+07:25:07,132 [8-thread-1] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30581
+07:25:07,246 [8-thread-7] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.HILT_CNG.BAI180616072043.0007.TDAMICA
+07:25:07,246 [8-thread-2] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30579
+07:25:07,250 [8-thread-7] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30588
+07:25:07,312 [-thread-15] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30562 will be placed into orgid directory Test1aax
+07:25:07,321 [-thread-10] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1233.BAI180616072042.0007.TDAMICA
+07:25:07,330 [-thread-10] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30589
+07:25:07,380 [-thread-13] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30582 will be placed into orgid directory TFR_1233
+07:25:07,382 [8-thread-1] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30581 will be placed into orgid directory TFR_1232
+07:25:07,382 [8-thread-2] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30579 will be placed into orgid directory TFR_1231
+07:25:07,401 [-thread-12] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.ZEIN_CNG.BAI180616072044.0007.TDAMICA
+07:25:07,406 [-thread-12] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30591
+07:25:07,436 [8-thread-4] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30576
+07:25:07,481 [-thread-17] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30599
+07:25:07,488 [8-thread-8] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30571
+07:25:07,529 [-thread-10] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30589
+07:25:07,566 [-thread-17] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30599
+07:25:07,609 [-thread-12] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30591
+07:25:07,612 [-thread-18] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30608
+07:25:07,617 [-thread-19] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30613
+07:25:07,650 [8-thread-7] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30588
+07:25:07,710 [-thread-16] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.WIDI_TNG.BAI180616072049.0015.TDAMICA
+07:25:07,718 [-thread-16] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30616
+07:25:07,725 [-thread-10] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30589 will be placed into orgid directory ZEIN_CNG
+07:25:07,754 [-thread-18] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30608
+07:25:07,788 [-thread-19] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30613
+07:25:07,842 [-thread-12] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30591 will be placed into orgid directory 11111111
+07:25:07,842 [-thread-18] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30608 will be placed into orgid directory WIDI_TNG
+07:25:07,852 [-thread-15] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.Test1aax.BAI180616072047.0008.TDAMICA
+07:25:07,866 [-thread-19] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30613 will be placed into orgid directory FORD_MNG
+07:25:07,866 [8-thread-7] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30588 will be placed into orgid directory HILT_CNG
+07:25:07,912 [8-thread-1] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1232.BAI180616072052.0008.TDAMICA
+07:25:07,921 [8-thread-1] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30618
+07:25:07,921 [-thread-15] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30619
+07:25:07,978 [-thread-13] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1233.BAI180616072053.0008.TDAMICA
+07:25:07,986 [-thread-13] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30625
+07:25:08,056 [8-thread-2] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1231.BAI180616072052.0008.TDAMICA
+07:25:08,065 [8-thread-2] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30626
+07:25:08,146 [-thread-19] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.FORD_MNG.BAI180616072103.0009.TDAMICA
+07:25:08,152 [-thread-19] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30628
+07:25:08,220 [8-thread-7] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.HILT_CNG.BAI180616072054.0008.TDAMICA
+07:25:08,228 [8-thread-7] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30636
+07:25:08,266 [-thread-13] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30625
+07:25:08,306 [-thread-15] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30619
+07:25:08,346 [8-thread-1] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30618
+07:25:08,410 [-thread-10] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.ZEIN_CNG.BAI180616072055.0008.TDAMICA
+07:25:08,420 [-thread-10] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30644
+07:25:08,456 [-thread-16] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30616
+07:25:08,510 [-thread-15] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30619 will be placed into orgid directory TFR_1233
+07:25:08,512 [-thread-13] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30625 will be placed into orgid directory HILT_CNG
+07:25:08,512 [8-thread-1] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30618 will be placed into orgid directory TFR_1232
+07:25:08,512 [-thread-16] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30616 will be placed into orgid directory TFR_1231
+07:25:08,518 [-thread-18] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.WIDI_TNG.BAI180616072101.0018.TDAMICA
+07:25:08,526 [-thread-18] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30645
+07:25:08,581 [-thread-12] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.11111111.BAI180616072055.0009.TDAMICA
+07:25:08,589 [-thread-12] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30650
+07:25:08,621 [-thread-10] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30644
+07:25:08,632 [-thread-20] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30653
+07:25:08,660 [8-thread-7] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30636
+07:25:08,702 [-thread-19] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30628
+07:25:08,741 [-thread-20] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30653
+07:25:08,776 [8-thread-2] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30626
+07:25:08,830 [8-thread-7] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30636 will be placed into orgid directory Test1aax
+07:25:08,834 [-thread-19] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30628 will be placed into orgid directory 11111111
+07:25:08,866 [-thread-16] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1231.BAI180616072104.0009.TDAMICA
+07:25:08,872 [-thread-16] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30655
+07:25:08,932 [-thread-15] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1233.BAI180616072105.0009.TDAMICA
+07:25:08,938 [-thread-15] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30656
+07:25:08,952 [-thread-20] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30653 will be placed into orgid directory TFR_1231
+07:25:08,998 [8-thread-1] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1232.BAI180616072105.0009.TDAMICA
+07:25:08,999 [8-thread-2] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30626 will be placed into orgid directory ZEIN_CNG
+07:25:09,006 [8-thread-1] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30662
+07:25:09,062 [-thread-13] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.HILT_CNG.BAI180616072108.0009.TDAMICA
+07:25:09,069 [-thread-13] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30663
+07:25:09,106 [-thread-12] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30650
+07:25:09,145 [-thread-18] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30645
+07:25:09,212 [8-thread-2] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.ZEIN_CNG.BAI180616072108.0009.TDAMICA
+07:25:09,280 [-thread-12] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30650 will be placed into orgid directory FORD_MNG
+07:25:09,292 [-thread-20] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1231.BAI180616072117.0010.TDAMICA
+07:25:09,338 [-thread-13] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30663
+07:25:09,378 [8-thread-1] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30662
+07:25:09,436 [-thread-12] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.FORD_MNG.BAI180616072116.0010.TDAMICA
+07:25:09,484 [-thread-15] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30656
+07:25:09,521 [-thread-16] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30655
+07:25:09,528 [-thread-13] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30663 will be placed into orgid directory ZEIN_CNG
+07:25:09,528 [-thread-15] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30656 will be placed into orgid directory TFR_1233
+07:25:09,576 [8-thread-1] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30662 will be placed into orgid directory HILT_CNG
+07:25:09,576 [-thread-16] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30655 will be placed into orgid directory TFR_1232
+07:25:09,597 [-thread-19] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.11111111.BAI180616072109.0010.TDAMICA
+07:25:09,657 [8-thread-7] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.Test1aax.BAI180616072112.0010.TDAMICA
+07:25:09,725 [-thread-13] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.ZEIN_CNG.BAI180616072120.0010.TDAMICA
+07:25:09,788 [-thread-15] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1233.BAI180616072118.0010.TDAMICA
+07:25:09,850 [-thread-16] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.TFR_1232.BAI180616072118.0010.TDAMICA
+07:25:09,912 [8-thread-1] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.HILT_CNG.BAI180616072120.0010.TDAMICA
+07:30:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:30:01,348 [9-thread-1] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30443
+07:30:01,348 [9-thread-2] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30451
+07:30:01,349 [9-thread-3] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30460
+07:30:01,349 [9-thread-4] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30480
+07:30:01,350 [9-thread-5] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30534
+07:30:01,352 [9-thread-6] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30539
+07:30:01,353 [9-thread-7] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30571
+07:30:01,353 [9-thread-8] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30576
+07:30:01,353 [9-thread-9] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30599
+07:30:01,354 [-thread-10] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30644
+07:30:01,482 [9-thread-1] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30443
+07:30:01,557 [9-thread-2] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30451
+07:30:01,557 [9-thread-8] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30576
+07:30:01,597 [9-thread-3] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30460
+07:30:01,641 [9-thread-4] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30480
+07:30:01,670 [9-thread-5] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30534
+07:30:01,706 [9-thread-6] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30539
+07:30:01,706 [9-thread-1] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30443 will be placed into orgid directory 11111111
+07:30:01,707 [9-thread-2] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30451 will be placed into orgid directory Test1aax
+07:30:01,707 [9-thread-3] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30460 will be placed into orgid directory WIDI_TNG
+07:30:01,707 [9-thread-4] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30480 will be placed into orgid directory 11111111
+07:30:01,707 [9-thread-5] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30534 will be placed into orgid directory WIDI_TNG
+07:30:01,742 [9-thread-7] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30571
+07:30:01,749 [9-thread-8] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30576 will be placed into orgid directory FORD_MNG
+07:30:01,750 [9-thread-6] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30539 will be placed into orgid directory FORD_MNG
+07:30:01,777 [-thread-10] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30644
+07:30:01,814 [9-thread-9] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30599
+07:30:01,827 [-thread-10] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30644 will be placed into orgid directory WIDI_TNG
+07:30:01,835 [9-thread-7] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30571 will be placed into orgid directory WIDI_TNG
+07:30:01,953 [9-thread-6] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.FORD_MNG.BAI180616072040.0007.TDAMICA
+07:30:02,311 [-thread-10] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.WIDI_TNG.BAI180616072115.0019.TDAMICA
+07:30:02,346 [-thread-10] DEBUG service.ReportWorkerImpl         []- report id to be sent: 30645
+07:30:02,483 [9-thread-8] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.FORD_MNG.BAI180616072051.0008.TDAMICA
+07:30:02,537 [-thread-10] DEBUG service.ReportWorkerImpl         []- Report data exists for report id :30645
+07:30:04,984 [9-thread-9] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30599 will be placed into orgid directory Test1aax
+07:30:05,003 [-thread-10] DEBUG service.SFTPServiceImpl          []- Report with reportDetailId 30645 will be placed into orgid directory WIDI_TNG
+07:30:05,322 [9-thread-2] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.Test1aax.BAI180616072014.0005.TDAMICA
+07:30:05,487 [9-thread-1] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.11111111.BAI180616072012.0005.TDAMICA
+07:30:05,617 [9-thread-5] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.WIDI_TNG.BAI180616072038.0014.TDAMICA
+07:30:05,882 [9-thread-3] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.WIDI_TNG.BAI180616072016.0010.TDAMICA
+07:30:06,030 [9-thread-4] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.11111111.BAI180616072022.0006.TDAMICA
+07:30:06,291 [9-thread-7] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.WIDI_TNG.BAI180616072049.0016.TDAMICA
+07:30:06,442 [-thread-10] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.WIDI_TNG.BAI180616072115.0020.TDAMICA
+07:30:06,582 [9-thread-9] DEBUG dao.ReportDaoImpl                []- 1 row updated with report name: CCBGO.Test1aax.BAI180616072059.0009.TDAMICA
+07:35:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:40:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:45:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:50:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:55:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:00:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:05:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:10:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:15:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:20:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:25:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:30:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:35:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:40:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:45:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:50:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:55:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:00:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:05:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:10:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:15:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:20:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:25:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:30:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:35:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:40:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:45:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:50:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:55:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:00:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:05:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:10:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:15:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:20:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:25:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:30:00,003 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:35:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:40:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:45:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:50:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:55:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:00:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:05:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:10:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:15:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:20:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:25:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:30:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:35:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:40:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:45:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:50:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:55:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:00:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:05:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:10:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:15:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:20:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:25:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:30:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:35:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:40:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:45:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:50:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:55:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:00:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:05:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:10:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:15:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:20:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:25:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:30:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:35:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:40:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:45:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:50:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:55:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:00:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:05:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:10:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:15:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:20:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:25:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:30:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:35:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:40:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:45:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:50:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:55:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:00:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:05:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:10:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:15:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:20:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:25:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:30:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:35:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:40:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:45:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:50:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:55:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:00:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:05:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:10:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:15:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:20:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:25:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:30:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:35:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:40:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:45:00,002 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:50:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:55:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:00:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:05:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:10:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:15:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:20:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:25:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:30:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:35:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:40:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:45:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:50:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:55:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:00:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:05:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:10:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:15:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:20:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:25:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:30:00,002 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:35:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:40:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:45:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:50:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:55:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:00:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:05:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:10:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:15:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:20:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:25:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:30:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:35:00,001 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:40:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:45:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:50:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:55:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:00:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:05:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:10:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:15:00,001 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:20:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:25:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:30:00,001 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:35:00,001 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:40:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:45:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:50:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:55:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:00:00,001 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:05:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:10:00,001 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:15:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:20:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:25:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:30:00,002 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:35:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:40:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:45:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:50:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:55:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:00:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:05:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:10:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:15:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:20:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:25:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:30:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:35:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:40:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:45:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:50:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:55:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:00:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:05:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:10:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:15:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:20:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:25:00,000 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:30:00,001 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:35:00,000 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:40:00,000 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:45:00,001 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:50:00,000 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:55:00,000 [cheduler-5] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started

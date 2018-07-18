@@ -16,7 +16,7 @@ public class AppTest {
 	
 	String newline = StringUtils.LF;
 	String ls = StringUtils.CR + StringUtils.LF;
-	
+
 	/**
 	 * Rigorous Test :-)
 	 */
@@ -68,7 +68,7 @@ public class AppTest {
  
         assertEquals(expectedReport,generatedReport);
 	}
-	
+
 	@Test
 	public void testFormat() {
 		String input = "Hello" + newline
@@ -79,4 +79,5 @@ public class AppTest {
 				+ "World";
 		assertEquals(expected, App.format(input));
 	}
+
 }

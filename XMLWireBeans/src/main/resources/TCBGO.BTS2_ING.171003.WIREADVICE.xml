@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ComericaTreasuryVer1.xsd">
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-171003100018</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-171003100018</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>072000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>2017-10-03</PostedDt>
+					<CurAmt>
+						<Amt>200.64</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<Beneficiary>1850554666, VALUED CUSTOMER</Beneficiary>
+					<Originator>******8859, MI TEST CUSTOMER 318</Originator>
+					<OriginatortoBeneficiaryInfo>RFB=6060563
+					</OriginatortoBeneficiaryInfo>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+</CMA>

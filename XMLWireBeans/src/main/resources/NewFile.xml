@@ -1,0 +1,1935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMA>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-20170530977</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-20170530977</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Wed Dec 13 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>42921.08</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 STANDARD CHART</SendingBank>
+					<SendingBankReference>20170530977</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<BeneficiaryBank>BIC-123456789 COMERICA BANK 6260 E. MOCKINGBIRD
+						LANEFLOOR 2 DALLASTXUS</BeneficiaryBank>
+					<Beneficiary>ACCT-1850000002 NORTH INC2828 TROUT ST HOUSTON TX
+						77093 /UNITED STATES</Beneficiary>
+					<ReferenceForBeneficiary>ST999917053043</ReferenceForBeneficiary>
+					<Originator>ACCT-*******************3601 INTERNATIONALPLOT NO
+						5JEBEL SOUTH-DUBAI/UNITED ARAB EMIRATES</Originator>
+					<OriginatorsBank>BIC-123456789 STANDARD CHARTERED BANKSTANDARD
+						CHARTERED TOWER DOWNTOWN DUBAI DUBAIAE</OriginatorsBank>
+					<InstructingBank>BIC-123456789 STANDARD CHARTERED BANK DUBAI
+						TREASURY ACCOUNTTEST ROAD DUBAI U.A.E.</InstructingBank>
+					<OriginatorToBeneficiaryInfo>INV UP TO MAY
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$42921.08</Amount>
+					<AcceptanceTimestamp>05/30/2017 08:38</AcceptanceTimestamp>
+					<OMADInfo>2010G1QG90030083T01</OMADInfo>
+					<IMADInfo>20170530B1Q9282C00</IMADInfo>
+					<Charges>SUSD2800</Charges>
+					<InstructedAmount>USD4294908</InstructedAmount>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-S0671500401</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-S0671500401</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Wed Dec 13 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>2259.6</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 CITIBANK NA</SendingBank>
+					<SendingBankReference>S0671500401</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<Beneficiary>ACCT-1234567891/NORTH INC 2/PO BOX 1849 HOUSTON
+						3/US/PO BOX 1849 HOUSTON</Beneficiary>
+					<Originator>/SA5655000000000001 1/MAIN COMPANY LTD.2/TEST PAYMENT
+						CROSSING CHICKEN 2/MANSOUN ST. P O BOX 397 ABC MAIN3/SA/CROSSING
+						TEST</Originator>
+					<OriginatorsBank>BIC-1850000002</OriginatorsBank>
+					<OriginatorToBeneficiaryInfo>PAYMENT REF:1232456789
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$2259.60</Amount>
+					<AcceptanceTimestamp>05/29/2017 21:09</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C0000109FT01</OMADInfo>
+					<IMADInfo>20170530B1Q8021C007653</IMADInfo>
+					<Charges>TESTS00</Charges>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-S0671501384501</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-S0671501384501</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Wed Dec 13 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>257.6</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 CITIBANK NA</SendingBank>
+					<SendingBankReference>S0671501384501</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<Beneficiary>ACCT-0000000000123456789 1/ NORTH INC 2/DALLASS
+						3/US/DALLAS</Beneficiary>
+					<Originator>ACCT-****************61 TEST DE MEXICO AV EDZNA
+					</Originator>
+					<OriginatorsBank>BIC-123456789</OriginatorsBank>
+					<InstructingBank>BIC-123456789BANCO NACIONAL DE MEXICO MOUNTAINSIDE
+						TEST NO 80040 PISO NORTH SANTA FE CP 01210 MEXI</InstructingBank>
+					<OriginatorToBeneficiaryInfo>/RFB/APPLY TO INV 671 323 APPLY TO INV
+						789 671275 6713 23</OriginatorToBeneficiaryInfo>
+					<Amount>$257.60</Amount>
+					<AcceptanceTimestamp>05/29/2017 21:12</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C5292112FT01</OMADInfo>
+					<IMADInfo>20170530B1Q8010256</IMADInfo>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-FTJ1705300000166</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-FTJ1705300000166</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Thu Dec 14 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>3055.06</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456798 BK OF NYC</SendingBank>
+					<SendingBankReference>FTJ1705300000166</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA DALLAS</ReceivingBank>
+					<Beneficiary>ACCT-1850000002 NORTH INC 2828 TROUT ST HOUSTON UNITED
+						STATES OF AMERICA</Beneficiary>
+					<ReferenceForBeneficiary>123456789</ReferenceForBeneficiary>
+					<Originator>ABA-123456789INDUSTRIES 2002 INC 4308 AVENUE AB T6B2K3
+						C</Originator>
+					<OriginatorsBank>ACCT-1850000002 TEST LIMITED MARGARET ST SYDNEY
+						AUSTRALIA</OriginatorsBank>
+					<OriginatorToBeneficiaryInfo>669498/669884/670136/ 670286
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$3055.06</Amount>
+					<AcceptanceTimestamp>05/30/2017 06:45</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C000FT01</OMADInfo>
+					<IMADInfo>201705304C001592</IMADInfo>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-20170530977</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-20170530977</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Thu Dec 14 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>42921.08</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 STANDARD CHART</SendingBank>
+					<SendingBankReference>20170530977</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<BeneficiaryBank>BIC-123456789 COMERICA BANK 6260 E. MOCKINGBIRD
+						LANEFLOOR 2 DALLASTXUS</BeneficiaryBank>
+					<Beneficiary>ACCT-1850000002 NORTH INC2828 TROUT ST HOUSTON TX
+						77093 /UNITED STATES</Beneficiary>
+					<ReferenceForBeneficiary>ST999917053043</ReferenceForBeneficiary>
+					<Originator>ACCT-*******************3601 INTERNATIONALPLOT NO
+						5JEBEL SOUTH-DUBAI/UNITED ARAB EMIRATES</Originator>
+					<OriginatorsBank>BIC-123456789 STANDARD CHARTERED BANKSTANDARD
+						CHARTERED TOWER DOWNTOWN DUBAI DUBAIAE</OriginatorsBank>
+					<InstructingBank>BIC-123456789 STANDARD CHARTERED BANK DUBAI
+						TREASURY ACCOUNTTEST ROAD DUBAI U.A.E.</InstructingBank>
+					<OriginatorToBeneficiaryInfo>INV UP TO MAY
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$42921.08</Amount>
+					<AcceptanceTimestamp>05/30/2017 08:38</AcceptanceTimestamp>
+					<OMADInfo>2010G1QG90030083T01</OMADInfo>
+					<IMADInfo>20170530B1Q9282C00</IMADInfo>
+					<Charges>SUSD2800</Charges>
+					<InstructedAmount>USD4294908</InstructedAmount>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-S0671500401</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-S0671500401</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Thu Dec 14 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>2259.6</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 CITIBANK NA</SendingBank>
+					<SendingBankReference>S0671500401</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<Beneficiary>ACCT-1234567891/NORTH INC 2/PO BOX 1849 HOUSTON
+						3/US/PO BOX 1849 HOUSTON</Beneficiary>
+					<Originator>/SA5655000000000001 1/MAIN COMPANY LTD.2/TEST PAYMENT
+						CROSSING CHICKEN 2/MANSOUN ST. P O BOX 397 ABC MAIN3/SA/CROSSING
+						TEST</Originator>
+					<OriginatorsBank>BIC-1850000002</OriginatorsBank>
+					<OriginatorToBeneficiaryInfo>PAYMENT REF:1232456789
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$2259.60</Amount>
+					<AcceptanceTimestamp>05/29/2017 21:09</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C0000109FT01</OMADInfo>
+					<IMADInfo>20170530B1Q8021C007653</IMADInfo>
+					<Charges>TESTS00</Charges>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-S0671501384501</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-S0671501384501</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Thu Dec 14 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>257.6</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 CITIBANK NA</SendingBank>
+					<SendingBankReference>S0671501384501</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<Beneficiary>ACCT-0000000000123456789 1/ NORTH INC 2/DALLASS
+						3/US/DALLAS</Beneficiary>
+					<Originator>ACCT-****************61 TEST DE MEXICO AV EDZNA
+					</Originator>
+					<OriginatorsBank>BIC-123456789</OriginatorsBank>
+					<InstructingBank>BIC-123456789BANCO NACIONAL DE MEXICO MOUNTAINSIDE
+						TEST NO 80040 PISO NORTH SANTA FE CP 01210 MEXI</InstructingBank>
+					<OriginatorToBeneficiaryInfo>/RFB/APPLY TO INV 671 323 APPLY TO INV
+						789 671275 6713 23</OriginatorToBeneficiaryInfo>
+					<Amount>$257.60</Amount>
+					<AcceptanceTimestamp>05/29/2017 21:12</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C5292112FT01</OMADInfo>
+					<IMADInfo>20170530B1Q8010256</IMADInfo>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-FTJ1705300000166</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-FTJ1705300000166</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Thu Dec 14 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>3055.06</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456798 BK OF NYC</SendingBank>
+					<SendingBankReference>FTJ1705300000166</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA DALLAS</ReceivingBank>
+					<Beneficiary>ACCT-1850000002 NORTH INC 2828 TROUT ST HOUSTON UNITED
+						STATES OF AMERICA</Beneficiary>
+					<ReferenceForBeneficiary>123456789</ReferenceForBeneficiary>
+					<Originator>ABA-123456789INDUSTRIES 2002 INC 4308 AVENUE AB T6B2K3
+						C</Originator>
+					<OriginatorsBank>ACCT-1850000002 TEST LIMITED MARGARET ST SYDNEY
+						AUSTRALIA</OriginatorsBank>
+					<OriginatorToBeneficiaryInfo>669498/669884/670136/ 670286
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$3055.06</Amount>
+					<AcceptanceTimestamp>05/30/2017 06:45</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C000FT01</OMADInfo>
+					<IMADInfo>201705304C001592</IMADInfo>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-20170530977</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-20170530977</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Thu Dec 14 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>42921.08</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 STANDARD CHART</SendingBank>
+					<SendingBankReference>20170530977</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<BeneficiaryBank>BIC-123456789 COMERICA BANK 6260 E. MOCKINGBIRD
+						LANEFLOOR 2 DALLASTXUS</BeneficiaryBank>
+					<Beneficiary>ACCT-1850000002 NORTH INC2828 TROUT ST HOUSTON TX
+						77093 /UNITED STATES</Beneficiary>
+					<ReferenceForBeneficiary>ST999917053043</ReferenceForBeneficiary>
+					<Originator>ACCT-*******************3601 INTERNATIONALPLOT NO
+						5JEBEL SOUTH-DUBAI/UNITED ARAB EMIRATES</Originator>
+					<OriginatorsBank>BIC-123456789 STANDARD CHARTERED BANKSTANDARD
+						CHARTERED TOWER DOWNTOWN DUBAI DUBAIAE</OriginatorsBank>
+					<InstructingBank>BIC-123456789 STANDARD CHARTERED BANK DUBAI
+						TREASURY ACCOUNTTEST ROAD DUBAI U.A.E.</InstructingBank>
+					<OriginatorToBeneficiaryInfo>INV UP TO MAY
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$42921.08</Amount>
+					<AcceptanceTimestamp>05/30/2017 08:38</AcceptanceTimestamp>
+					<OMADInfo>2010G1QG90030083T01</OMADInfo>
+					<IMADInfo>20170530B1Q9282C00</IMADInfo>
+					<Charges>SUSD2800</Charges>
+					<InstructedAmount>USD4294908</InstructedAmount>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-S0671500401</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-S0671500401</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Thu Dec 14 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>2259.6</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 CITIBANK NA</SendingBank>
+					<SendingBankReference>S0671500401</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<Beneficiary>ACCT-1234567891/NORTH INC 2/PO BOX 1849 HOUSTON
+						3/US/PO BOX 1849 HOUSTON</Beneficiary>
+					<Originator>/SA5655000000000001 1/MAIN COMPANY LTD.2/TEST PAYMENT
+						CROSSING CHICKEN 2/MANSOUN ST. P O BOX 397 ABC MAIN3/SA/CROSSING
+						TEST</Originator>
+					<OriginatorsBank>BIC-1850000002</OriginatorsBank>
+					<OriginatorToBeneficiaryInfo>PAYMENT REF:1232456789
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$2259.60</Amount>
+					<AcceptanceTimestamp>05/29/2017 21:09</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C0000109FT01</OMADInfo>
+					<IMADInfo>20170530B1Q8021C007653</IMADInfo>
+					<Charges>TESTS00</Charges>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-S0671501384501</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-S0671501384501</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Thu Dec 14 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>257.6</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 CITIBANK NA</SendingBank>
+					<SendingBankReference>S0671501384501</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<Beneficiary>ACCT-0000000000123456789 1/ NORTH INC 2/DALLASS
+						3/US/DALLAS</Beneficiary>
+					<Originator>ACCT-****************61 TEST DE MEXICO AV EDZNA
+					</Originator>
+					<OriginatorsBank>BIC-123456789</OriginatorsBank>
+					<InstructingBank>BIC-123456789BANCO NACIONAL DE MEXICO MOUNTAINSIDE
+						TEST NO 80040 PISO NORTH SANTA FE CP 01210 MEXI</InstructingBank>
+					<OriginatorToBeneficiaryInfo>/RFB/APPLY TO INV 671 323 APPLY TO INV
+						789 671275 6713 23</OriginatorToBeneficiaryInfo>
+					<Amount>$257.60</Amount>
+					<AcceptanceTimestamp>05/29/2017 21:12</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C5292112FT01</OMADInfo>
+					<IMADInfo>20170530B1Q8010256</IMADInfo>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-FTJ1705300000166</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-FTJ1705300000166</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Fri Dec 15 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>3055.06</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456798 BK OF NYC</SendingBank>
+					<SendingBankReference>FTJ1705300000166</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA DALLAS</ReceivingBank>
+					<Beneficiary>ACCT-1850000002 NORTH INC 2828 TROUT ST HOUSTON UNITED
+						STATES OF AMERICA</Beneficiary>
+					<ReferenceForBeneficiary>123456789</ReferenceForBeneficiary>
+					<Originator>ABA-123456789INDUSTRIES 2002 INC 4308 AVENUE AB T6B2K3
+						C</Originator>
+					<OriginatorsBank>ACCT-1850000002 TEST LIMITED MARGARET ST SYDNEY
+						AUSTRALIA</OriginatorsBank>
+					<OriginatorToBeneficiaryInfo>669498/669884/670136/ 670286
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$3055.06</Amount>
+					<AcceptanceTimestamp>05/30/2017 06:45</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C000FT01</OMADInfo>
+					<IMADInfo>201705304C001592</IMADInfo>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-20170530977</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-20170530977</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Fri Dec 15 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>42921.08</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 STANDARD CHART</SendingBank>
+					<SendingBankReference>20170530977</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<BeneficiaryBank>BIC-123456789 COMERICA BANK 6260 E. MOCKINGBIRD
+						LANEFLOOR 2 DALLASTXUS</BeneficiaryBank>
+					<Beneficiary>ACCT-1850000002 NORTH INC2828 TROUT ST HOUSTON TX
+						77093 /UNITED STATES</Beneficiary>
+					<ReferenceForBeneficiary>ST999917053043</ReferenceForBeneficiary>
+					<Originator>ACCT-*******************3601 INTERNATIONALPLOT NO
+						5JEBEL SOUTH-DUBAI/UNITED ARAB EMIRATES</Originator>
+					<OriginatorsBank>BIC-123456789 STANDARD CHARTERED BANKSTANDARD
+						CHARTERED TOWER DOWNTOWN DUBAI DUBAIAE</OriginatorsBank>
+					<InstructingBank>BIC-123456789 STANDARD CHARTERED BANK DUBAI
+						TREASURY ACCOUNTTEST ROAD DUBAI U.A.E.</InstructingBank>
+					<OriginatorToBeneficiaryInfo>INV UP TO MAY
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$42921.08</Amount>
+					<AcceptanceTimestamp>05/30/2017 08:38</AcceptanceTimestamp>
+					<OMADInfo>2010G1QG90030083T01</OMADInfo>
+					<IMADInfo>20170530B1Q9282C00</IMADInfo>
+					<Charges>SUSD2800</Charges>
+					<InstructedAmount>USD4294908</InstructedAmount>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-S0671500401</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-S0671500401</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Fri Dec 15 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>2259.6</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 CITIBANK NA</SendingBank>
+					<SendingBankReference>S0671500401</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<Beneficiary>ACCT-1234567891/NORTH INC 2/PO BOX 1849 HOUSTON
+						3/US/PO BOX 1849 HOUSTON</Beneficiary>
+					<Originator>/SA5655000000000001 1/MAIN COMPANY LTD.2/TEST PAYMENT
+						CROSSING CHICKEN 2/MANSOUN ST. P O BOX 397 ABC MAIN3/SA/CROSSING
+						TEST</Originator>
+					<OriginatorsBank>BIC-1850000002</OriginatorsBank>
+					<OriginatorToBeneficiaryInfo>PAYMENT REF:1232456789
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$2259.60</Amount>
+					<AcceptanceTimestamp>05/29/2017 21:09</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C0000109FT01</OMADInfo>
+					<IMADInfo>20170530B1Q8021C007653</IMADInfo>
+					<Charges>TESTS00</Charges>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-S0671501384501</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-S0671501384501</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Fri Dec 15 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>257.6</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 CITIBANK NA</SendingBank>
+					<SendingBankReference>S0671501384501</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<Beneficiary>ACCT-0000000000123456789 1/ NORTH INC 2/DALLASS
+						3/US/DALLAS</Beneficiary>
+					<Originator>ACCT-****************61 TEST DE MEXICO AV EDZNA
+					</Originator>
+					<OriginatorsBank>BIC-123456789</OriginatorsBank>
+					<InstructingBank>BIC-123456789BANCO NACIONAL DE MEXICO MOUNTAINSIDE
+						TEST NO 80040 PISO NORTH SANTA FE CP 01210 MEXI</InstructingBank>
+					<OriginatorToBeneficiaryInfo>/RFB/APPLY TO INV 671 323 APPLY TO INV
+						789 671275 6713 23</OriginatorToBeneficiaryInfo>
+					<Amount>$257.60</Amount>
+					<AcceptanceTimestamp>05/29/2017 21:12</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C5292112FT01</OMADInfo>
+					<IMADInfo>20170530B1Q8010256</IMADInfo>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-FTJ1705300000166</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-FTJ1705300000166</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Fri Dec 15 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>3055.06</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456798 BK OF NYC</SendingBank>
+					<SendingBankReference>FTJ1705300000166</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA DALLAS</ReceivingBank>
+					<Beneficiary>ACCT-1850000002 NORTH INC 2828 TROUT ST HOUSTON UNITED
+						STATES OF AMERICA</Beneficiary>
+					<ReferenceForBeneficiary>123456789</ReferenceForBeneficiary>
+					<Originator>ABA-123456789INDUSTRIES 2002 INC 4308 AVENUE AB T6B2K3
+						C</Originator>
+					<OriginatorsBank>ACCT-1850000002 TEST LIMITED MARGARET ST SYDNEY
+						AUSTRALIA</OriginatorsBank>
+					<OriginatorToBeneficiaryInfo>669498/669884/670136/ 670286
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$3055.06</Amount>
+					<AcceptanceTimestamp>05/30/2017 06:45</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C000FT01</OMADInfo>
+					<IMADInfo>201705304C001592</IMADInfo>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-20170530977</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-20170530977</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Fri Dec 15 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>42921.08</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 STANDARD CHART</SendingBank>
+					<SendingBankReference>20170530977</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<BeneficiaryBank>BIC-123456789 COMERICA BANK 6260 E. MOCKINGBIRD
+						LANEFLOOR 2 DALLASTXUS</BeneficiaryBank>
+					<Beneficiary>ACCT-1850000002 NORTH INC2828 TROUT ST HOUSTON TX
+						77093 /UNITED STATES</Beneficiary>
+					<ReferenceForBeneficiary>ST999917053043</ReferenceForBeneficiary>
+					<Originator>ACCT-*******************3601 INTERNATIONALPLOT NO
+						5JEBEL SOUTH-DUBAI/UNITED ARAB EMIRATES</Originator>
+					<OriginatorsBank>BIC-123456789 STANDARD CHARTERED BANKSTANDARD
+						CHARTERED TOWER DOWNTOWN DUBAI DUBAIAE</OriginatorsBank>
+					<InstructingBank>BIC-123456789 STANDARD CHARTERED BANK DUBAI
+						TREASURY ACCOUNTTEST ROAD DUBAI U.A.E.</InstructingBank>
+					<OriginatorToBeneficiaryInfo>INV UP TO MAY
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$42921.08</Amount>
+					<AcceptanceTimestamp>05/30/2017 08:38</AcceptanceTimestamp>
+					<OMADInfo>2010G1QG90030083T01</OMADInfo>
+					<IMADInfo>20170530B1Q9282C00</IMADInfo>
+					<Charges>SUSD2800</Charges>
+					<InstructedAmount>USD4294908</InstructedAmount>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-S0671500401</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-S0671500401</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Fri Dec 15 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>2259.6</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 CITIBANK NA</SendingBank>
+					<SendingBankReference>S0671500401</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<Beneficiary>ACCT-1234567891/NORTH INC 2/PO BOX 1849 HOUSTON
+						3/US/PO BOX 1849 HOUSTON</Beneficiary>
+					<Originator>/SA5655000000000001 1/MAIN COMPANY LTD.2/TEST PAYMENT
+						CROSSING CHICKEN 2/MANSOUN ST. P O BOX 397 ABC MAIN3/SA/CROSSING
+						TEST</Originator>
+					<OriginatorsBank>BIC-1850000002</OriginatorsBank>
+					<OriginatorToBeneficiaryInfo>PAYMENT REF:1232456789
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$2259.60</Amount>
+					<AcceptanceTimestamp>05/29/2017 21:09</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C0000109FT01</OMADInfo>
+					<IMADInfo>20170530B1Q8021C007653</IMADInfo>
+					<Charges>TESTS00</Charges>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-S0671501384501</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-S0671501384501</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Fri Dec 15 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>257.6</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 CITIBANK NA</SendingBank>
+					<SendingBankReference>S0671501384501</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<Beneficiary>ACCT-0000000000123456789 1/ NORTH INC 2/DALLASS
+						3/US/DALLAS</Beneficiary>
+					<Originator>ACCT-****************61 TEST DE MEXICO AV EDZNA
+					</Originator>
+					<OriginatorsBank>BIC-123456789</OriginatorsBank>
+					<InstructingBank>BIC-123456789BANCO NACIONAL DE MEXICO MOUNTAINSIDE
+						TEST NO 80040 PISO NORTH SANTA FE CP 01210 MEXI</InstructingBank>
+					<OriginatorToBeneficiaryInfo>/RFB/APPLY TO INV 671 323 APPLY TO INV
+						789 671275 6713 23</OriginatorToBeneficiaryInfo>
+					<Amount>$257.60</Amount>
+					<AcceptanceTimestamp>05/29/2017 21:12</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C5292112FT01</OMADInfo>
+					<IMADInfo>20170530B1Q8010256</IMADInfo>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-FTJ1705300000166</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-FTJ1705300000166</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Mon Dec 18 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>3055.06</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456798 BK OF NYC</SendingBank>
+					<SendingBankReference>FTJ1705300000166</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA DALLAS</ReceivingBank>
+					<Beneficiary>ACCT-1850000002 NORTH INC 2828 TROUT ST HOUSTON UNITED
+						STATES OF AMERICA</Beneficiary>
+					<ReferenceForBeneficiary>123456789</ReferenceForBeneficiary>
+					<Originator>ABA-123456789INDUSTRIES 2002 INC 4308 AVENUE AB T6B2K3
+						C</Originator>
+					<OriginatorsBank>ACCT-1850000002 TEST LIMITED MARGARET ST SYDNEY
+						AUSTRALIA</OriginatorsBank>
+					<OriginatorToBeneficiaryInfo>669498/669884/670136/ 670286
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$3055.06</Amount>
+					<AcceptanceTimestamp>05/30/2017 06:45</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C000FT01</OMADInfo>
+					<IMADInfo>201705304C001592</IMADInfo>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-20170530977</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-20170530977</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Mon Dec 18 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>42921.08</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 STANDARD CHART</SendingBank>
+					<SendingBankReference>20170530977</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<BeneficiaryBank>BIC-123456789 COMERICA BANK 6260 E. MOCKINGBIRD
+						LANEFLOOR 2 DALLASTXUS</BeneficiaryBank>
+					<Beneficiary>ACCT-1850000002 NORTH INC2828 TROUT ST HOUSTON TX
+						77093 /UNITED STATES</Beneficiary>
+					<ReferenceForBeneficiary>ST999917053043</ReferenceForBeneficiary>
+					<Originator>ACCT-*******************3601 INTERNATIONALPLOT NO
+						5JEBEL SOUTH-DUBAI/UNITED ARAB EMIRATES</Originator>
+					<OriginatorsBank>BIC-123456789 STANDARD CHARTERED BANKSTANDARD
+						CHARTERED TOWER DOWNTOWN DUBAI DUBAIAE</OriginatorsBank>
+					<InstructingBank>BIC-123456789 STANDARD CHARTERED BANK DUBAI
+						TREASURY ACCOUNTTEST ROAD DUBAI U.A.E.</InstructingBank>
+					<OriginatorToBeneficiaryInfo>INV UP TO MAY
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$42921.08</Amount>
+					<AcceptanceTimestamp>05/30/2017 08:38</AcceptanceTimestamp>
+					<OMADInfo>2010G1QG90030083T01</OMADInfo>
+					<IMADInfo>20170530B1Q9282C00</IMADInfo>
+					<Charges>SUSD2800</Charges>
+					<InstructedAmount>USD4294908</InstructedAmount>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-S0671500401</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-S0671500401</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Mon Dec 18 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>2259.6</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 CITIBANK NA</SendingBank>
+					<SendingBankReference>S0671500401</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<Beneficiary>ACCT-1234567891/NORTH INC 2/PO BOX 1849 HOUSTON
+						3/US/PO BOX 1849 HOUSTON</Beneficiary>
+					<Originator>/SA5655000000000001 1/MAIN COMPANY LTD.2/TEST PAYMENT
+						CROSSING CHICKEN 2/MANSOUN ST. P O BOX 397 ABC MAIN3/SA/CROSSING
+						TEST</Originator>
+					<OriginatorsBank>BIC-1850000002</OriginatorsBank>
+					<OriginatorToBeneficiaryInfo>PAYMENT REF:1232456789
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$2259.60</Amount>
+					<AcceptanceTimestamp>05/29/2017 21:09</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C0000109FT01</OMADInfo>
+					<IMADInfo>20170530B1Q8021C007653</IMADInfo>
+					<Charges>TESTS00</Charges>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-S0671501384501</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-S0671501384501</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Mon Dec 18 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>257.6</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 CITIBANK NA</SendingBank>
+					<SendingBankReference>S0671501384501</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<Beneficiary>ACCT-0000000000123456789 1/ NORTH INC 2/DALLASS
+						3/US/DALLAS</Beneficiary>
+					<Originator>ACCT-****************61 TEST DE MEXICO AV EDZNA
+					</Originator>
+					<OriginatorsBank>BIC-123456789</OriginatorsBank>
+					<InstructingBank>BIC-123456789BANCO NACIONAL DE MEXICO MOUNTAINSIDE
+						TEST NO 80040 PISO NORTH SANTA FE CP 01210 MEXI</InstructingBank>
+					<OriginatorToBeneficiaryInfo>/RFB/APPLY TO INV 671 323 APPLY TO INV
+						789 671275 6713 23</OriginatorToBeneficiaryInfo>
+					<Amount>$257.60</Amount>
+					<AcceptanceTimestamp>05/29/2017 21:12</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C5292112FT01</OMADInfo>
+					<IMADInfo>20170530B1Q8010256</IMADInfo>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-FTJ1705300000166</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-FTJ1705300000166</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Mon Dec 18 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>3055.06</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456798 BK OF NYC</SendingBank>
+					<SendingBankReference>FTJ1705300000166</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA DALLAS</ReceivingBank>
+					<Beneficiary>ACCT-1850000002 NORTH INC 2828 TROUT ST HOUSTON UNITED
+						STATES OF AMERICA</Beneficiary>
+					<ReferenceForBeneficiary>123456789</ReferenceForBeneficiary>
+					<Originator>ABA-123456789INDUSTRIES 2002 INC 4308 AVENUE AB T6B2K3
+						C</Originator>
+					<OriginatorsBank>ACCT-1850000002 TEST LIMITED MARGARET ST SYDNEY
+						AUSTRALIA</OriginatorsBank>
+					<OriginatorToBeneficiaryInfo>669498/669884/670136/ 670286
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$3055.06</Amount>
+					<AcceptanceTimestamp>05/30/2017 06:45</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C000FT01</OMADInfo>
+					<IMADInfo>201705304C001592</IMADInfo>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-20170530977</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-20170530977</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Mon Dec 18 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>42921.08</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 STANDARD CHART</SendingBank>
+					<SendingBankReference>20170530977</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<BeneficiaryBank>BIC-123456789 COMERICA BANK 6260 E. MOCKINGBIRD
+						LANEFLOOR 2 DALLASTXUS</BeneficiaryBank>
+					<Beneficiary>ACCT-1850000002 NORTH INC2828 TROUT ST HOUSTON TX
+						77093 /UNITED STATES</Beneficiary>
+					<ReferenceForBeneficiary>ST999917053043</ReferenceForBeneficiary>
+					<Originator>ACCT-*******************3601 INTERNATIONALPLOT NO
+						5JEBEL SOUTH-DUBAI/UNITED ARAB EMIRATES</Originator>
+					<OriginatorsBank>BIC-123456789 STANDARD CHARTERED BANKSTANDARD
+						CHARTERED TOWER DOWNTOWN DUBAI DUBAIAE</OriginatorsBank>
+					<InstructingBank>BIC-123456789 STANDARD CHARTERED BANK DUBAI
+						TREASURY ACCOUNTTEST ROAD DUBAI U.A.E.</InstructingBank>
+					<OriginatorToBeneficiaryInfo>INV UP TO MAY
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$42921.08</Amount>
+					<AcceptanceTimestamp>05/30/2017 08:38</AcceptanceTimestamp>
+					<OMADInfo>2010G1QG90030083T01</OMADInfo>
+					<IMADInfo>20170530B1Q9282C00</IMADInfo>
+					<Charges>SUSD2800</Charges>
+					<InstructedAmount>USD4294908</InstructedAmount>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-S0671500401</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-S0671500401</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Mon Dec 18 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>2259.6</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 CITIBANK NA</SendingBank>
+					<SendingBankReference>S0671500401</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<Beneficiary>ACCT-1234567891/NORTH INC 2/PO BOX 1849 HOUSTON
+						3/US/PO BOX 1849 HOUSTON</Beneficiary>
+					<Originator>/SA5655000000000001 1/MAIN COMPANY LTD.2/TEST PAYMENT
+						CROSSING CHICKEN 2/MANSOUN ST. P O BOX 397 ABC MAIN3/SA/CROSSING
+						TEST</Originator>
+					<OriginatorsBank>BIC-1850000002</OriginatorsBank>
+					<OriginatorToBeneficiaryInfo>PAYMENT REF:1232456789
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$2259.60</Amount>
+					<AcceptanceTimestamp>05/29/2017 21:09</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C0000109FT01</OMADInfo>
+					<IMADInfo>20170530B1Q8021C007653</IMADInfo>
+					<Charges>TESTS00</Charges>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-S0671501384501</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-S0671501384501</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Mon Dec 18 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>257.6</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 CITIBANK NA</SendingBank>
+					<SendingBankReference>S0671501384501</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<Beneficiary>ACCT-0000000000123456789 1/ NORTH INC 2/DALLASS
+						3/US/DALLAS</Beneficiary>
+					<Originator>ACCT-****************61 TEST DE MEXICO AV EDZNA
+					</Originator>
+					<OriginatorsBank>BIC-123456789</OriginatorsBank>
+					<InstructingBank>BIC-123456789BANCO NACIONAL DE MEXICO MOUNTAINSIDE
+						TEST NO 80040 PISO NORTH SANTA FE CP 01210 MEXI</InstructingBank>
+					<OriginatorToBeneficiaryInfo>/RFB/APPLY TO INV 671 323 APPLY TO INV
+						789 671275 6713 23</OriginatorToBeneficiaryInfo>
+					<Amount>$257.60</Amount>
+					<AcceptanceTimestamp>05/29/2017 21:12</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C5292112FT01</OMADInfo>
+					<IMADInfo>20170530B1Q8010256</IMADInfo>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-FTJ1705300000166</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-FTJ1705300000166</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Tue Dec 19 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>3055.06</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456798 BK OF NYC</SendingBank>
+					<SendingBankReference>FTJ1705300000166</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA DALLAS</ReceivingBank>
+					<Beneficiary>ACCT-1850000002 NORTH INC 2828 TROUT ST HOUSTON UNITED
+						STATES OF AMERICA</Beneficiary>
+					<ReferenceForBeneficiary>123456789</ReferenceForBeneficiary>
+					<Originator>ABA-123456789INDUSTRIES 2002 INC 4308 AVENUE AB T6B2K3
+						C</Originator>
+					<OriginatorsBank>ACCT-1850000002 TEST LIMITED MARGARET ST SYDNEY
+						AUSTRALIA</OriginatorsBank>
+					<OriginatorToBeneficiaryInfo>669498/669884/670136/ 670286
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$3055.06</Amount>
+					<AcceptanceTimestamp>05/30/2017 06:45</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C000FT01</OMADInfo>
+					<IMADInfo>201705304C001592</IMADInfo>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-20170530977</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-20170530977</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Tue Dec 19 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>42921.08</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 STANDARD CHART</SendingBank>
+					<SendingBankReference>20170530977</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<BeneficiaryBank>BIC-123456789 COMERICA BANK 6260 E. MOCKINGBIRD
+						LANEFLOOR 2 DALLASTXUS</BeneficiaryBank>
+					<Beneficiary>ACCT-1850000002 NORTH INC2828 TROUT ST HOUSTON TX
+						77093 /UNITED STATES</Beneficiary>
+					<ReferenceForBeneficiary>ST999917053043</ReferenceForBeneficiary>
+					<Originator>ACCT-*******************3601 INTERNATIONALPLOT NO
+						5JEBEL SOUTH-DUBAI/UNITED ARAB EMIRATES</Originator>
+					<OriginatorsBank>BIC-123456789 STANDARD CHARTERED BANKSTANDARD
+						CHARTERED TOWER DOWNTOWN DUBAI DUBAIAE</OriginatorsBank>
+					<InstructingBank>BIC-123456789 STANDARD CHARTERED BANK DUBAI
+						TREASURY ACCOUNTTEST ROAD DUBAI U.A.E.</InstructingBank>
+					<OriginatorToBeneficiaryInfo>INV UP TO MAY
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$42921.08</Amount>
+					<AcceptanceTimestamp>05/30/2017 08:38</AcceptanceTimestamp>
+					<OMADInfo>2010G1QG90030083T01</OMADInfo>
+					<IMADInfo>20170530B1Q9282C00</IMADInfo>
+					<Charges>SUSD2800</Charges>
+					<InstructedAmount>USD4294908</InstructedAmount>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-S0671500401</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-S0671500401</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Tue Dec 19 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>2259.6</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 CITIBANK NA</SendingBank>
+					<SendingBankReference>S0671500401</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<Beneficiary>ACCT-1234567891/NORTH INC 2/PO BOX 1849 HOUSTON
+						3/US/PO BOX 1849 HOUSTON</Beneficiary>
+					<Originator>/SA5655000000000001 1/MAIN COMPANY LTD.2/TEST PAYMENT
+						CROSSING CHICKEN 2/MANSOUN ST. P O BOX 397 ABC MAIN3/SA/CROSSING
+						TEST</Originator>
+					<OriginatorsBank>BIC-1850000002</OriginatorsBank>
+					<OriginatorToBeneficiaryInfo>PAYMENT REF:1232456789
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$2259.60</Amount>
+					<AcceptanceTimestamp>05/29/2017 21:09</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C0000109FT01</OMADInfo>
+					<IMADInfo>20170530B1Q8021C007653</IMADInfo>
+					<Charges>TESTS00</Charges>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-S0671501384501</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-S0671501384501</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Tue Dec 19 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>257.6</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 CITIBANK NA</SendingBank>
+					<SendingBankReference>S0671501384501</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<Beneficiary>ACCT-0000000000123456789 1/ NORTH INC 2/DALLASS
+						3/US/DALLAS</Beneficiary>
+					<Originator>ACCT-****************61 TEST DE MEXICO AV EDZNA
+					</Originator>
+					<OriginatorsBank>BIC-123456789</OriginatorsBank>
+					<InstructingBank>BIC-123456789BANCO NACIONAL DE MEXICO MOUNTAINSIDE
+						TEST NO 80040 PISO NORTH SANTA FE CP 01210 MEXI</InstructingBank>
+					<OriginatorToBeneficiaryInfo>/RFB/APPLY TO INV 671 323 APPLY TO INV
+						789 671275 6713 23</OriginatorToBeneficiaryInfo>
+					<Amount>$257.60</Amount>
+					<AcceptanceTimestamp>05/29/2017 21:12</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C5292112FT01</OMADInfo>
+					<IMADInfo>20170530B1Q8010256</IMADInfo>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-FTJ1705300000166</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-FTJ1705300000166</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Tue Dec 19 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>3055.06</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456798 BK OF NYC</SendingBank>
+					<SendingBankReference>FTJ1705300000166</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA DALLAS</ReceivingBank>
+					<Beneficiary>ACCT-1850000002 NORTH INC 2828 TROUT ST HOUSTON UNITED
+						STATES OF AMERICA</Beneficiary>
+					<ReferenceForBeneficiary>123456789</ReferenceForBeneficiary>
+					<Originator>ABA-123456789INDUSTRIES 2002 INC 4308 AVENUE AB T6B2K3
+						C</Originator>
+					<OriginatorsBank>ACCT-1850000002 TEST LIMITED MARGARET ST SYDNEY
+						AUSTRALIA</OriginatorsBank>
+					<OriginatorToBeneficiaryInfo>669498/669884/670136/ 670286
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$3055.06</Amount>
+					<AcceptanceTimestamp>05/30/2017 06:45</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C000FT01</OMADInfo>
+					<IMADInfo>201705304C001592</IMADInfo>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-20170530977</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-20170530977</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Tue Dec 19 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>42921.08</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 STANDARD CHART</SendingBank>
+					<SendingBankReference>20170530977</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<BeneficiaryBank>BIC-123456789 COMERICA BANK 6260 E. MOCKINGBIRD
+						LANEFLOOR 2 DALLASTXUS</BeneficiaryBank>
+					<Beneficiary>ACCT-1850000002 NORTH INC2828 TROUT ST HOUSTON TX
+						77093 /UNITED STATES</Beneficiary>
+					<ReferenceForBeneficiary>ST999917053043</ReferenceForBeneficiary>
+					<Originator>ACCT-*******************3601 INTERNATIONALPLOT NO
+						5JEBEL SOUTH-DUBAI/UNITED ARAB EMIRATES</Originator>
+					<OriginatorsBank>BIC-123456789 STANDARD CHARTERED BANKSTANDARD
+						CHARTERED TOWER DOWNTOWN DUBAI DUBAIAE</OriginatorsBank>
+					<InstructingBank>BIC-123456789 STANDARD CHARTERED BANK DUBAI
+						TREASURY ACCOUNTTEST ROAD DUBAI U.A.E.</InstructingBank>
+					<OriginatorToBeneficiaryInfo>INV UP TO MAY
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$42921.08</Amount>
+					<AcceptanceTimestamp>05/30/2017 08:38</AcceptanceTimestamp>
+					<OMADInfo>2010G1QG90030083T01</OMADInfo>
+					<IMADInfo>20170530B1Q9282C00</IMADInfo>
+					<Charges>SUSD2800</Charges>
+					<InstructedAmount>USD4294908</InstructedAmount>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-S0671500401</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-S0671500401</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Tue Dec 19 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>2259.6</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 CITIBANK NA</SendingBank>
+					<SendingBankReference>S0671500401</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<Beneficiary>ACCT-1234567891/NORTH INC 2/PO BOX 1849 HOUSTON
+						3/US/PO BOX 1849 HOUSTON</Beneficiary>
+					<Originator>/SA5655000000000001 1/MAIN COMPANY LTD.2/TEST PAYMENT
+						CROSSING CHICKEN 2/MANSOUN ST. P O BOX 397 ABC MAIN3/SA/CROSSING
+						TEST</Originator>
+					<OriginatorsBank>BIC-1850000002</OriginatorsBank>
+					<OriginatorToBeneficiaryInfo>PAYMENT REF:1232456789
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$2259.60</Amount>
+					<AcceptanceTimestamp>05/29/2017 21:09</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C0000109FT01</OMADInfo>
+					<IMADInfo>20170530B1Q8021C007653</IMADInfo>
+					<Charges>TESTS00</Charges>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-S0671501384501</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-S0671501384501</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Tue Dec 19 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>257.6</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 CITIBANK NA</SendingBank>
+					<SendingBankReference>S0671501384501</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<Beneficiary>ACCT-0000000000123456789 1/ NORTH INC 2/DALLASS
+						3/US/DALLAS</Beneficiary>
+					<Originator>ACCT-****************61 TEST DE MEXICO AV EDZNA
+					</Originator>
+					<OriginatorsBank>BIC-123456789</OriginatorsBank>
+					<InstructingBank>BIC-123456789BANCO NACIONAL DE MEXICO MOUNTAINSIDE
+						TEST NO 80040 PISO NORTH SANTA FE CP 01210 MEXI</InstructingBank>
+					<OriginatorToBeneficiaryInfo>/RFB/APPLY TO INV 671 323 APPLY TO INV
+						789 671275 6713 23</OriginatorToBeneficiaryInfo>
+					<Amount>$257.60</Amount>
+					<AcceptanceTimestamp>05/29/2017 21:12</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C5292112FT01</OMADInfo>
+					<IMADInfo>20170530B1Q8010256</IMADInfo>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-FTJ1705300000166</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-FTJ1705300000166</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Wed Dec 20 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>3055.06</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456798 BK OF NYC</SendingBank>
+					<SendingBankReference>FTJ1705300000166</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA DALLAS</ReceivingBank>
+					<Beneficiary>ACCT-1850000002 NORTH INC 2828 TROUT ST HOUSTON UNITED
+						STATES OF AMERICA</Beneficiary>
+					<ReferenceForBeneficiary>123456789</ReferenceForBeneficiary>
+					<Originator>ABA-123456789INDUSTRIES 2002 INC 4308 AVENUE AB T6B2K3
+						C</Originator>
+					<OriginatorsBank>ACCT-1850000002 TEST LIMITED MARGARET ST SYDNEY
+						AUSTRALIA</OriginatorsBank>
+					<OriginatorToBeneficiaryInfo>669498/669884/670136/ 670286
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$3055.06</Amount>
+					<AcceptanceTimestamp>05/30/2017 06:45</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C000FT01</OMADInfo>
+					<IMADInfo>201705304C001592</IMADInfo>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-20170530977</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-20170530977</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Wed Dec 20 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>42921.08</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 STANDARD CHART</SendingBank>
+					<SendingBankReference>20170530977</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<BeneficiaryBank>BIC-123456789 COMERICA BANK 6260 E. MOCKINGBIRD
+						LANEFLOOR 2 DALLASTXUS</BeneficiaryBank>
+					<Beneficiary>ACCT-1850000002 NORTH INC2828 TROUT ST HOUSTON TX
+						77093 /UNITED STATES</Beneficiary>
+					<ReferenceForBeneficiary>ST999917053043</ReferenceForBeneficiary>
+					<Originator>ACCT-*******************3601 INTERNATIONALPLOT NO
+						5JEBEL SOUTH-DUBAI/UNITED ARAB EMIRATES</Originator>
+					<OriginatorsBank>BIC-123456789 STANDARD CHARTERED BANKSTANDARD
+						CHARTERED TOWER DOWNTOWN DUBAI DUBAIAE</OriginatorsBank>
+					<InstructingBank>BIC-123456789 STANDARD CHARTERED BANK DUBAI
+						TREASURY ACCOUNTTEST ROAD DUBAI U.A.E.</InstructingBank>
+					<OriginatorToBeneficiaryInfo>INV UP TO MAY
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$42921.08</Amount>
+					<AcceptanceTimestamp>05/30/2017 08:38</AcceptanceTimestamp>
+					<OMADInfo>2010G1QG90030083T01</OMADInfo>
+					<IMADInfo>20170530B1Q9282C00</IMADInfo>
+					<Charges>SUSD2800</Charges>
+					<InstructedAmount>USD4294908</InstructedAmount>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-S0671500401</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-S0671500401</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Wed Dec 20 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>2259.6</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 CITIBANK NA</SendingBank>
+					<SendingBankReference>S0671500401</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<Beneficiary>ACCT-1234567891/NORTH INC 2/PO BOX 1849 HOUSTON
+						3/US/PO BOX 1849 HOUSTON</Beneficiary>
+					<Originator>/SA5655000000000001 1/MAIN COMPANY LTD.2/TEST PAYMENT
+						CROSSING CHICKEN 2/MANSOUN ST. P O BOX 397 ABC MAIN3/SA/CROSSING
+						TEST</Originator>
+					<OriginatorsBank>BIC-1850000002</OriginatorsBank>
+					<OriginatorToBeneficiaryInfo>PAYMENT REF:1232456789
+					</OriginatorToBeneficiaryInfo>
+					<Amount>$2259.60</Amount>
+					<AcceptanceTimestamp>05/29/2017 21:09</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C0000109FT01</OMADInfo>
+					<IMADInfo>20170530B1Q8021C007653</IMADInfo>
+					<Charges>TESTS00</Charges>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-S0671501384501</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-S0671501384501</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1850554666</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>72000096</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>CREDIT</TrnType>
+					<PostedDt>Wed Dec 20 11:30:00 EST 2017</PostedDt>
+					<CurAmt>
+						<Amt>257.6</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<SendingBank>123456789 CITIBANK NA</SendingBank>
+					<SendingBankReference>S0671501384501</SendingBankReference>
+					<ReceivingBank>123456789 COMERICA BANK</ReceivingBank>
+					<Beneficiary>ACCT-0000000000123456789 1/ NORTH INC 2/DALLASS
+						3/US/DALLAS</Beneficiary>
+					<Originator>ACCT-****************61 TEST DE MEXICO AV EDZNA
+					</Originator>
+					<OriginatorsBank>BIC-123456789</OriginatorsBank>
+					<InstructingBank>BIC-123456789BANCO NACIONAL DE MEXICO MOUNTAINSIDE
+						TEST NO 80040 PISO NORTH SANTA FE CP 01210 MEXI</InstructingBank>
+					<OriginatorToBeneficiaryInfo>/RFB/APPLY TO INV 671 323 APPLY TO INV
+						789 671275 6713 23</OriginatorToBeneficiaryInfo>
+					<Amount>$257.60</Amount>
+					<AcceptanceTimestamp>05/29/2017 21:12</AcceptanceTimestamp>
+					<OMADInfo>20170530G1QG992C5292112FT01</OMADInfo>
+					<IMADInfo>20170530B1Q8010256</IMADInfo>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+</CMA>

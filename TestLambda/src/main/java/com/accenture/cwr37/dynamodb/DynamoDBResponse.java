@@ -3,7 +3,6 @@ package com.accenture.cwr37.dynamodb;
 import com.google.gson.Gson;
 
 public class DynamoDBResponse {
-	
 	private String message;
 	private String json;
 	private int count;
@@ -40,5 +39,5 @@ public class DynamoDBResponse {
 	public void setPayload(DynamoDBPayload payload) {
 		this.payload = payload;
 	}
-
+    
 }

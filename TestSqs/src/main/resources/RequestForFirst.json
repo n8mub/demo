@@ -1,0 +1,20 @@
+[
+    {
+        "fileId": "BAI2.AXSBAI2",
+        "unitOfWorkId": 6697
+    },
+    {
+        "fileId": "BAI2.CD401",
+        "unitOfWorkId": 61,
+        "accounts": [
+                        {
+                            "customerAccountNumber": "1840001174",
+                            "abaRoutingNumber": "072000096"
+                        },
+                        {
+                            "customerAccountNumber": "1840001174",
+                            "abaRoutingNumber": "111000753"
+                        }
+                    ]
+    }
+]

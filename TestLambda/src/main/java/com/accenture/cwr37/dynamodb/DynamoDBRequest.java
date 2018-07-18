@@ -14,7 +14,7 @@ public class DynamoDBRequest {
 	private Map<String, Object> objectMap;
 	private DynamoDBPayload payload;
 	
-	public String toString() {
+    public String toString() {
         final Gson gson = new GsonBuilder().setPrettyPrinting().create();
         return gson.toJson(this);
     }

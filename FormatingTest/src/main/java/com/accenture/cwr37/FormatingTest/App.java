@@ -16,8 +16,9 @@ public class App {
 	static String ls = StringUtils.CR + StringUtils.LF;
 	static String repeat = StringUtils.CR + StringUtils.CR;
 	public static void main(String[] args) {
-		LinkedList<File> files = (LinkedList<File>) FileUtils.listFiles(new File("src/main/resources"), new String[] {"txt","ftl"}, false);
+		LinkedList<File> files = (LinkedList<File>) FileUtils.listFiles(new File("src/main/resources"), new String[] {"log"}, false);
 		List<String> filetexts = new LinkedList<String>();
+		List<List<String>> linelist = new LinkedList<List<String>>();
 		for(File file : files) {
 			try {
 				List<String> lines = FileUtils.readLines(file, "UTF-8");
@@ -29,6 +30,7 @@ public class App {
 				}
 				System.out.println(lines.size());
 				filetexts.add(text);
+				linelist.add(lines);
 			} catch (IOException e) {
 				e.printStackTrace(System.err);
 			}

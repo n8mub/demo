@@ -1,0 +1,300 @@
+03:00:00,001 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:00:00,001 [cheduler-1] DEBUG scheduler.PullScheduler          []- scheduler start job
+03:00:00,571 [cheduler-1] DEBUG broker.EntitlerBrokerImpl        []- get entitlement start
+03:00:00,572 [cheduler-1] DEBUG broker.EntitlerBrokerImpl        []- Request sent with pathTraceId:-5422585858212581133
+03:00:07,615 [cheduler-1] DEBUG ice.EntitlementRecordServiceImpl []- start persistJsonEntitlement
+03:00:34,043 [cheduler-1] DEBUG service.FileTransferServiceImpl  []-  File generated successfully with list of OrgIDs...
+03:00:34,267 [cheduler-1] DEBUG service.FileTransferServiceImpl  []- OrgId file '/cma/tfr/scheduler/report/ABLRORGID.TXT' is successfully sent to Globalscape
+03:00:34,267 [cheduler-1] DEBUG scheduler.PullScheduler          []- scheduler job done 
+03:05:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:10:00,001 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:15:00,001 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:20:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:25:00,001 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:30:00,001 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:35:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:40:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:45:00,001 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:50:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+03:55:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:00:00,002 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:05:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:10:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:15:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:20:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:25:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:30:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:35:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:40:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:45:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:50:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+04:55:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:00:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:05:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:10:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:15:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:20:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:25:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:30:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:35:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:40:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:45:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:50:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+05:55:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:00:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:05:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:10:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:15:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:20:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:25:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:30:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:35:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:40:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:45:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:50:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+06:55:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:00:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:00:00,002 [cheduler-6] DEBUG scheduler.TextReportScheduler    []- TextReportScheduler start job
+07:00:00,865 [cheduler-6] ERROR service.CSVServiceImpl           []- Exception while CSV report parsing
+java.io.FileNotFoundException: /cma/tfr/scheduler/Informatica/TFR_REPORT.csv (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_65]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_65]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_65]
+	at java.io.FileReader.<init>(FileReader.java:72) ~[?:1.8.0_65]
+	at com.comerica.tfr.scheduler.reports.service.CSVServiceImpl.parseCSVForTextReportData(CSVServiceImpl.java:38) [TFRScheduler-1.0.40.jar:?]
+	at com.comerica.tfr.scheduler.reports.service.ReportGenerationPollerImpl.poll(ReportGenerationPollerImpl.java:96) [TFRScheduler-1.0.40.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_65]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333) [spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) [spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) [spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99) [spring-tx-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282) [spring-tx-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96) [spring-tx-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) [spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213) [spring-aop-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at com.sun.proxy.$Proxy107.poll(Unknown Source) [?:?]
+	at com.comerica.tfr.scheduler.TextReportScheduler.generateTextReports(TextReportScheduler.java:28) [TFRScheduler-1.0.40.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_65]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) [spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81) [spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_65]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_65]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_65]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_65]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_65]
+07:00:00,867 [cheduler-6] ERROR service.FileServiceImpl          []- Error moving file to /cma/tfr/scheduler/Informatica/error/java.nio.file.NoSuchFileException: /cma/tfr/scheduler/Informatica/TFR_REPORT.csv
+07:00:00,867 [cheduler-6] ERROR service.ReportGenerationPoller   []- Error moving file to /cma/tfr/scheduler/Informatica/error/
+07:00:00,874 [cheduler-6] ERROR scheduler.TextReportScheduler    []- Error while generating text report in TextReportScheduler.generateTextReports() com.comerica.tfr.scheduler.reports.exception.ReportGenerationException: Exception while fetching entitlement data for customer 
+07:00:00,874 [cheduler-6] DEBUG scheduler.TextReportScheduler    []- TextReportScheduler job done 
+07:05:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:10:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:15:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:20:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:25:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:30:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:35:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:40:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:45:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:50:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+07:55:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:00:00,001 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:05:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:10:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:15:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:20:00,001 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:25:00,001 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:30:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:35:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:40:00,000 [cheduler-3] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:45:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:50:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+08:55:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:00:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:05:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:10:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:15:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:20:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:25:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:30:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:35:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:40:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:45:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:50:00,000 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+09:55:00,001 [cheduler-9] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:00:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:05:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:10:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:15:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:20:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:25:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:30:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:35:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:40:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:45:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:50:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+10:55:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:00:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:05:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:10:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:15:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:20:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:25:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:30:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:35:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:40:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:45:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:50:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+11:55:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:00:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:05:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:10:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:15:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:20:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:25:00,001 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:30:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:35:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:40:00,000 [cheduler-2] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:45:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:50:00,001 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+12:55:00,001 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:00:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:05:00,002 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:10:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:15:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:20:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:25:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:30:00,001 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:35:00,000 [cheduler-1] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:40:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:45:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:50:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+13:55:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:00:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:05:00,002 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:10:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:15:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:20:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:25:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:30:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:35:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:40:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:45:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:50:00,002 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+14:55:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:00:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:05:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:10:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:15:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:20:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:25:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:30:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:35:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:40:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:45:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:50:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+15:55:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:00:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:05:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:10:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:15:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:20:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:25:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:30:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:35:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:40:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:45:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:50:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+16:55:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:00:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:05:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:10:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:15:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:20:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:25:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:30:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:35:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:40:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:45:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:50:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+17:55:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:00:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:05:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:10:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:15:00,002 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:20:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:25:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:30:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:35:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:40:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:45:00,002 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:50:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+18:55:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:00:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:05:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:10:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:15:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:20:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:25:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:30:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:35:00,001 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:40:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:45:00,000 [cheduler-6] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:50:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+19:55:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:00:00,002 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:05:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:10:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:15:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:20:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:25:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:30:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:35:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:40:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:45:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:50:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+20:55:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:00:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:05:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:10:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:15:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:20:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:25:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:30:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:35:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:40:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:45:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:50:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+21:55:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:00:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:05:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:10:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:15:00,002 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:20:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:25:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:30:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:35:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:40:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:45:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:50:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+22:55:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:00:00,002 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:05:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:10:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:15:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:20:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:25:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:30:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:35:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:40:00,000 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:45:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:50:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started
+23:55:00,001 [cheduler-7] DEBUG config.ReportSenderSchedule      []- ReportSenderSchedule Cron Process Started

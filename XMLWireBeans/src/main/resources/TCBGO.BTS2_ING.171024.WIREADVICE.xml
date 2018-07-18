@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ComericaTreasuryVer1.xsd">
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-171024520000</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-171024520000</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1811025061</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>067012099</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>DEBIT</TrnType>
+					<PostedDt>2017-10-24</PostedDt>
+					<CurAmt>
+						<Amt>24366008.53</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<NetworkRefId>110605</NetworkRefId>
+					<SendingBank>COMERICA BANK</SendingBank>
+					<SendingBankReference>171024520000</SendingBankReference>
+					<ReceivingBank>CHAS DE FX</ReceivingBank>
+					<WireAmount>
+						<Amt>20,000,007.0000</Amt>
+						<CurCode>EUR</CurCode>
+					</WireAmount>
+					<RateApplied>1.218300000</RateApplied>
+					<BeneficiaryBank>CHASDEFX</BeneficiaryBank>
+					<Beneficiary>\2222233, AUTOTESTER1, COMERICA1, 123, USA DE
+					</Beneficiary>
+					<Originator>\1811025061, DEVELOPMENT CORPORATION OF PALM BEA, 7593
+						BOYNTON BEACH BLVD, STE 220, BOYNTON BEACH, FL 33467</Originator>
+					<DetailofCharges>SHA</DetailofCharges>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+	<BankSvcRs>
+		<Status>
+			<StatusCode>0</StatusCode>
+			<Severity>Info</Severity>
+		</Status>
+		<RqUID>00000000-0000-0000-0000-171024520001</RqUID>
+		<DepAcctTrnInqRs>
+			<RqUID>00000000-0000-0000-0000-171024520001</RqUID>
+			<CustId>
+				<SPName>Comerica</SPName>
+				<CustPermId>BTS2_ING</CustPermId>
+			</CustId>
+			<DepAcctId>
+				<AcctId>1811025061</AcctId>
+				<AcctType>DDA</AcctType>
+				<BankInfo>
+					<BankIdType>ABA</BankIdType>
+					<BankId>067012099</BankId>
+				</BankInfo>
+			</DepAcctId>
+			<DepAcctTrnRec>
+				<BankAcctTrnRec>
+					<TrnType>DEBIT</TrnType>
+					<PostedDt>2017-10-24</PostedDt>
+					<CurAmt>
+						<Amt>24366008.53</Amt>
+						<CurCode>USD</CurCode>
+					</CurAmt>
+					<NetworkRefId>114010</NetworkRefId>
+					<SendingBank>COMERICA BANK</SendingBank>
+					<SendingBankReference>171024520001</SendingBankReference>
+					<ReceivingBank>CHAS DE FX</ReceivingBank>
+					<WireAmount>
+						<Amt>20,000,007.0000</Amt>
+						<CurCode>EUR</CurCode>
+					</WireAmount>
+					<RateApplied>1.218300000</RateApplied>
+					<BeneficiaryBank>CHASDEFX</BeneficiaryBank>
+					<Beneficiary>\2222233, AUTOTESTER1, COMERICA1, 123, USA DE
+					</Beneficiary>
+					<Originator>\1811025061, DEVELOPMENT CORPORATION OF PALM BEA, 7593
+						BOYNTON BEACH BLVD, STE 220, BOYNTON BEACH, FL 33467</Originator>
+					<DetailofCharges>SHA</DetailofCharges>
+				</BankAcctTrnRec>
+			</DepAcctTrnRec>
+		</DepAcctTrnInqRs>
+	</BankSvcRs>
+</CMA>

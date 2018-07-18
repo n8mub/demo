@@ -9,7 +9,6 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 public class Person implements DynamoDBPayload {
-	
 	public static final String DYNAMODB_TABLE_NAME = "Person";
 	private int id;
 	private String firstName;
@@ -62,5 +61,5 @@ public class Person implements DynamoDBPayload {
         				.withInt("age", this.getAge())
         				.withString("address", this.getAddress())));
 	}
-
+	
 }

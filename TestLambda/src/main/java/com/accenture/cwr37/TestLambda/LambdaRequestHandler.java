@@ -8,5 +8,4 @@ public class LambdaRequestHandler implements RequestHandler<String, String> {
         context.getLogger().log("Input: " + input);
         return "Hello World - " + input;
     }
-
 }
