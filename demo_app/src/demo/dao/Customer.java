@@ -2,7 +2,6 @@ package demo.dao;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
-import java.util.List;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
@@ -14,10 +13,12 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Root;
 
-import org.hibernate.Criteria;
 import org.hibernate.Session;
-import org.hibernate.criterion.Restrictions;
+import org.hibernate.query.Query;
 
 @Entity
 @Table(name="DEMO_CUSTOMERS")
@@ -167,14 +168,17 @@ public class Customer implements Serializable, Comparable<Customer> {
 	@JoinColumn(name="CUSTOMER_ID")
 	private SortedSet<Order> ordersList;
 	
-	@SuppressWarnings("unchecked")
 	public SortedSet<Order> getOrdersList() {
 		if(ordersList == null){
 			ordersList = new TreeSet<Order>();
-			Session session = HibernateUtil.getSessionFactory().getCurrentSession();
-			Criteria criteria = session.createCriteria(Order.class);
-			criteria.add(Restrictions.eq("order.customerID", this.customerID));
-			ordersList.addAll((List<Order>) criteria.list());
+			Session session = DBUtil.getSessionFactory().getCurrentSession();
+			CriteriaBuilder builder = session.getCriteriaBuilder();
+			CriteriaQuery<Order> criteria = builder.createQuery(Order.class);
+			Root<Order> root = criteria.from(Order.class);
+			criteria.where(builder.equal(root.get("order.customerID"), this.customerID));
+			criteria.select(root);
+			Query<Order> query = session.createQuery(criteria);
+			ordersList.addAll(query.getResultList());
 			session.close();
 		}
 		return ordersList;
