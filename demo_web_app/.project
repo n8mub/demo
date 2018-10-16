@@ -3,6 +3,7 @@
 	<name>demo_web_app</name>
 	<comment></comment>
 	<projects>
+		<project>demo_app</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

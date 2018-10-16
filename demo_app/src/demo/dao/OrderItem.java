@@ -11,6 +11,10 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import org.hibernate.Criteria;
+import org.hibernate.Session;
+import org.hibernate.criterion.Restrictions;
+
 @Entity
 @Table(name="DEMO_ORDER_ITEMS")
 public class OrderItem implements Serializable, Comparable<OrderItem> {
@@ -86,17 +90,21 @@ public class OrderItem implements Serializable, Comparable<OrderItem> {
 	
 	public Order getParentOrder() {
 		if(order == null){
-			order = new Order();
+			Session session = DBUtil.getSessionFactory().getCurrentSession();
+			Criteria criteria = session.createCriteria(Order.class);
+			criteria.add(Restrictions.eq("orderID", this.getOrderID()));
+			order = (Order) criteria.uniqueResult();
 		}
-		// TODO Auto-generated method stub
 		return order;
 	}
 	
 	public ProductInfo getParentProductInfo() {
 		if(productInfo == null){
-			productInfo = new ProductInfo();
+			Session session = DBUtil.getSessionFactory().getCurrentSession();
+			Criteria criteria = session.createCriteria(ProductInfo.class);
+			criteria.add(Restrictions.eq("productID", this.getProductID()));
+			productInfo = (ProductInfo) criteria.uniqueResult();
 		}
-		// TODO Auto-generated method stub
 		return productInfo;
 	}
 

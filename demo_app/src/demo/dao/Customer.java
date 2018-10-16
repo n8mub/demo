@@ -2,6 +2,7 @@ package demo.dao;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
+import java.util.List;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
@@ -17,8 +18,9 @@ import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 
+import org.hibernate.Criteria;
 import org.hibernate.Session;
-import org.hibernate.query.Query;
+import org.hibernate.criterion.Restrictions;
 
 @Entity
 @Table(name="DEMO_CUSTOMERS")
@@ -172,13 +174,9 @@ public class Customer implements Serializable, Comparable<Customer> {
 		if(ordersList == null){
 			ordersList = new TreeSet<Order>();
 			Session session = DBUtil.getSessionFactory().getCurrentSession();
-			CriteriaBuilder builder = session.getCriteriaBuilder();
-			CriteriaQuery<Order> criteria = builder.createQuery(Order.class);
-			Root<Order> root = criteria.from(Order.class);
-			criteria.where(builder.equal(root.get("order.customerID"), this.customerID));
-			criteria.select(root);
-			Query<Order> query = session.createQuery(criteria);
-			ordersList.addAll(query.getResultList());
+			Criteria criteria = session.createCriteria(Order.class);
+			criteria.add(Restrictions.eq("customerID", this.getCustomerID()));
+			ordersList.addAll((List<Order>) criteria.list());
 			session.close();
 		}
 		return ordersList;

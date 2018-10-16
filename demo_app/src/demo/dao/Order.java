@@ -3,6 +3,7 @@ package demo.dao;
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
+import java.util.List;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
@@ -15,6 +16,10 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+
+import org.hibernate.Criteria;
+import org.hibernate.Session;
+import org.hibernate.criterion.Restrictions;
 
 @Entity
 @Table(name="DEMO_ORDERS")
@@ -88,9 +93,11 @@ public class Order implements Serializable, Comparable<Order> {
 	
 	public Customer getParentCustomer() {
 		if(customer == null){
-			customer = new Customer();
+			Session session = DBUtil.getSessionFactory().getCurrentSession();
+			Criteria criteria = session.createCriteria(Customer.class);
+			criteria.add(Restrictions.eq("customerID", this.getCustomerID()));
+			customer = (Customer) criteria.uniqueResult();
 		}
-		// TODO Auto-generated method stub
 		return customer;
 	}
 	
@@ -101,9 +108,22 @@ public class Order implements Serializable, Comparable<Order> {
 	public SortedSet<OrderItem> getOderItemList() {
 		if(orderItemsList == null){
 			orderItemsList = new TreeSet<OrderItem>();
-			// TODO Auto-generated method stub
+			Session session = DBUtil.getSessionFactory().getCurrentSession();
+			Criteria criteria = session.createCriteria(OrderItem.class);
+			criteria.add(Restrictions.eq("orderID", this.getOrderID()));
+			orderItemsList.addAll((List<OrderItem>) criteria.list());
 		}
 		return orderItemsList;
+	}
+	
+	private SortedSet<ProductInfo> productList;
+
+	public SortedSet<ProductInfo> getProductList() {
+		if(productList == null) {
+			productList = new TreeSet<ProductInfo>();
+			getOderItemList().stream().forEach(orderItem -> productList.add(orderItem.getParentProductInfo()));
+		}
+		return productList;
 	}
 
 	@Override
