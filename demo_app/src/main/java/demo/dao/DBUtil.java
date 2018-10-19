@@ -9,7 +9,6 @@ public class DBUtil {
 	private static SessionFactory sessionFactory;
 
 	private DBUtil() {
-		// TODO Auto-generated constructor stub
 	}
 	
 	public static SessionFactory getSessionFactory(){

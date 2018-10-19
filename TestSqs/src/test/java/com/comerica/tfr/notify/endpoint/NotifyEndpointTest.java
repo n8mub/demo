@@ -29,7 +29,7 @@ import com.google.gson.JsonObject;
 
 import junit.framework.TestCase;
 
-//@RunWith(MockitoJUnitRunner.class)
+@RunWith(MockitoJUnitRunner.class)
 public class NotifyEndpointTest extends TestCase {
 	
 	private NotifyEndpoint notifyEndpoint = new NotifyEndpoint();
@@ -42,7 +42,7 @@ public class NotifyEndpointTest extends TestCase {
 		super.setUp();
 		notifyEndpoint.notifyService = new NotifyServiceImpl();
 		notifyEndpoint.pooling_for_messages = false;
-//		notifyEndpoint.sqs = Mockito.mock(AmazonSQS.class);
+		notifyEndpoint.sqs = Mockito.mock(AmazonSQS.class);
 		AWSCredentialsProvider credentials = new PropertiesFileCredentialsProvider("AWScredentials.properties");
 		notifyEndpoint.sqs = AmazonSQSClientBuilder.standard()
 		.withRegion(Regions.US_EAST_1)
@@ -90,10 +90,10 @@ public class NotifyEndpointTest extends TestCase {
 	public void testAddNotifications() throws TFRException {
 		String notify_queue_name = "NotifyQueue";
 		String notify_queue_url = "https://sqs.us-east-2.amazonaws.com/NotifyQueue";
-//		Mockito.when(notifyEndpoint.sqs.getQueueUrl(Mockito.anyString())).thenReturn(Mockito.mock(GetQueueUrlResult.class));
-//		Mockito.when(notifyEndpoint.sqs.getQueueUrl(notify_queue_name).getQueueUrl()).thenReturn(notify_queue_url);
-//		Mockito.when(notifyEndpoint.sqs.receiveMessage(Mockito.any(ReceiveMessageRequest.class))).thenReturn(Mockito.mock(ReceiveMessageResult.class));
-//		Mockito.when(notifyEndpoint.sqs.receiveMessage(Mockito.any(ReceiveMessageRequest.class)).getMessages()).thenReturn(notifty_messages);
+		Mockito.when(notifyEndpoint.sqs.getQueueUrl(Mockito.anyString())).thenReturn(Mockito.mock(GetQueueUrlResult.class));
+		Mockito.when(notifyEndpoint.sqs.getQueueUrl(notify_queue_name).getQueueUrl()).thenReturn(notify_queue_url);
+		Mockito.when(notifyEndpoint.sqs.receiveMessage(Mockito.any(ReceiveMessageRequest.class))).thenReturn(Mockito.mock(ReceiveMessageResult.class));
+		Mockito.when(notifyEndpoint.sqs.receiveMessage(Mockito.any(ReceiveMessageRequest.class)).getMessages()).thenReturn(notifty_messages);
 		assertTrue(notifyEndpoint.addNotifications());
 	}
 
@@ -101,10 +101,10 @@ public class NotifyEndpointTest extends TestCase {
 	public void testReportStatusNotification() throws TFRException {
 		String report_queue_name = "ReportQueue";
 		String report_queue_url = "https://sqs.us-east-2.amazonaws.com/ReportQueue";
-//		Mockito.when(notifyEndpoint.sqs.getQueueUrl(Mockito.anyString())).thenReturn(Mockito.mock(GetQueueUrlResult.class));
-//		Mockito.when(notifyEndpoint.sqs.getQueueUrl(report_queue_name).getQueueUrl()).thenReturn(report_queue_url);
-//		Mockito.when(notifyEndpoint.sqs.receiveMessage(Mockito.any(ReceiveMessageRequest.class))).thenReturn(Mockito.mock(ReceiveMessageResult.class));
-//		Mockito.when(notifyEndpoint.sqs.receiveMessage(Mockito.any(ReceiveMessageRequest.class)).getMessages()).thenReturn(report_messages);
+		Mockito.when(notifyEndpoint.sqs.getQueueUrl(Mockito.anyString())).thenReturn(Mockito.mock(GetQueueUrlResult.class));
+		Mockito.when(notifyEndpoint.sqs.getQueueUrl(report_queue_name).getQueueUrl()).thenReturn(report_queue_url);
+		Mockito.when(notifyEndpoint.sqs.receiveMessage(Mockito.any(ReceiveMessageRequest.class))).thenReturn(Mockito.mock(ReceiveMessageResult.class));
+		Mockito.when(notifyEndpoint.sqs.receiveMessage(Mockito.any(ReceiveMessageRequest.class)).getMessages()).thenReturn(report_messages);
 		assertTrue(notifyEndpoint.reportStatusNotification());
 	}
 	

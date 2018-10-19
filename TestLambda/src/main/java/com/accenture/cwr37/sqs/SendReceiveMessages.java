@@ -29,6 +29,7 @@ public class SendReceiveMessages {
 	
 	private static final String QUEUE_NAME = "testQueue" + new Date().getTime();
 	
+	@SuppressWarnings("unused")
 	public void sendReceiveMessages() {
 		AmazonSQS sqs = AmazonSQSClientBuilder.defaultClient();
 		try {

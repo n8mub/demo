@@ -22,33 +22,33 @@ import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
 
 @Entity
-@Table(name="DEMO_ORDERS")
+@Table(name = "DEMO_ORDERS")
 public class Order implements Serializable, Comparable<Order> {
-	
+
 	public static final String ORDER_ID = "ORDER_ID";
 	public static final String CUSTOMER_ID = "CUSTOMER_ID";
 	public static final String ORDER_TOTAL = "ORDER_TOTAL";
 	public static final String ORDER_TIMESTAMP = "ORDER_TIMESTAMP";
 	public static final String USER_ID = "USER_ID";
-	
+
 	private static final long serialVersionUID = 1L;
-	@Id @GeneratedValue
-	@Column(name="ORDER_ID")
+	@Id
+	@GeneratedValue
+	@Column(name = "ORDER_ID")
 	private Integer orderID;
-	@Column(name="CUSTOMER_ID")
+	@Column(name = "CUSTOMER_ID")
 	private Integer customerID;
-	@ManyToOne(fetch=FetchType.LAZY)
-	@JoinColumn(name="CUSTOMER_ID",table="DEMO_CUSTOMERS")
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name = "CUSTOMER_ID", table = "DEMO_CUSTOMERS")
 	private Customer customer;
-	@Column(name="ORDER_TOTAL",precision=8,scale=2)
+	@Column(name = "ORDER_TOTAL", precision = 8, scale = 2)
 	private BigDecimal orderTotal;
-	@Column(name="ORDER_TIMESTAMP")
+	@Column(name = "ORDER_TIMESTAMP")
 	private Timestamp orderTimestamp;
-	@Column(name="USER_ID")
+	@Column(name = "USER_ID")
 	private Integer userID;
 
 	public Order() {
-		// TODO Auto-generated constructor stub
 	}
 
 	public Integer getOrderID() {
@@ -90,9 +90,9 @@ public class Order implements Serializable, Comparable<Order> {
 	public void setUserID(Integer userID) {
 		this.userID = userID;
 	}
-	
+
 	public Customer getParentCustomer() {
-		if(customer == null){
+		if (customer == null) {
 			Session session = DBUtil.getSessionFactory().getCurrentSession();
 			Criteria criteria = session.createCriteria(Customer.class);
 			criteria.add(Restrictions.eq("customerID", this.getCustomerID()));
@@ -100,26 +100,31 @@ public class Order implements Serializable, Comparable<Order> {
 		}
 		return customer;
 	}
-	
-	@OneToMany(fetch=FetchType.LAZY,targetEntity=OrderItem.class)
-	@JoinColumn(name="ORDER_ID",table="DEMO_ORDER_ITEMS")
+
+	@OneToMany(fetch = FetchType.LAZY, targetEntity = OrderItem.class)
+	@JoinColumn(name = "ORDER_ID", table = "DEMO_ORDER_ITEMS")
 	private SortedSet<OrderItem> orderItemsList;
-	
+
+	@SuppressWarnings("unchecked")
 	public SortedSet<OrderItem> getOderItemList() {
-		if(orderItemsList == null){
-			orderItemsList = new TreeSet<OrderItem>();
-			Session session = DBUtil.getSessionFactory().getCurrentSession();
-			Criteria criteria = session.createCriteria(OrderItem.class);
-			criteria.add(Restrictions.eq("orderID", this.getOrderID()));
-			orderItemsList.addAll((List<OrderItem>) criteria.list());
+		if (orderItemsList == null) {
+			try {
+				orderItemsList = new TreeSet<OrderItem>();
+				Session session = DBUtil.getSessionFactory().getCurrentSession();
+				Criteria criteria = session.createCriteria(OrderItem.class);
+				criteria.add(Restrictions.eq("orderID", this.getOrderID()));
+				orderItemsList.addAll((List<OrderItem>) criteria.list());
+			} catch (Exception e) {
+				// TODO: handle exception
+			}
 		}
 		return orderItemsList;
 	}
-	
+
 	private SortedSet<ProductInfo> productList;
 
 	public SortedSet<ProductInfo> getProductList() {
-		if(productList == null) {
+		if (productList == null) {
 			productList = new TreeSet<ProductInfo>();
 			getOderItemList().stream().forEach(orderItem -> productList.add(orderItem.getParentProductInfo()));
 		}
@@ -128,12 +133,12 @@ public class Order implements Serializable, Comparable<Order> {
 
 	@Override
 	public int compareTo(Order order) {
-		if(order == null){
+		if (order == null) {
 			return -1;
 		}
 		return this.orderID.compareTo(order.orderID);
 	}
-	
+
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();

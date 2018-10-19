@@ -50,7 +50,6 @@ public class ProductInfo implements Serializable, Comparable<ProductInfo> {
 	private Timestamp lastUpdDt;
 
 	public ProductInfo() {
-		// TODO Auto-generated constructor stub
 	}
 
 	public Integer getProductID() {

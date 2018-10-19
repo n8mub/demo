@@ -42,7 +42,6 @@ public class User implements Serializable, Comparable<User> {
 	private Boolean adminUserFL;
 
 	public User() {
-		// TODO Auto-generated constructor stub
 	}
 
 	public Integer getUserID() {

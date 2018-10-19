@@ -13,7 +13,6 @@ import com.amazonaws.auth.AWSCredentials;
 import com.amazonaws.auth.AWSCredentialsProvider;
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
 import com.amazonaws.auth.BasicAWSCredentials;
-import com.amazonaws.auth.PropertiesFileCredentialsProvider;
 import com.amazonaws.regions.Regions;
 import com.amazonaws.services.sqs.AmazonSQS;
 import com.amazonaws.services.sqs.AmazonSQSClientBuilder;
@@ -39,11 +38,9 @@ public class App {
 		try {
 			properties.load(new FileInputStream("AWScredentials.properties"));
 		} catch (FileNotFoundException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
+			e1.printStackTrace(System.err);
 		} catch (IOException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
+			e1.printStackTrace(System.err);
 		}
 		String accessKey = properties.getProperty("accessKey");
 		String secretKey = properties.getProperty("secretKey");
@@ -73,19 +70,14 @@ public class App {
 				reportjson = (JsonObject) second;
 			}
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace(System.err);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace(System.err);
 		} catch (JsonSyntaxException e) {
-			// TODO: handle exception
 			e.printStackTrace(System.err);
 		} catch (ClassCastException e) {
-			// TODO: handle exception
 			e.printStackTrace(System.err);
 		} catch (Exception e) {
-			// TODO: handle exception
 			e.printStackTrace(System.err);
 		} finally {
 			if(reportjson == null) {
@@ -109,20 +101,20 @@ public class App {
 				.withMessageBody(notifyarray.toString())
 				.withDelaySeconds(0);
 		sqs.sendMessage(send_notify_msg_request);
-//		SendMessageRequest send_report_msg_request = new SendMessageRequest()
-//				.withQueueUrl(sqs.getQueueUrl("ReportQueue").getQueueUrl())
-//				.withMessageBody(reportjson.toString())
-//				.withDelaySeconds(0);
-//		sqs.sendMessage(send_report_msg_request);
+		SendMessageRequest send_report_msg_request = new SendMessageRequest()
+				.withQueueUrl(sqs.getQueueUrl("ReportQueue").getQueueUrl())
+				.withMessageBody(reportjson.toString())
+				.withDelaySeconds(0);
+		sqs.sendMessage(send_report_msg_request);
 		ListQueuesResult lq_result = sqs.listQueues();
 		System.out.println("Your SQS Queue URLs:");
 		for (String url : lq_result.getQueueUrls()) {
 			System.out.println(url);
-//			ReceiveMessageRequest receiveMessageRequest = new ReceiveMessageRequest(url).withMessageAttributeNames("All").withAttributeNames("All");
-//			for (Message message : sqs.receiveMessage(receiveMessageRequest).getMessages()) {
-//				System.out.println(message.getBody());
-//				sqs.deleteMessage(url, message.getReceiptHandle());
-//			}
+			ReceiveMessageRequest receiveMessageRequest = new ReceiveMessageRequest(url).withMessageAttributeNames("All").withAttributeNames("All");
+			for (Message message : sqs.receiveMessage(receiveMessageRequest).getMessages()) {
+				System.out.println(message.getBody());
+				sqs.deleteMessage(url, message.getReceiptHandle());
+			}
 		}
 	}
 }

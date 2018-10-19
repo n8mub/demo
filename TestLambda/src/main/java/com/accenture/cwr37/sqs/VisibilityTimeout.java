@@ -64,7 +64,8 @@ public class VisibilityTimeout {
         sqs.changeMessageVisibilityBatch(queue_url, entries);
     }
     
-    public void visibilityTimeout() {
+    @SuppressWarnings("unused")
+	public void visibilityTimeout() {
     	String queue_name = "testQueue" + new Date().getTime();
         AmazonSQS sqs = AmazonSQSClientBuilder.defaultClient();
 

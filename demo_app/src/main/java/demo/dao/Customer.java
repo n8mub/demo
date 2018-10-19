@@ -20,9 +20,9 @@ import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
 
 @Entity
-@Table(name="DEMO_CUSTOMERS")
+@Table(name = "DEMO_CUSTOMERS")
 public class Customer implements Serializable, Comparable<Customer> {
-	
+
 	public static final String CUSTOMER_ID = "CUSTOMER_ID";
 	public static final String CUST_FIRST_NAME = "CUST_FIRST_NAME";
 	public static final String CUST_LAST_NAME = "CUST_LAST_NAME";
@@ -35,36 +35,37 @@ public class Customer implements Serializable, Comparable<Customer> {
 	public static final String PHONE_NUMBER2 = "PHONE_NUMBER2";
 	public static final String CREDIT_LIMIT = "CREDIT_LIMIT";
 	public static final String CUST_EMAIL = "CUST_EMAIL";
-	
+
 	private static final long serialVersionUID = 1L;
-	@Id @GeneratedValue
-	@Column(name="CUSTOMER_ID")
+	@Id
+	@GeneratedValue
+	@Column(name = "CUSTOMER_ID")
 	private Integer customerID;
-	@Column(name="CUST_FIRST_NAME",length=20)
+	@Column(name = "CUST_FIRST_NAME", length = 20)
 	private String firstName;
-	@Column(name="CUST_LAST_NAME",length=20)
+	@Column(name = "CUST_LAST_NAME", length = 20)
 	private String lastName;
-	@Column(name="CUST_STREET_ADDRESS1",length=60)
+	@Column(name = "CUST_STREET_ADDRESS1", length = 60)
 	private String streetAddress1;
-	@Column(name="CUST_STREET_ADDRESS2",length=60)
+	@Column(name = "CUST_STREET_ADDRESS2", length = 60)
 	private String streetAddress2;
-	@Column(name="CUST_CITY",length=30)
+	@Column(name = "CUST_CITY", length = 30)
 	private String city;
-	@Column(name="CUST_STATE",length=2)
+	@Column(name = "CUST_STATE", length = 2)
 	private String state;
-	@Column(name="CUST_POSTAL_CODE",length=10)
+	@Column(name = "CUST_POSTAL_CODE", length = 10)
 	private String postalCode;
-	@Column(name="PHONE_NUMBER1",length=25)
+	@Column(name = "PHONE_NUMBER1", length = 25)
 	private String phoneNumber1;
-	@Column(name="PHONE_NUMBER2",length=25)
+	@Column(name = "PHONE_NUMBER2", length = 25)
 	private String phoneNumber2;
-	@Column(name="CREDIT_LIMIT",precision=9,scale=2)
+	@Column(name = "CREDIT_LIMIT", precision = 9, scale = 2)
 	private BigDecimal creditLimit;
-	@Column(name="CUST_EMAIL",length=30)
+	@Column(name = "CUST_EMAIL", length = 30)
 	private String email;
 
 	public Customer() {
-		
+
 	}
 
 	public Integer getCustomerID() {
@@ -162,35 +163,39 @@ public class Customer implements Serializable, Comparable<Customer> {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	
-	@OneToMany(fetch=FetchType.LAZY,targetEntity=Order.class)
-	@JoinColumn(name="CUSTOMER_ID")
+
+	@OneToMany(fetch = FetchType.LAZY, targetEntity = Order.class)
+	@JoinColumn(name = "CUSTOMER_ID")
 	private SortedSet<Order> ordersList;
-	
+
+	@SuppressWarnings("unchecked")
 	public SortedSet<Order> getOrdersList() {
-		if(ordersList == null){
-			ordersList = new TreeSet<Order>();
-			Session session = DBUtil.getSessionFactory().getCurrentSession();
-			Criteria criteria = session.createCriteria(Order.class);
-			criteria.add(Restrictions.eq("customerID", this.getCustomerID()));
-			ordersList.addAll((List<Order>) criteria.list());
-			session.close();
+		if (ordersList == null) {
+			try {
+				ordersList = new TreeSet<Order>();
+				Session session = DBUtil.getSessionFactory().getCurrentSession();
+				Criteria criteria = session.createCriteria(Order.class);
+				criteria.add(Restrictions.eq("customerID", this.getCustomerID()));
+				ordersList.addAll((List<Order>) criteria.list());
+				session.close();
+			} catch (Exception e) {
+				// TODO: handle exception
+			}
 		}
 		return ordersList;
 	}
 
 	@Override
 	public int compareTo(Customer customer) {
-		if(customer == null){
+		if (customer == null) {
 			return -1;
 		}
-		// TODO Auto-generated method stub
 		return this.customerID.compareTo(customer.customerID);
 	}
-	
+
 	@Override
 	public boolean equals(Object obj) {
-		if(obj instanceof Customer){
+		if (obj instanceof Customer) {
 			Customer customer = (Customer) obj;
 			return this.customerID.equals(customer.customerID);
 		} else {
@@ -216,7 +221,5 @@ public class Customer implements Serializable, Comparable<Customer> {
 		builder.append("email = ").append(email).append("]");
 		return builder.toString();
 	}
-	
-	
 
 }
