@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>List</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#add").on("click",function(){
+			var $list = $("#list");
+			var $listitem = $(document.createElement("li"));
+			var count = $list.children().length + 1;
+			$listitem.attr("id","li"+ count);
+			$listitem.text("Hello "+count);
+			var $colorbutton = $(document.createElement("button")).text("color");
+			var $editbutton = $(document.createElement("button")).text("edit");
+			var $removebutton = $(document.createElement("button")).text("remove");
+			$colorbutton.on("click",function(){
+				var select = prompt("enter color", "");
+				$listitem.css("background-color",select);
+			});
+			$editbutton.on("click",function(){
+				var value = $listitem.text();
+				var val = value.substring(0,value.length-"coloreditremove".length);
+				var text = prompt("edit text", val);
+				if(text){
+					$listitem.text(text);
+				}
+				$listitem.append($colorbutton);
+				$listitem.append($editbutton);
+				$listitem.append($removebutton);
+			});
+			$removebutton.on("click",function(){
+				$listitem.remove();
+			});
+			$listitem.append($colorbutton);
+			$listitem.append($editbutton);
+			$listitem.append($removebutton);
+			$list.append($listitem);
+		});
+	});
+</script>
+</head>
+<body>
+	<table>
+		<tbody>
+			<tr>
+				<td><button id="add">Add</button></td>
+			</tr>
+		</tbody>
+	</table>
+	<ul id="list">
+	</ul>
+</body>
+</html>
