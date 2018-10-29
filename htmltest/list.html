@@ -10,30 +10,25 @@
 		$("#add").on("click",function(){
 			var $list = $("#list");
 			var $listitem = $(document.createElement("li"));
-			var count = $list.children().length + 1;
-			$listitem.attr("id","li"+ count);
-			$listitem.text("Hello "+count);
 			var $colorbutton = $(document.createElement("button")).text("color");
 			var $editbutton = $(document.createElement("button")).text("edit");
 			var $removebutton = $(document.createElement("button")).text("remove");
+			var $span = $(document.createElement("span")).text("Hello");
 			$colorbutton.on("click",function(){
 				var select = prompt("enter color", "");
 				$listitem.css("background-color",select);
 			});
 			$editbutton.on("click",function(){
-				var value = $listitem.text();
-				var val = value.substring(0,value.length-"coloreditremove".length);
-				var text = prompt("edit text", val);
+				var value = $span.text();
+				var text = prompt("edit text", value);
 				if(text){
-					$listitem.text(text);
+					$span.text(text);
 				}
-				$listitem.append($colorbutton);
-				$listitem.append($editbutton);
-				$listitem.append($removebutton);
 			});
 			$removebutton.on("click",function(){
 				$listitem.remove();
 			});
+			$listitem.append($span);
 			$listitem.append($colorbutton);
 			$listitem.append($editbutton);
 			$listitem.append($removebutton);
@@ -50,7 +45,7 @@
 			</tr>
 		</tbody>
 	</table>
-	<ul id="list">
-	</ul>
+	<ol id="list">
+	</ol>
 </body>
 </html>
