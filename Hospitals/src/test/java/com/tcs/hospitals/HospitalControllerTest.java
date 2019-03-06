@@ -59,6 +59,8 @@ public class HospitalControllerTest {
 	public void testGetHospital() throws Exception {
 		Hospital hospital = new Hospital(1000, "Test Hospital", "Chennai", 3.8);
 		when(hospitalServiceMock.getHospital(anyInt())).thenReturn(hospital);
+		mockMvc.perform(post("/test/hospitals",hospital)).andDo(print())
+			.andExpect(status().isOk());
 		mockMvc.perform(get("/test/hospitals/1000")).andDo(print())
 			.andExpect(status().isOk())
 			.andExpect(jsonPath("$.id").value(1000))
