@@ -66,37 +66,37 @@ public class App {
 			for(int i = 1;i < sheet.getLastRowNum();i++) {
 				XSSFRow row = sheet.getRow(i);
 				TransactionFlat transactionFlat = new TransactionFlat();
-				transactionFlat.setTransactionId(Integer.toString(new Double(row.getCell(0).getNumericCellValue()).intValue()));
-				transactionFlat.setAccountFlatId(Integer.toString(new Double(row.getCell(1).getNumericCellValue()).intValue()));
-				transactionFlat.setAbaRoutingNumber(Integer.toString(new Double(row.getCell(2).getNumericCellValue()).intValue()));
-				transactionFlat.setTypeCode(Integer.toString(new Double(row.getCell(3).getNumericCellValue()).intValue()));
-				transactionFlat.setCurrencyId(Integer.toString(new Double(row.getCell(4).getNumericCellValue()).intValue()));
+				transactionFlat.setTransactionId(Integer.toString(Double.valueOf(row.getCell(0).getNumericCellValue()).intValue()));
+				transactionFlat.setAccountFlatId(Integer.toString(Double.valueOf(row.getCell(1).getNumericCellValue()).intValue()));
+				transactionFlat.setAbaRoutingNumber(Integer.toString(Double.valueOf(row.getCell(2).getNumericCellValue()).intValue()));
+				transactionFlat.setTypeCode(Integer.toString(Double.valueOf(row.getCell(3).getNumericCellValue()).intValue()));
+				transactionFlat.setCurrencyId(Integer.toString(Double.valueOf(row.getCell(4).getNumericCellValue()).intValue()));
 				transactionFlat.setTransactionAmount(Double.toString(row.getCell(5).getNumericCellValue()));
 				transactionFlat.setFundsType(row.getCell(6).getStringCellValue());
 				if(row.getCell(7) != null) {
 					transactionFlat.setBankReferenceNumber(row.getCell(7).getStringCellValue());
 				}
-				transactionFlat.setCustomerReferenceNumber(Integer.toString(new Double(row.getCell(8).getNumericCellValue()).intValue()));
+				transactionFlat.setCustomerReferenceNumber(Integer.toString(Double.valueOf(row.getCell(8).getNumericCellValue()).intValue()));
 				transactionFlat.setTextDesc(row.getCell(11).getStringCellValue());
 				transactionFlat.setImmediateAvailabilityAmount(Double.toString(row.getCell(12).getNumericCellValue()));
-				transactionFlat.setOneDayAvailabilityAmount(Integer.toString(new Double(row.getCell(13).getNumericCellValue()).intValue()));
-				transactionFlat.setMoreThanOneDayAvailabilityAmount(Integer.toString(new Double(row.getCell(14).getNumericCellValue()).intValue()));
-				transactionFlat.setCustomerAccountNumber(Integer.toString(new Double(row.getCell(16).getNumericCellValue()).intValue()));
+				transactionFlat.setOneDayAvailabilityAmount(Integer.toString(Double.valueOf(row.getCell(13).getNumericCellValue()).intValue()));
+				transactionFlat.setMoreThanOneDayAvailabilityAmount(Integer.toString(Double.valueOf(row.getCell(14).getNumericCellValue()).intValue()));
+				transactionFlat.setCustomerAccountNumber(Integer.toString(Double.valueOf(row.getCell(16).getNumericCellValue()).intValue()));
 				transactionFlat.setDebitAmount(row.getCell(18).getRawValue());
 				transactionFlat.setCreditAmount(row.getCell(19).getRawValue());
 				transactionFlat.setFileDate(row.getCell(20).getDateCellValue().toString());
 				transactionFlat.setCreatedDate(row.getCell(21).getDateCellValue().toString());
-				transactionFlat.setTransactionTypeId(Integer.toString(new Double(row.getCell(22).getNumericCellValue()).intValue()));
+				transactionFlat.setTransactionTypeId(Integer.toString(Double.valueOf(row.getCell(22).getNumericCellValue()).intValue()));
 				transactionFlat.setTransactionTypeDesc(row.getCell(23).getStringCellValue());
 				transactionFlat.setTypeDesc(row.getCell(24).getStringCellValue());
-				transactionFlat.setCreditInd(Integer.toString(new Double(row.getCell(25).getNumericCellValue()).intValue()));
-				transactionFlat.setDebitInd(Integer.toString(new Double(row.getCell(26).getNumericCellValue()).intValue()));
+				transactionFlat.setCreditInd(Integer.toString(Double.valueOf(row.getCell(25).getNumericCellValue()).intValue()));
+				transactionFlat.setDebitInd(Integer.toString(Double.valueOf(row.getCell(26).getNumericCellValue()).intValue()));
 				transactionFlat.setInserted(row.getCell(27).getDateCellValue().toString());
 				transactionFlat.setBalanceAmount(row.getCell(28).getRawValue());
 				transactionFlat.setAsOfDate(row.getCell(29).getDateCellValue().toString());
-				transactionFlat.setPriorDayInd(Integer.toString(new Double(row.getCell(30).getNumericCellValue()).intValue()));
-				transactionFlat.setCurrentDayInd(Integer.toString(new Double(row.getCell(31).getNumericCellValue()).intValue()));
-				transactionFlat.setUnitOfWorkId(Integer.toString(new Double(row.getCell(32).getNumericCellValue()).intValue()));
+				transactionFlat.setPriorDayInd(Integer.toString(Double.valueOf(row.getCell(30).getNumericCellValue()).intValue()));
+				transactionFlat.setCurrentDayInd(Integer.toString(Double.valueOf(row.getCell(31).getNumericCellValue()).intValue()));
+				transactionFlat.setUnitOfWorkId(Integer.toString(Double.valueOf(row.getCell(32).getNumericCellValue()).intValue()));
 				if(Integer.toString(1).contentEquals(transactionFlat.getCurrentDayInd())) {
 					transactionFlats.add(transactionFlat);
 				}
