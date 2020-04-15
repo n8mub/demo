@@ -42,8 +42,11 @@ public class HospitalsRepositoryImpl implements HospitalRepository {
 	public Iterable<Hospital> findAllById(Iterable<Integer> ids) {
 		Set<Hospital> matchs = new TreeSet<Hospital>();
 		ids.forEach(id -> {
-			Hospital hospital = hospitals.stream().filter(h -> id.compareTo(h.getId()) == 0).findFirst().get();
-			matchs.add(hospital);
+			Optional<Hospital> optional = hospitals.stream().filter(h -> id.compareTo(h.getId()) == 0).findFirst();
+			if(optional.isPresent()) {
+				Hospital hospital = optional.get();
+				matchs.add(hospital);
+			}
 		});
 		return matchs;
 	}
