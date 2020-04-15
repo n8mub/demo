@@ -1,12 +1,15 @@
 package com.tcs.hospitals;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Optional;
+import java.util.Set;
+import java.util.TreeSet;
 
+import org.springframework.stereotype.Repository;
+
+@Repository
 public class HospitalsRepositoryImpl implements HospitalRepository {
 	
-	private List<Hospital> hospitals = new ArrayList<>();
+	private Set<Hospital> hospitals = new TreeSet<Hospital>();
 
 	@Override
 	public <S extends Hospital> S save(S entity) {
@@ -37,7 +40,7 @@ public class HospitalsRepositoryImpl implements HospitalRepository {
 
 	@Override
 	public Iterable<Hospital> findAllById(Iterable<Integer> ids) {
-		List<Hospital> matchs = new ArrayList<Hospital>();
+		Set<Hospital> matchs = new TreeSet<Hospital>();
 		ids.forEach(id -> {
 			Hospital hospital = hospitals.stream().filter(h -> id.compareTo(h.getId()) == 0).findFirst().get();
 			matchs.add(hospital);
