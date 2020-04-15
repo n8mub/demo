@@ -57,7 +57,7 @@ public class Hospital implements Comparable<Hospital> {
 
 	@Override
 	public int compareTo(Hospital o) {
-		return Integer.compare(o.id, id);
+		return Integer.compare(id,o.id);
 	}
 	
 	@Override

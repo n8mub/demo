@@ -5,6 +5,7 @@ import static org.junit.Assert.*;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
+import java.util.SortedSet;
 import java.util.TreeSet;
 
 import org.junit.Before;
@@ -122,6 +123,27 @@ public class HospitalsRepositoryImplTest {
 		hospitalsRepository.deleteAll();
 		Set<Hospital> actualList = (Set<Hospital>) hospitalsRepository.findAll();
 		assertTrue(actualList.isEmpty());
+	}
+	
+	@Test
+	public void testEquals() {
+		Hospital hospital = new Hospital(1000, "Test Hospital", "Chennai", 3.8);
+		Hospital hospitaldup = new Hospital(1000, "Test Hospital", "Chennai", 3.8);
+		List<Hospital> expectedList = Arrays.asList(hospital,hospitaldup);
+		hospitalsRepository.saveAll(expectedList);
+		assertEquals(2, expectedList.size());
+		assertEquals(1, hospitalsRepository.count());
+	}
+	
+	@Test
+	public void testCompare() {
+		Hospital first = new Hospital(1000, "Test Hospital", "Chennai", 3.8);
+		Hospital second = new Hospital(1003,"Vcare Hospital","Mumbai",3.1);
+		SortedSet<Hospital> expectedList = new TreeSet<Hospital>(Arrays.asList(first, second));
+		hospitalsRepository.saveAll(expectedList);
+		SortedSet<Hospital> actualList = (SortedSet<Hospital>) hospitalsRepository.findAll();
+		assertEquals(first, actualList.first());
+		assertEquals(second, actualList.last());
 	}
 
 }
