@@ -5,7 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class Hospital {
+public class Hospital implements Comparable<Hospital> {
 	@Id @GeneratedValue
 	private int id;
 	private String name;
@@ -53,6 +53,21 @@ public class Hospital {
 
 	public void setRating(double rating) {
 		this.rating = rating;
+	}
+
+	@Override
+	public int compareTo(Hospital o) {
+		return Integer.compare(o.id, id);
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		if(obj instanceof Hospital) {
+			Hospital hospital = (Hospital) obj;
+			return Integer.compare(hospital.id, id) == 0;
+		} else {
+			return false;
+		}
 	}
 
 }
