@@ -73,6 +73,16 @@ public class HospitalsRepositoryImplTest {
 		Set<Hospital> actualList = (Set<Hospital>) hospitalsRepository.findAllById(Arrays.asList(1000,1003));
 		assertArrayEquals(expectedList.toArray(), actualList.toArray());
 	}
+	
+	@Test
+	public void testFindAllByIdNotPresent() {
+		Hospital first = new Hospital(1000, "Test Hospital", "Chennai", 3.8);
+		Hospital second = new Hospital(1003,"Vcare Hospital","Mumbai",3.1);
+		Set<Hospital> expectedList = new TreeSet<Hospital>(Arrays.asList(first, second));
+		hospitalsRepository.saveAll(expectedList);
+		Set<Hospital> actualList = (Set<Hospital>) hospitalsRepository.findAllById(Arrays.asList(1005));
+		assertTrue(actualList.isEmpty());
+	}
 
 	@Test
 	public void testCount() {
