@@ -8,12 +8,12 @@
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 		<class>com.tcs.hospitals.Hospital</class>
 		<properties>
-			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.OracleDialect" />
 			<property name="hibernate.hbm2ddl.auto" value="update" />
-			<property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver" />
+			<property name="hibernate.connection.driver_class" value="oracle.jdbc.driver.OracleDriver" />
 			<property name="hibernate.connection.username" value="myusername" />
 			<property name="hibernate.connection.password" value="mypwd" />
-			<property name="hibernate.connection.url" value="jdbc:mysql://localhost/research_development" />
+			<property name="hibernate.connection.url" value="jdbc:oracle://localhost/research_development" />
 		</properties>
 	</persistence-unit>
 </persistence>
