@@ -1,7 +1,0 @@
-com\accenture\cwr37\TestLambda\LambdaRequestStreamHandler.class
-com\accenture\cwr37\dynamodb\PersonRequest.class
-com\accenture\cwr37\dynamodb\SavePersonHandler.class
-com\accenture\cwr37\TestLambda\LambdaMethodHandler.class
-com\accenture\cwr37\TestLambda\LambdaRequestHandler.class
-com\accenture\cwr37\dynamodb\PersonResponse.class
-com\accenture\cwr37\TestLambda\App.class
