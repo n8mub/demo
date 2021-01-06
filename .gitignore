@@ -1,13 +1,1 @@
-
 *.class
-FormatingTest/target/classes/META-INF/MANIFEST.MF
-FormatingTest/target/classes/com/accenture/cwr37/FormatingTest/App.class
-FormatingTest/target/classes/META-INF/MANIFEST.MF
-FormatingTest/target/classes/META-INF/maven/com.accenture.cwr37/FormatingTest/pom.properties
-FormatingTest/target/test-classes/com/accenture/cwr37/FormatingTest/AppTest.class
-SwiftParser/target/classes/META-INF/MANIFEST.MF
-SwiftParser/target/classes/META-INF/maven/com.accenture.cwr37/SwiftParser/pom.properties
-TestLambda/target/classes/META-INF/MANIFEST.MF
-TestSqs/target/classes/META-INF/MANIFEST.MF
-TestSqs/target/classes/META-INF/maven/com.accenture.cwr37/TestSqs/pom.properties
-TestSqs/target/classes/META-INF/maven/com.accenture.cwr37/TestSqs/pom.xml
