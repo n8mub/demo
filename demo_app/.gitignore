@@ -1,3 +1,6 @@
 /bin/
 /target/
 /demo_app/
+.settings/
+.classpath
+.project
