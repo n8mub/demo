@@ -1,6 +1,5 @@
 
 *.class
-*.class
 FormatingTest/target/classes/META-INF/MANIFEST.MF
 FormatingTest/target/classes/com/accenture/cwr37/FormatingTest/App.class
 FormatingTest/target/classes/META-INF/MANIFEST.MF
